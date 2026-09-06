@@ -1,0 +1,19 @@
+# Fadhili AI backend requirements.
+#
+# The ML stack below (tensorflow, keras, mediapipe, opencv-python,
+# numpy) is pinned to the exact versions already validated in this
+# project's environment. TensorFlow 2.15.1 and standalone Keras 3.10.0
+# have known dependency friction (pip may warn about it) — this
+# combination is intentional and required for best_model.h5 to load;
+# do not "fix" the warning by upgrading/downgrading either package.
+
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+
+numpy==1.26.4
+tensorflow==2.15.1
+keras==3.10.0
+mediapipe==0.10.21
+opencv-python==4.11.0.86

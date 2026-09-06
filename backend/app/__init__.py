@@ -1,0 +1,1 @@
+"""Fadhili AI backend application package."""
