@@ -16,7 +16,7 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
-    `rounded-full px-3.5 py-2 text-sm font-semibold transition-colors ${
+    `rounded-lg px-3.5 py-2 text-sm font-semibold transition-colors ${
       isActive ? "bg-ink text-paper" : "text-ink-soft hover:text-ink"
     }`;
 
@@ -43,7 +43,7 @@ export function Navbar() {
 
         <button
           type="button"
-          className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full border border-ink/15 lg:hidden"
+          className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-lg border border-ink/15 lg:hidden"
           onClick={() => setOpen((o) => !o)}
           aria-expanded={open}
           aria-controls="mobile-nav"

@@ -18,6 +18,26 @@ import type { HolisticInstance } from "../services/mediapipeHolisticLoader";
 
 const PREDICTION_INTERVAL_MS = 1000;
 
+/** A point in MediaPipe's normalized [0,1] image space. */
+export interface LandmarkPoint {
+  x: number;
+  y: number;
+}
+
+/**
+ * The latest frame's landmark positions, for the skeleton overlay.
+ *
+ * Populated on every MediaPipe callback regardless of the prediction
+ * cadence, so the overlay can redraw every frame. This is read from a
+ * ref rather than React state deliberately: at up to 30fps, routing it
+ * through setState would force a re-render on every single video frame.
+ */
+export interface LiveLandmarks {
+  pose: LandmarkPoint[] | null;
+  leftHand: LandmarkPoint[] | null;
+  rightHand: LandmarkPoint[] | null;
+}
+
 /**
  * Temporal stabilization.
  *
@@ -56,6 +76,8 @@ export interface UseKSLRecognitionResult {
   stableSign: StableSign | null;
   lastError: string | null;
   resetRecognition: () => void;
+  /** Latest landmark positions, for a skeleton overlay. See LiveLandmarks. */
+  landmarksRef: RefObject<LiveLandmarks | null>;
 }
 
 interface BufferedFrame {
@@ -76,6 +98,7 @@ export function useKSLRecognition(
   const [lastError, setLastError] = useState<string | null>(null);
 
   const bufferRef = useRef<BufferedFrame[]>([]);
+  const landmarksRef = useRef<LiveLandmarks | null>(null);
   const historyRef = useRef<(string | null)[]>([]);
   const confidenceRef = useRef<Map<string, number[]>>(new Map());
   const settledLabelRef = useRef<string | null>(null);
@@ -254,6 +277,22 @@ export function useKSLRecognition(
         holistic.onResults((results) => {
           if (cancelled || !activeRef.current) return;
 
+          // Drawing data for the skeleton overlay. Written every frame
+          // regardless of prediction cadence; read straight from the
+          // ref by a canvas draw loop rather than through React state,
+          // so a 30fps camera does not force 30 re-renders a second.
+          landmarksRef.current = {
+            pose: results.poseLandmarks
+              ? results.poseLandmarks.map((p) => ({ x: p.x, y: p.y }))
+              : null,
+            leftHand: results.leftHandLandmarks
+              ? results.leftHandLandmarks.map((p) => ({ x: p.x, y: p.y }))
+              : null,
+            rightHand: results.rightHandLandmarks
+              ? results.rightHandLandmarks.map((p) => ({ x: p.x, y: p.y }))
+              : null,
+          };
+
           const frame = extractRawLandmarks(results);
           if (!frame) return;
 
@@ -342,12 +381,14 @@ export function useKSLRecognition(
 
       bufferRef.current = [];
       historyRef.current = [];
+      landmarksRef.current = null;
       isPredictingRef.current = false;
     };
   }, [isCameraActive, videoRef, runPrediction]);
 
   return {
     framesCollected,
+    landmarksRef,
     // Warming up until the buffer covers enough of the window to be
     // worth sending.
     isWarmingUp: framesCollected < 16,

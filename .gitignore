@@ -27,6 +27,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Claude Code local session config — machine-specific, not project source.
+.claude/
+
 # Logs
 *.log
 npm-debug.log*

@@ -18,11 +18,14 @@ export function Footer() {
             <Link to="/learn" className="text-ink-soft hover:text-ink">Learn</Link>
             <Link to="/dictionary" className="text-ink-soft hover:text-ink">Dictionary</Link>
             <Link to="/about" className="text-ink-soft hover:text-ink">About</Link>
+            <Link to="/privacy" className="text-ink-soft hover:text-ink">Privacy &amp; terms</Link>
           </nav>
         </div>
         <p className="mt-8 text-xs text-ink-soft/80">
-          Fadhili AI is under active development. Recognition and sign-generation
-          features are being built and are not yet connected to a live model.
+          Fadhili AI is experimental research software. KSL recognition is
+          live but covers a small, verified vocabulary and can be
+          confidently wrong — it is not a substitute for a qualified
+          interpreter.
         </p>
       </div>
     </footer>

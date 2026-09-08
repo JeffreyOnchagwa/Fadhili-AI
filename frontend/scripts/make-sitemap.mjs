@@ -24,6 +24,7 @@ const ROUTES = [
   "/learn",
   "/dictionary",
   "/about",
+  "/privacy",
 ];
 
 const rawSite = process.env.VITE_SITE_URL?.trim();

@@ -14,6 +14,7 @@ import { useKSLRecognition } from "../hooks/useKSLRecognition";
 import { Button } from "../components/ui/Button";
 import { Card } from "../components/ui/Card";
 import { StatusBadge } from "../components/ui/StatusBadge";
+import { LandmarkOverlay } from "../components/interpreter/LandmarkOverlay";
 import { checkHealth } from "../services/api";
 import type { KSLPredictionCandidate } from "../services/api";
 import type { RecognitionStatus } from "../types";
@@ -46,6 +47,10 @@ export default function Interpreter() {
   const [uploadUrl, setUploadUrl] = useState<string | null>(null);
   const [backendWarning, setBackendWarning] = useState<string | null>(null);
   const [speechEnabled, setSpeechEnabled] = useState(false);
+  // On by default: it's the clearest way to see why recognition might
+  // be struggling (a hand dropping out of view reads very differently
+  // from "the model doesn't know this sign").
+  const [showSkeleton, setShowSkeleton] = useState(true);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -337,7 +342,7 @@ export default function Interpreter() {
           role="tab"
           aria-selected={mode === "camera"}
           onClick={() => setMode("camera")}
-          className={`min-h-[44px] rounded-full px-4 text-sm font-semibold ${
+          className={`min-h-[44px] rounded-lg px-4 text-sm font-semibold ${
             mode === "camera"
               ? "bg-ink text-paper"
               : "border border-ink/15 text-ink-soft"
@@ -350,7 +355,7 @@ export default function Interpreter() {
           role="tab"
           aria-selected={mode === "upload"}
           onClick={() => setMode("upload")}
-          className={`min-h-[44px] rounded-full px-4 text-sm font-semibold ${
+          className={`min-h-[44px] rounded-lg px-4 text-sm font-semibold ${
             mode === "upload"
               ? "bg-ink text-paper"
               : "border border-ink/15 text-ink-soft"
@@ -377,6 +382,12 @@ export default function Interpreter() {
                 }`}
               />
 
+              <LandmarkOverlay
+                videoRef={videoRef}
+                landmarksRef={kslRecognition.landmarksRef}
+                active={isActive && showSkeleton}
+              />
+
               {!isActive && (
                 <div className="flex h-full flex-col items-center justify-center gap-3 p-8 text-center text-paper/80">
                   <Video
@@ -401,6 +412,17 @@ export default function Interpreter() {
 
                   Camera active
                 </span>
+              )}
+
+              {isActive && (
+                <button
+                  type="button"
+                  onClick={() => setShowSkeleton((on) => !on)}
+                  aria-pressed={showSkeleton}
+                  className="absolute right-4 top-4 inline-flex min-h-[36px] items-center gap-2 rounded-lg bg-ink/80 px-3 py-1 text-xs font-semibold text-paper hover:bg-ink"
+                >
+                  {showSkeleton ? "Hide tracking" : "Show tracking"}
+                </button>
               )}
             </div>
           ) : (

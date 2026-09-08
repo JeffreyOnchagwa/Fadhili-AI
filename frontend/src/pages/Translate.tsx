@@ -75,7 +75,7 @@ export default function Translate() {
               role="tab"
               aria-selected={mode === "type"}
               onClick={() => setMode("type")}
-              className={`inline-flex min-h-[44px] items-center gap-2 rounded-full px-4 text-sm font-semibold ${
+              className={`inline-flex min-h-[44px] items-center gap-2 rounded-lg px-4 text-sm font-semibold ${
                 mode === "type" ? "bg-ink text-paper" : "border border-ink/15 text-ink-soft"
               }`}
             >
@@ -85,7 +85,7 @@ export default function Translate() {
               role="tab"
               aria-selected={mode === "mic"}
               onClick={() => setMode("mic")}
-              className={`inline-flex min-h-[44px] items-center gap-2 rounded-full px-4 text-sm font-semibold ${
+              className={`inline-flex min-h-[44px] items-center gap-2 rounded-lg px-4 text-sm font-semibold ${
                 mode === "mic" ? "bg-ink text-paper" : "border border-ink/15 text-ink-soft"
               }`}
             >

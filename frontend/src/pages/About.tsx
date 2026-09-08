@@ -12,7 +12,7 @@ const SECTIONS = [
     icon: Cpu,
     title: "Technology",
     body:
-      "Fadhili AI is being built as a full-stack platform: a React frontend and a Python machine-learning backend for sign recognition and generation. The frontend you're using today is complete; the ML backend is being developed separately and connected in stages, with honest status indicators throughout.",
+      "Fadhili reads Kenyan Sign Language from your camera using MediaPipe hand and body tracking in your browser, and a small neural network trained on recorded KSL video. Recognition covers a limited, verified vocabulary and is measurably imperfect on people and settings unlike its training data — the interpreter says so throughout, rather than presenting every reading as reliable.",
   },
   {
     icon: Accessibility,

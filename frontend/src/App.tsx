@@ -7,6 +7,7 @@ import Translate from "./pages/Translate";
 import Learn from "./pages/Learn";
 import Dictionary from "./pages/Dictionary";
 import About from "./pages/About";
+import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/learn" element={<Learn />} />
           <Route path="/dictionary" element={<Dictionary />} />
           <Route path="/about" element={<About />} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
