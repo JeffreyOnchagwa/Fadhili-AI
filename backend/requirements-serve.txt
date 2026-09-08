@@ -1,0 +1,20 @@
+# Runtime-only dependencies for the deployed Fadhili AI API.
+#
+# requirements.txt is the DEVELOPMENT set and additionally installs
+# mediapipe and opencv-python for the offline training/extraction
+# scripts. Neither is needed to serve predictions: landmark extraction
+# runs in the user's browser and the API only receives numeric arrays.
+# Omitting them removes roughly 200 MB from the image.
+#
+# TensorFlow 2.15.1 with standalone Keras 3.10.0 is the combination the
+# model was trained and validated against. pip may warn about it; the
+# pairing is intentional. Do not "fix" the warning by moving either.
+
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+
+numpy==1.26.4
+tensorflow==2.15.1
+keras==3.10.0

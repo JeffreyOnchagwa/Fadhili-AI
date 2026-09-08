@@ -1,0 +1,83 @@
+{
+  "protocol": "cross_domain",
+  "model": "bigru",
+  "config": {
+    "sequence_length": 32,
+    "aspect_correct": true,
+    "robust_hand_scale": false,
+    "interpolate_gaps": true,
+    "max_gap": 5,
+    "include_masks": true,
+    "include_wrist_position": true,
+    "include_scale_ratio": true,
+    "include_velocity": true,
+    "clip_value": 5.0
+  },
+  "classes": [
+    "Agreement",
+    "Friend",
+    "Gift",
+    "Market",
+    "Monday"
+  ],
+  "folds": [
+    {
+      "accuracy": 0.6267,
+      "macro_f1": 0.6389,
+      "mean_signer_accuracy": 0.6267,
+      "worst_signer_accuracy": 0.2,
+      "mean_confidence": 0.7825,
+      "mean_confidence_when_wrong": 0.8014,
+      "ece": 0.2678,
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714,
+          "support": 15
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "support": 15
+        },
+        "2": {
+          "precision": 0.5556,
+          "recall": 0.6667,
+          "f1": 0.6061,
+          "support": 15
+        },
+        "3": {
+          "precision": 0.4118,
+          "recall": 0.9333,
+          "f1": 0.5714,
+          "support": 15
+        },
+        "4": {
+          "precision": 1.0,
+          "recall": 0.5333,
+          "f1": 0.6957,
+          "support": 15
+        }
+      },
+      "per_signer": {
+        "13": 0.96,
+        "14": 0.2,
+        "15": 0.72
+      },
+      "n": 75,
+      "fold": "studio->wild",
+      "best_epoch": 5,
+      "train_n": 248,
+      "seconds": 232.6
+    }
+  ],
+  "summary": {
+    "mean_accuracy": 0.6267,
+    "std_accuracy": 0.0,
+    "min_fold_accuracy": 0.6267,
+    "mean_macro_f1": 0.6389,
+    "mean_ece": 0.2678
+  }
+}

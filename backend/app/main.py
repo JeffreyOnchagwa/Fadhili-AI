@@ -19,11 +19,11 @@ logger = logging.getLogger("fadhili.main")
 app = FastAPI(
     title="Fadhili AI API",
     description=(
-        "Backend for Fadhili AI, an AI-powered sign-language "
-        "accessibility platform. Kenyan Sign Language (KSL) recognition "
-        "is currently experimental and generalizes poorly to signers "
-        "outside its training data. ASL and BSL recognition are not "
-        "yet implemented."
+        "Backend for Fadhili AI, a Kenyan Sign Language accessibility "
+        "platform. KSL is the only signed language Fadhili supports. "
+        "Recognition is experimental: it covers a small vocabulary and "
+        "generalizes imperfectly to signers and settings outside its "
+        "training data. No request data is stored."
     ),
     version="0.1.0",
 )
@@ -31,9 +31,12 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.CORS_ORIGINS,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    # The API has no authentication, sessions or cookies, so browsers
+    # must never be asked to attach credentials cross-origin. Leaving
+    # this on would widen the surface for no benefit.
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type"],
 )
 
 # A full prediction request is well under a megabyte as JSON, so

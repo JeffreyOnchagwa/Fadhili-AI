@@ -93,6 +93,20 @@ class FeatureConfig:
     include_velocity: bool = True
     clip_value: float = 5.0
 
+    # Crop to the actively-signing interval before resampling.
+    #
+    # Measured motion profiles show a large temporal domain shift: studio
+    # signers 01-10 are actively moving in 34-44% of frames, while wild
+    # signers idle far more (signer 13 32.7%, signer 15 27.3%, signer 14
+    # just 26.0% at less than half the studio wrist velocity). Uniform
+    # resampling of a mostly-idle recording spends most of its frames on
+    # a stationary signer and compresses the sign itself into a handful,
+    # so the same sign occupies a different portion of the tensor
+    # depending on who performed it. Trimming removes that confound.
+    trim_to_motion: bool = True
+    motion_energy_keep: float = 0.90
+    motion_pad_frames: int = 4
+
     def describe(self):
         return {k: getattr(self, k) for k in self.__dataclass_fields__}
 
@@ -168,6 +182,56 @@ def _normalize_hand(hand, scale_factor, robust):
     return centered.reshape(-1), float(scale)
 
 
+def _motion_interval(pose, pose_ok, keep, pad):
+    """
+    Find the frame interval containing the central `keep` fraction of
+    cumulative wrist motion energy.
+
+    Wrist positions are expressed in shoulder widths so the measure does
+    not depend on how far the signer sits from the camera. Returns
+    (start, end) frame indices, end exclusive.
+    """
+    n = pose.shape[0]
+    if n < 4:
+        return 0, n
+
+    left_shoulder = pose[:, 11, :2]
+    right_shoulder = pose[:, 12, :2]
+    centre = (left_shoulder + right_shoulder) / 2.0
+
+    shoulder = np.linalg.norm(left_shoulder - right_shoulder, axis=1)
+    shoulder[shoulder < EPS] = np.nan
+
+    left_wrist = (pose[:, 15, :2] - centre) / shoulder[:, None]
+    right_wrist = (pose[:, 16, :2] - centre) / shoulder[:, None]
+
+    velocity = np.linalg.norm(
+        np.diff(left_wrist, axis=0), axis=1
+    ) + np.linalg.norm(np.diff(right_wrist, axis=0), axis=1)
+
+    velocity = np.nan_to_num(velocity)
+    velocity[~pose_ok[1:]] = 0.0
+
+    total = velocity.sum()
+    if total <= EPS:
+        return 0, n
+
+    cumulative = np.cumsum(velocity) / total
+    margin = (1.0 - keep) / 2.0
+
+    start = int(np.searchsorted(cumulative, margin))
+    end = int(np.searchsorted(cumulative, 1.0 - margin)) + 1
+
+    start = max(0, start - pad)
+    end = min(n, end + pad)
+
+    # Never trim away so much that nothing meaningful survives.
+    if end - start < 8:
+        return 0, n
+
+    return start, end
+
+
 def _resample(array, length):
     """Resample a (T, D) sequence to exactly `length` frames."""
     t = array.shape[0]
@@ -199,6 +263,20 @@ def build_sequence(npz_path, config):
 
     if pose.shape[0] == 0 or pose_ok.sum() == 0:
         return None
+
+    if config.trim_to_motion:
+        start, end = _motion_interval(
+            pose,
+            pose_ok,
+            config.motion_energy_keep,
+            config.motion_pad_frames,
+        )
+        pose = pose[start:end]
+        left = left[start:end]
+        right = right[start:end]
+        pose_ok = pose_ok[start:end]
+        left_ok = left_ok[start:end]
+        right_ok = right_ok[start:end]
 
     ax = _aspect_scale(meta, config.aspect_correct)
 
