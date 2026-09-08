@@ -272,7 +272,7 @@ export function useKSLRecognition(
 
             if (
               features.length !==
-              1662
+              150
             ) {
               console.error(
                 `[Fadhili AI] Invalid MediaPipe feature length: ${features.length}`

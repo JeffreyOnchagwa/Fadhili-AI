@@ -1,0 +1,244 @@
+{
+  "per_signer": {
+    "1": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 114.74,
+      "mean_duration": 4.589600000000001,
+      "min_duration": 4.04,
+      "max_duration": 5.4,
+      "mean_size_mb": 4.7048402023315425,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "2": {
+      "videos": 49,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 111.93877551020408,
+      "mean_duration": 4.477551020408163,
+      "min_duration": 4.2,
+      "max_duration": 5.0,
+      "mean_size_mb": 4.214899218812281,
+      "resolutions": {
+        "1920x1080": 49
+      }
+    },
+    "3": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 115.66,
+      "mean_duration": 4.6264,
+      "min_duration": 3.76,
+      "max_duration": 5.36,
+      "mean_size_mb": 3.4103712844848633,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "4": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 99.24,
+      "mean_duration": 3.9696,
+      "min_duration": 3.36,
+      "max_duration": 4.16,
+      "mean_size_mb": 2.637766876220703,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "5": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 103.52,
+      "mean_duration": 4.1408,
+      "min_duration": 3.48,
+      "max_duration": 5.0,
+      "mean_size_mb": 3.3415864181518553,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "6": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 90.38,
+      "mean_duration": 3.6152,
+      "min_duration": 2.72,
+      "max_duration": 4.04,
+      "mean_size_mb": 4.209605846405029,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "7": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 92.18,
+      "mean_duration": 3.6872000000000003,
+      "min_duration": 3.08,
+      "max_duration": 4.16,
+      "mean_size_mb": 3.4809616470336913,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "8": {
+      "videos": 45,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 85.33333333333333,
+      "mean_duration": 3.413333333333334,
+      "min_duration": 3.0,
+      "max_duration": 4.04,
+      "mean_size_mb": 3.7714853074815538,
+      "resolutions": {
+        "1920x1080": 45
+      }
+    },
+    "9": {
+      "videos": 49,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 92.0204081632653,
+      "mean_duration": 3.6808163265306124,
+      "min_duration": 3.08,
+      "max_duration": 4.6,
+      "mean_size_mb": 4.069013731820243,
+      "resolutions": {
+        "1920x1080": 49
+      }
+    },
+    "10": {
+      "videos": 49,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 104.65306122448979,
+      "mean_duration": 4.186122448979591,
+      "min_duration": 4.0,
+      "max_duration": 5.2,
+      "mean_size_mb": 5.364372545359086,
+      "resolutions": {
+        "1920x1080": 49
+      }
+    },
+    "11": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 138.6,
+      "mean_duration": 5.544,
+      "min_duration": 4.6,
+      "max_duration": 6.84,
+      "mean_size_mb": 7.669897785186768,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "12": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 114.84,
+      "mean_duration": 4.5935999999999995,
+      "min_duration": 3.04,
+      "max_duration": 5.48,
+      "mean_size_mb": 6.7417776489257815,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "13": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 122.88,
+      "mean_duration": 4.9152,
+      "min_duration": 3.6,
+      "max_duration": 6.2,
+      "mean_size_mb": 14.205913925170899,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "14": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 135.6,
+      "mean_duration": 5.424000000000001,
+      "min_duration": 4.12,
+      "max_duration": 7.04,
+      "mean_size_mb": 6.548367099761963,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    },
+    "15": {
+      "videos": 50,
+      "mean_fps": 25.0,
+      "min_fps": 25.0,
+      "max_fps": 25.0,
+      "mean_frames": 134.66,
+      "mean_duration": 5.3864,
+      "min_duration": 4.28,
+      "max_duration": 6.44,
+      "mean_size_mb": 15.48006404876709,
+      "resolutions": {
+        "1920x1080": 50
+      }
+    }
+  },
+  "development_01_12": {
+    "videos": 592,
+    "mean_fps": 25.0,
+    "min_fps": 25.0,
+    "max_fps": 25.0,
+    "mean_frames": 105.4391891891892,
+    "mean_duration": 4.217567567567567,
+    "min_duration": 2.72,
+    "max_duration": 6.84,
+    "mean_size_mb": 4.473518941853498,
+    "resolutions": {
+      "1920x1080": 592
+    }
+  },
+  "diagnostic_13_15": {
+    "videos": 150,
+    "mean_fps": 25.0,
+    "min_fps": 25.0,
+    "max_fps": 25.0,
+    "mean_frames": 131.04666666666665,
+    "mean_duration": 5.241866666666667,
+    "min_duration": 3.6,
+    "max_duration": 7.04,
+    "mean_size_mb": 12.07811502456665,
+    "resolutions": {
+      "1920x1080": 150
+    }
+  },
+  "missing_videos": [],
+  "failed_videos": []
+}

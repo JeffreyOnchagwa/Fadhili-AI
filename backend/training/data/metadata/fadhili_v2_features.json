@@ -1,0 +1,7466 @@
+{
+  "version": "fadhili-v2",
+  "sequence_length": 30,
+  "features_per_frame": 150,
+  "classes": [
+    "Agreement",
+    "Friend",
+    "Gift",
+    "Market",
+    "Monday",
+    "Picture",
+    "Proud",
+    "Teach",
+    "Twin",
+    "Ugali"
+  ],
+  "splits": [
+    "train",
+    "val",
+    "test"
+  ],
+  "feature_definition": {
+    "upper_body_pose": {
+      "landmarks": 6,
+      "values_per_landmark": 4,
+      "features": 24
+    },
+    "left_hand": {
+      "landmarks": 21,
+      "values_per_landmark": 3,
+      "features": 63
+    },
+    "right_hand": {
+      "landmarks": 21,
+      "values_per_landmark": 3,
+      "features": 63
+    }
+  },
+  "normalization": {
+    "hands": "wrist-centered and scaled by wrist-to-middle-MCP distance",
+    "pose": "shoulder-midpoint centered and scaled by shoulder distance"
+  },
+  "records": [
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_02_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_02_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_05_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_05_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_08_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_08_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_08_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_08_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_08_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_08_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_08_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_08_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_08_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_08_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_09_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_09_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Agreement",
+      "video": "Signer_10_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Agreement\\Signer_10_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_02_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_02_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_05_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_05_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_08_a.%20Friend.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_08_a.%20Friend.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_08_b.%20Friend.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_08_b.%20Friend.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_08_c.%20Friend.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_08_c.%20Friend.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_08_d.%20Friend.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_08_d.%20Friend.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_08_e.%20Friend.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_08_e.%20Friend.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_09_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_09_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Friend",
+      "video": "Signer_10_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Friend\\Signer_10_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_02_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_02_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_05_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_05_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_08_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_08_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_08_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_08_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_08_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_08_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_08_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_08_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_08_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_08_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_09_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_09_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Gift",
+      "video": "Signer_10_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Gift\\Signer_10_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_05_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_05_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_08_a.%20Market.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_08_a.%20Market.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_08_b.%20Market.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_08_b.%20Market.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_08_c.%20Market.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_08_c.%20Market.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_08_d.%20Market.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_08_d.%20Market.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_08_e.%20Market.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_08_e.%20Market.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_09_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_09_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Market",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Market\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_02_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_02_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_05_1,%20Monday.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_05_1,%20Monday.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_08_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_08_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_08_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_08_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_08_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_08_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_08_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_08_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_08_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_08_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_09_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_09_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Monday",
+      "video": "Signer_10_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Monday\\Signer_10_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_02_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_02_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_05_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_05_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_08_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_08_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_08_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_08_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_08_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_08_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_08_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_08_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_08_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_08_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_09_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_09_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Picture",
+      "video": "Signer_10_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Picture\\Signer_10_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_02_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_02_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_05_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_05_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_08_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_08_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_08_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_08_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_08_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_08_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_08_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_08_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_08_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_08_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_09_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_09_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Proud",
+      "video": "Signer_10_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Proud\\Signer_10_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_02_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_02_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_05_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_05_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Teach",
+      "video": "Signer_10_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Teach\\Signer_10_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_02_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_02_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_05_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_05_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_08_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_08_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_08_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_08_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_08_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_08_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_08_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_08_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_08_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_08_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_09_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_09_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Twin",
+      "video": "Signer_10_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Twin\\Signer_10_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_01_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_01_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_01_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_01_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_01_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_01_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_01_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_01_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_01_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_01_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_02_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_02_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_02_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_02_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_02_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_02_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_02_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_02_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_02_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_02_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_03_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_03_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_03_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_03_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_03_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_03_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_03_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_03_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_03_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_03_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_04_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_04_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_04_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_04_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_04_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_04_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_04_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_04_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_04_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_04_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_05_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_05_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_05_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_05_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_05_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_05_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_05_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_05_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_05_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_05_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_06_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_06_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_06_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_06_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_06_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_06_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_06_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_06_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_06_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_06_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_07_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_07_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_07_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_07_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_07_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_07_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_07_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_07_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_07_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_07_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_08_a.%20Ugali.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_08_a.%20Ugali.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_08_b.%20Ugali.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_08_b.%20Ugali.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_08_c.%20Ugali.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_08_c.%20Ugali.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_08_d.%20Ugali.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_08_d.%20Ugali.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_08_e.%20Ugali.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_08_e.%20Ugali.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_09_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_09_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_09_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_09_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_09_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_09_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_09_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_09_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_09_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_09_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_10_1.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_10_1.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_10_2.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_10_2.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_10_3.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_10_3.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_10_4.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_10_4.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "train",
+      "class": "Ugali",
+      "video": "Signer_10_5.mov",
+      "feature_file": "backend\\training\\data\\features\\train\\Ugali\\Signer_10_5.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_11_A056.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_11_A056.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_11_A057.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_11_A057.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_11_A058.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_11_A058.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_11_A059.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_11_A059.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_11_A060.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_11_A060.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_12_A206.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_12_A206.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_12_A207.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_12_A207.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_12_A208.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_12_A208.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_12_A209.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_12_A209.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Agreement",
+      "video": "Signer_12_A210.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Agreement\\Signer_12_A210.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_11_A001.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_11_A001.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_11_A002.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_11_A002.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_11_A003.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_11_A003.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_11_A004.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_11_A004.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_11_A005.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_11_A005.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_12_A151.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_12_A151.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_12_A152.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_12_A152.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_12_A153.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_12_A153.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_12_A154.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_12_A154.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Friend",
+      "video": "Signer_12_A155.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Friend\\Signer_12_A155.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_11_A071.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_11_A071.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_11_A072.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_11_A072.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_11_A073.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_11_A073.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_11_A074.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_11_A074.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_11_A075.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_11_A075.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_12_A221.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_12_A221.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_12_A222.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_12_A222.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_12_A223.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_12_A223.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_12_A224.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_12_A224.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Gift",
+      "video": "Signer_12_A225.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Gift\\Signer_12_A225.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_11_A006.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_11_A006.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_11_A007.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_11_A007.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_11_A008.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_11_A008.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_11_A009.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_11_A009.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_11_A010.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_11_A010.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_12_A156.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_12_A156.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_12_A157.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_12_A157.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_12_A158.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_12_A158.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_12_A159.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_12_A159.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Market",
+      "video": "Signer_12_A160.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Market\\Signer_12_A160.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_11_A036.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_11_A036.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_11_A037.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_11_A037.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_11_A038.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_11_A038.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_11_A039.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_11_A039.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_11_A040.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_11_A040.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_12_A186.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_12_A186.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_12_A187.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_12_A187.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_12_A188.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_12_A188.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_12_A189.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_12_A189.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Monday",
+      "video": "Signer_12_A190.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Monday\\Signer_12_A190.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_11_A051.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_11_A051.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_11_A052.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_11_A052.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_11_A053.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_11_A053.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_11_A054.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_11_A054.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_11_A055.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_11_A055.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_12_A201.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_12_A201.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_12_A202.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_12_A202.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_12_A203.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_12_A203.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_12_A204.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_12_A204.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Picture",
+      "video": "Signer_12_A205.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Picture\\Signer_12_A205.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_11_A046.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_11_A046.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_11_A047.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_11_A047.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_11_A048.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_11_A048.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_11_A049.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_11_A049.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_11_A050.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_11_A050.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_12_A196.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_12_A196.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_12_A197.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_12_A197.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_12_A198.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_12_A198.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_12_A199.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_12_A199.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Proud",
+      "video": "Signer_12_A200.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Proud\\Signer_12_A200.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_11_A011.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_11_A011.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_11_A012.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_11_A012.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_11_A013.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_11_A013.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_11_A014.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_11_A014.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_11_A015.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_11_A015.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_12_A161.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_12_A161.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_12_A162.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_12_A162.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_12_A163.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_12_A163.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_12_A164.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_12_A164.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Teach",
+      "video": "Signer_12_A165.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Teach\\Signer_12_A165.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_11_A066.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_11_A066.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_11_A067.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_11_A067.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_11_A068.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_11_A068.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_11_A069.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_11_A069.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_11_A070.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_11_A070.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_12_A216.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_12_A216.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_12_A217.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_12_A217.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_12_A218.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_12_A218.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_12_A219.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_12_A219.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Twin",
+      "video": "Signer_12_A220.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Twin\\Signer_12_A220.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_11_A031.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_11_A031.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_11_A032.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_11_A032.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_11_A033.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_11_A033.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_11_A034.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_11_A034.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_11_A035.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_11_A035.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_12_A181.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_12_A181.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_12_A182.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_12_A182.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_12_A183.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_12_A183.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_12_A184.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_12_A184.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "val",
+      "class": "Ugali",
+      "video": "Signer_12_A185.mov",
+      "feature_file": "backend\\training\\data\\features\\val\\Ugali\\Signer_12_A185.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_13_A356.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_13_A356.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_13_A357.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_13_A357.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_13_A358.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_13_A358.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_13_A359.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_13_A359.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_13_A360.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_13_A360.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_14_A506.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_14_A506.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_14_A507.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_14_A507.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_14_A508.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_14_A508.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_14_A509.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_14_A509.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_14_A510.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_14_A510.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_15_A656.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_15_A656.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_15_A657.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_15_A657.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_15_A658.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_15_A658.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_15_A659.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_15_A659.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Agreement",
+      "video": "Signer_15_A660.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Agreement\\Signer_15_A660.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_13_A301.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_13_A301.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_13_A302.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_13_A302.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_13_A303.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_13_A303.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_13_A304.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_13_A304.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_13_A305.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_13_A305.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_14_A451.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_14_A451.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_14_A452.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_14_A452.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_14_A453.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_14_A453.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_14_A454.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_14_A454.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_14_A455.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_14_A455.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_15_A601.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_15_A601.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_15_A602.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_15_A602.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_15_A603.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_15_A603.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_15_A604.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_15_A604.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Friend",
+      "video": "Signer_15_A605.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Friend\\Signer_15_A605.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_13_A371.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_13_A371.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_13_A372.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_13_A372.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_13_A373.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_13_A373.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_13_A374.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_13_A374.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_13_A375.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_13_A375.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_14_A521.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_14_A521.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_14_A522.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_14_A522.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_14_A523.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_14_A523.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_14_A524.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_14_A524.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_14_A525.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_14_A525.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_15_A671.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_15_A671.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_15_A672.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_15_A672.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_15_A673.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_15_A673.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_15_A674.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_15_A674.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Gift",
+      "video": "Signer_15_A675.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Gift\\Signer_15_A675.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_13_A306.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_13_A306.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_13_A307.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_13_A307.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_13_A308.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_13_A308.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_13_A309.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_13_A309.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_13_A310.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_13_A310.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_14_A456.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_14_A456.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_14_A457.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_14_A457.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_14_A458.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_14_A458.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_14_A459.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_14_A459.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_14_A460.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_14_A460.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_15_A606.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_15_A606.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_15_A607.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_15_A607.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_15_A608.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_15_A608.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_15_A609.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_15_A609.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Market",
+      "video": "Signer_15_A610.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Market\\Signer_15_A610.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_13_A336.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_13_A336.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_13_A337.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_13_A337.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_13_A338.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_13_A338.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_13_A339.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_13_A339.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_13_A340.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_13_A340.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_14_A486.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_14_A486.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_14_A487.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_14_A487.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_14_A488.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_14_A488.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_14_A489.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_14_A489.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_14_A490.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_14_A490.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_15_A636.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_15_A636.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_15_A637.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_15_A637.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_15_A638.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_15_A638.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_15_A639.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_15_A639.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Monday",
+      "video": "Signer_15_A640.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Monday\\Signer_15_A640.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_13_A351.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_13_A351.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_13_A352.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_13_A352.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_13_A353.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_13_A353.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_13_A354.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_13_A354.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_13_A355.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_13_A355.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_14_A501.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_14_A501.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_14_A502.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_14_A502.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_14_A503.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_14_A503.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_14_A504.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_14_A504.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_14_A505.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_14_A505.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_15_A651.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_15_A651.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_15_A652.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_15_A652.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_15_A653.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_15_A653.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_15_A654.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_15_A654.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Picture",
+      "video": "Signer_15_A655.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Picture\\Signer_15_A655.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_13_A346.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_13_A346.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_13_A347.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_13_A347.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_13_A348.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_13_A348.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_13_A349.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_13_A349.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_13_A350.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_13_A350.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_14_A491.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_14_A491.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_14_A492.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_14_A492.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_14_A493.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_14_A493.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_14_A494.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_14_A494.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_14_A495.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_14_A495.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_15_A646.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_15_A646.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_15_A647.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_15_A647.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_15_A648.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_15_A648.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_15_A649.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_15_A649.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Proud",
+      "video": "Signer_15_A650.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Proud\\Signer_15_A650.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_13_A311.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_13_A311.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_13_A312.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_13_A312.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_13_A313.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_13_A313.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_13_A314.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_13_A314.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_13_A315.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_13_A315.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_14_A461.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_14_A461.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_14_A462.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_14_A462.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_14_A463.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_14_A463.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_14_A464.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_14_A464.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_14_A465.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_14_A465.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_15_A611.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_15_A611.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_15_A612.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_15_A612.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_15_A613.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_15_A613.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_15_A614.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_15_A614.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Teach",
+      "video": "Signer_15_A615.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Teach\\Signer_15_A615.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_13_A366.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_13_A366.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_13_A367.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_13_A367.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_13_A368.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_13_A368.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_13_A369.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_13_A369.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_13_A370.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_13_A370.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_14_A516.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_14_A516.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_14_A517.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_14_A517.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_14_A518.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_14_A518.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_14_A519.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_14_A519.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_14_A520.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_14_A520.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_15_A666.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_15_A666.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_15_A667.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_15_A667.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_15_A668.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_15_A668.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_15_A669.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_15_A669.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Twin",
+      "video": "Signer_15_A670.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Twin\\Signer_15_A670.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_13_A331.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_13_A331.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_13_A332.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_13_A332.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_13_A333.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_13_A333.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_13_A334.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_13_A334.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_13_A335.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_13_A335.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_14_A481.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_14_A481.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_14_A482.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_14_A482.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_14_A483.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_14_A483.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_14_A484.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_14_A484.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_14_A485.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_14_A485.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_15_A631.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_15_A631.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_15_A632.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_15_A632.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_15_A633.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_15_A633.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_15_A634.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_15_A634.npy",
+      "shape": [
+        30,
+        150
+      ]
+    },
+    {
+      "split": "test",
+      "class": "Ugali",
+      "video": "Signer_15_A635.mov",
+      "feature_file": "backend\\training\\data\\features\\test\\Ugali\\Signer_15_A635.npy",
+      "shape": [
+        30,
+        150
+      ]
+    }
+  ],
+  "failed_videos": []
+}

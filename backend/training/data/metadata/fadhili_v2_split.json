@@ -1,0 +1,5938 @@
+[
+  {
+    "name": "Agreement/Signer_01_1.mov",
+    "size": 5067147,
+    "creationDate": "2026-02-11T13:34:08.488000",
+    "class_name": "Agreement",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_01_2.mov",
+    "size": 5121925,
+    "creationDate": "2026-02-11T13:34:11.403000",
+    "class_name": "Agreement",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_01_3.mov",
+    "size": 4634479,
+    "creationDate": "2026-02-11T13:34:10.796000",
+    "class_name": "Agreement",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_01_4.mov",
+    "size": 5293455,
+    "creationDate": "2026-02-11T13:34:11.051000",
+    "class_name": "Agreement",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_01_5.mov",
+    "size": 4968602,
+    "creationDate": "2026-02-11T13:34:15.594000",
+    "class_name": "Agreement",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_02_1.mov",
+    "size": 4414827,
+    "creationDate": "2026-02-11T13:34:11.517000",
+    "class_name": "Agreement",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_02_2.mov",
+    "size": 4491214,
+    "creationDate": "2026-02-11T13:34:14.471000",
+    "class_name": "Agreement",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_02_3.mov",
+    "size": 5021264,
+    "creationDate": "2026-02-11T13:34:08.141000",
+    "class_name": "Agreement",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_02_4.mov",
+    "size": 4859131,
+    "creationDate": "2026-02-11T13:34:14.456000",
+    "class_name": "Agreement",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_02_5.mov",
+    "size": 4842252,
+    "creationDate": "2026-02-11T13:34:11.042000",
+    "class_name": "Agreement",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_03_1.mov",
+    "size": 3829436,
+    "creationDate": "2026-02-11T13:34:14.888000",
+    "class_name": "Agreement",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_03_2.mov",
+    "size": 3935245,
+    "creationDate": "2026-02-11T13:34:07.941000",
+    "class_name": "Agreement",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_03_3.mov",
+    "size": 3982267,
+    "creationDate": "2026-02-11T13:34:09.717000",
+    "class_name": "Agreement",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_03_4.mov",
+    "size": 3945202,
+    "creationDate": "2026-02-11T13:34:15.549000",
+    "class_name": "Agreement",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_03_5.mov",
+    "size": 4067614,
+    "creationDate": "2026-02-11T13:34:06.052000",
+    "class_name": "Agreement",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_04_1.mov",
+    "size": 2863542,
+    "creationDate": "2026-02-11T13:34:07.523000",
+    "class_name": "Agreement",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_04_2.mov",
+    "size": 2901786,
+    "creationDate": "2026-02-11T13:34:12.861000",
+    "class_name": "Agreement",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_04_3.mov",
+    "size": 2960094,
+    "creationDate": "2026-02-11T13:34:12.944000",
+    "class_name": "Agreement",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_04_4.mov",
+    "size": 2923668,
+    "creationDate": "2026-02-11T13:34:09.677000",
+    "class_name": "Agreement",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_04_5.mov",
+    "size": 2941495,
+    "creationDate": "2026-02-11T13:34:06.673000",
+    "class_name": "Agreement",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_05_1.mov",
+    "size": 3731507,
+    "creationDate": "2026-02-11T13:34:09.388000",
+    "class_name": "Agreement",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_05_2.mov",
+    "size": 3808662,
+    "creationDate": "2026-02-11T13:34:11.659000",
+    "class_name": "Agreement",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_05_3.mov",
+    "size": 3720537,
+    "creationDate": "2026-02-11T13:34:05.773000",
+    "class_name": "Agreement",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_05_4.mov",
+    "size": 3670557,
+    "creationDate": "2026-02-11T13:34:09.089000",
+    "class_name": "Agreement",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_05_5.mov",
+    "size": 3669844,
+    "creationDate": "2026-02-11T13:34:14.586000",
+    "class_name": "Agreement",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_06_1.mov",
+    "size": 4655643,
+    "creationDate": "2026-02-11T13:34:14.494000",
+    "class_name": "Agreement",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_06_2.mov",
+    "size": 4571882,
+    "creationDate": "2026-02-11T13:34:08.597000",
+    "class_name": "Agreement",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_06_3.mov",
+    "size": 4807296,
+    "creationDate": "2026-02-11T13:34:10.908000",
+    "class_name": "Agreement",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_06_4.mov",
+    "size": 4658801,
+    "creationDate": "2026-02-11T13:34:15.973000",
+    "class_name": "Agreement",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_06_5.mov",
+    "size": 4847134,
+    "creationDate": "2026-02-11T13:34:15.641000",
+    "class_name": "Agreement",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_07_1.mov",
+    "size": 3627291,
+    "creationDate": "2026-02-11T13:34:07.385000",
+    "class_name": "Agreement",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_07_2.mov",
+    "size": 3628464,
+    "creationDate": "2026-02-11T13:34:15.525000",
+    "class_name": "Agreement",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_07_3.mov",
+    "size": 3663389,
+    "creationDate": "2026-02-11T13:34:08.478000",
+    "class_name": "Agreement",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_07_4.mov",
+    "size": 3976711,
+    "creationDate": "2026-02-11T13:34:15.360000",
+    "class_name": "Agreement",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_07_5.mov",
+    "size": 4120275,
+    "creationDate": "2026-02-11T13:34:10.996000",
+    "class_name": "Agreement",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_08_1.mov",
+    "size": 4038289,
+    "creationDate": "2026-02-11T13:34:06.499000",
+    "class_name": "Agreement",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_08_2.mov",
+    "size": 4047602,
+    "creationDate": "2026-02-11T13:34:10.236000",
+    "class_name": "Agreement",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_08_3.mov",
+    "size": 4063996,
+    "creationDate": "2026-02-11T13:34:09.948000",
+    "class_name": "Agreement",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_08_4.mov",
+    "size": 3998564,
+    "creationDate": "2026-02-11T13:34:08.285000",
+    "class_name": "Agreement",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_08_5.mov",
+    "size": 4102880,
+    "creationDate": "2026-02-11T13:34:09.312000",
+    "class_name": "Agreement",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_09_1.mov",
+    "size": 4579854,
+    "creationDate": "2026-02-11T13:34:10.967000",
+    "class_name": "Agreement",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_09_2.mov",
+    "size": 4265790,
+    "creationDate": "2026-02-11T13:34:10.075000",
+    "class_name": "Agreement",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_09_3.mov",
+    "size": 4267192,
+    "creationDate": "2026-02-11T13:34:09.877000",
+    "class_name": "Agreement",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_09_4.mov",
+    "size": 4278337,
+    "creationDate": "2026-02-11T13:34:15.122000",
+    "class_name": "Agreement",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_09_5.mov",
+    "size": 4339207,
+    "creationDate": "2026-02-11T13:34:06.580000",
+    "class_name": "Agreement",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_10_1.mov",
+    "size": 5491274,
+    "creationDate": "2026-02-11T13:34:14.422000",
+    "class_name": "Agreement",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_10_2.mov",
+    "size": 5607787,
+    "creationDate": "2026-02-11T13:34:09.143000",
+    "class_name": "Agreement",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_10_3.mov",
+    "size": 6013129,
+    "creationDate": "2026-02-11T13:34:15.506000",
+    "class_name": "Agreement",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_10_4.mov",
+    "size": 5791511,
+    "creationDate": "2026-02-11T13:34:06.434000",
+    "class_name": "Agreement",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_10_5.mov",
+    "size": 5607925,
+    "creationDate": "2026-02-11T13:34:06.208000",
+    "class_name": "Agreement",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Agreement/Signer_11_A056.mov",
+    "size": 8070357,
+    "creationDate": "2026-02-11T13:34:07.439000",
+    "class_name": "Agreement",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_11_A057.mov",
+    "size": 8901373,
+    "creationDate": "2026-02-11T13:34:14.438000",
+    "class_name": "Agreement",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_11_A058.mov",
+    "size": 9469660,
+    "creationDate": "2026-02-11T13:34:09.506000",
+    "class_name": "Agreement",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_11_A059.mov",
+    "size": 8434505,
+    "creationDate": "2026-02-11T13:34:09.928000",
+    "class_name": "Agreement",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_11_A060.mov",
+    "size": 9170243,
+    "creationDate": "2026-02-11T13:34:10.330000",
+    "class_name": "Agreement",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_12_A206.mov",
+    "size": 6934099,
+    "creationDate": "2026-02-11T13:34:10.138000",
+    "class_name": "Agreement",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_12_A207.mov",
+    "size": 7424989,
+    "creationDate": "2026-02-11T13:34:16.532000",
+    "class_name": "Agreement",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_12_A208.mov",
+    "size": 7076188,
+    "creationDate": "2026-02-11T13:34:14.427000",
+    "class_name": "Agreement",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_12_A209.mov",
+    "size": 6868270,
+    "creationDate": "2026-02-11T13:34:09.882000",
+    "class_name": "Agreement",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_12_A210.mov",
+    "size": 7488606,
+    "creationDate": "2026-02-11T13:34:15.964000",
+    "class_name": "Agreement",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Agreement/Signer_13_A356.mov",
+    "size": 14424773,
+    "creationDate": "2026-02-11T13:34:09.291000",
+    "class_name": "Agreement",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_13_A357.mov",
+    "size": 15891958,
+    "creationDate": "2026-02-11T13:34:09.039000",
+    "class_name": "Agreement",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_13_A358.mov",
+    "size": 16360000,
+    "creationDate": "2026-02-11T13:34:08.560000",
+    "class_name": "Agreement",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_13_A359.mov",
+    "size": 16361024,
+    "creationDate": "2026-02-11T13:34:07.899000",
+    "class_name": "Agreement",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_13_A360.mov",
+    "size": 15793110,
+    "creationDate": "2026-02-11T13:34:07.385000",
+    "class_name": "Agreement",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_14_A506.mov",
+    "size": 6430301,
+    "creationDate": "2026-02-11T13:34:06.591000",
+    "class_name": "Agreement",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_14_A507.mov",
+    "size": 7805162,
+    "creationDate": "2026-02-11T13:34:15.736000",
+    "class_name": "Agreement",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_14_A508.mov",
+    "size": 8032749,
+    "creationDate": "2026-02-11T13:34:09.679000",
+    "class_name": "Agreement",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_14_A509.mov",
+    "size": 7417696,
+    "creationDate": "2026-02-11T13:34:16.031000",
+    "class_name": "Agreement",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_14_A510.mov",
+    "size": 7253433,
+    "creationDate": "2026-02-11T13:34:07.933000",
+    "class_name": "Agreement",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_15_A656.mov",
+    "size": 16372652,
+    "creationDate": "2026-02-11T13:34:16.140000",
+    "class_name": "Agreement",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_15_A657.mov",
+    "size": 16808854,
+    "creationDate": "2026-02-11T13:34:11.417000",
+    "class_name": "Agreement",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_15_A658.mov",
+    "size": 15277084,
+    "creationDate": "2026-02-11T13:34:14.102000",
+    "class_name": "Agreement",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_15_A659.mov",
+    "size": 16690276,
+    "creationDate": "2026-02-11T13:34:17.071000",
+    "class_name": "Agreement",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Agreement/Signer_15_A660.mov",
+    "size": 16119481,
+    "creationDate": "2026-02-11T13:34:15.554000",
+    "class_name": "Agreement",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_01_1.mov",
+    "size": 4676542,
+    "creationDate": "2026-02-11T13:34:07.240000",
+    "class_name": "Friend",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_01_2.mov",
+    "size": 4530288,
+    "creationDate": "2026-02-11T13:34:10.527000",
+    "class_name": "Friend",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_01_3.mov",
+    "size": 4495936,
+    "creationDate": "2026-02-11T13:34:10.052000",
+    "class_name": "Friend",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_01_4.mov",
+    "size": 4546447,
+    "creationDate": "2026-02-11T13:34:10.011000",
+    "class_name": "Friend",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_01_5.mov",
+    "size": 4659883,
+    "creationDate": "2026-02-11T13:34:15.061000",
+    "class_name": "Friend",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_02_1.mov",
+    "size": 4305723,
+    "creationDate": "2026-02-11T13:34:10.772000",
+    "class_name": "Friend",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_02_2.mov",
+    "size": 4342545,
+    "creationDate": "2026-02-11T13:34:12.984000",
+    "class_name": "Friend",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_02_3.mov",
+    "size": 4225568,
+    "creationDate": "2026-02-11T13:34:07.280000",
+    "class_name": "Friend",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_02_4.mov",
+    "size": 4209122,
+    "creationDate": "2026-02-11T13:34:11.506000",
+    "class_name": "Friend",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_02_5.mov",
+    "size": 4309690,
+    "creationDate": "2026-02-11T13:34:10.112000",
+    "class_name": "Friend",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_03_1.mov",
+    "size": 3068540,
+    "creationDate": "2026-02-11T13:34:13.035000",
+    "class_name": "Friend",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_03_2.mov",
+    "size": 3088513,
+    "creationDate": "2026-02-11T13:34:06.831000",
+    "class_name": "Friend",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_03_3.mov",
+    "size": 3039010,
+    "creationDate": "2026-02-11T13:34:07.824000",
+    "class_name": "Friend",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_03_4.mov",
+    "size": 3137150,
+    "creationDate": "2026-02-11T13:34:14.890000",
+    "class_name": "Friend",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_03_5.mov",
+    "size": 3139320,
+    "creationDate": "2026-02-11T13:34:05.983000",
+    "class_name": "Friend",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_04_1.mov",
+    "size": 2630413,
+    "creationDate": "2026-02-11T13:34:06.527000",
+    "class_name": "Friend",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_04_2.mov",
+    "size": 2608688,
+    "creationDate": "2026-02-11T13:34:11.150000",
+    "class_name": "Friend",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_04_3.mov",
+    "size": 2654144,
+    "creationDate": "2026-02-11T13:34:10.986000",
+    "class_name": "Friend",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_04_4.mov",
+    "size": 2675939,
+    "creationDate": "2026-02-11T13:34:07.734000",
+    "class_name": "Friend",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_04_5.mov",
+    "size": 2685423,
+    "creationDate": "2026-02-11T13:34:06.442000",
+    "class_name": "Friend",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_05_1.mov",
+    "size": 3926342,
+    "creationDate": "2026-02-11T13:34:07.654000",
+    "class_name": "Friend",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_05_2.mov",
+    "size": 3452873,
+    "creationDate": "2026-02-11T13:34:11.050000",
+    "class_name": "Friend",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_05_3.mov",
+    "size": 3429357,
+    "creationDate": "2026-02-11T13:34:05.676000",
+    "class_name": "Friend",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_05_4.mov",
+    "size": 3409814,
+    "creationDate": "2026-02-11T13:34:07.270000",
+    "class_name": "Friend",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_05_5.mov",
+    "size": 3349653,
+    "creationDate": "2026-02-11T13:34:11.614000",
+    "class_name": "Friend",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_06_1.mov",
+    "size": 4740438,
+    "creationDate": "2026-02-11T13:34:11.442000",
+    "class_name": "Friend",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_06_2.mov",
+    "size": 4247150,
+    "creationDate": "2026-02-11T13:34:07.442000",
+    "class_name": "Friend",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_06_3.mov",
+    "size": 4537972,
+    "creationDate": "2026-02-11T13:34:09.759000",
+    "class_name": "Friend",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_06_4.mov",
+    "size": 4539709,
+    "creationDate": "2026-02-11T13:34:15.592000",
+    "class_name": "Friend",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_06_5.mov",
+    "size": 4582877,
+    "creationDate": "2026-02-11T13:34:14.471000",
+    "class_name": "Friend",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_07_1.mov",
+    "size": 3565605,
+    "creationDate": "2026-02-11T13:34:06.555000",
+    "class_name": "Friend",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_07_2.mov",
+    "size": 3168499,
+    "creationDate": "2026-02-11T13:34:14.503000",
+    "class_name": "Friend",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_07_3.mov",
+    "size": 3508989,
+    "creationDate": "2026-02-11T13:34:07.503000",
+    "class_name": "Friend",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_07_4.mov",
+    "size": 3461453,
+    "creationDate": "2026-02-11T13:34:11.704000",
+    "class_name": "Friend",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_07_5.mov",
+    "size": 3380242,
+    "creationDate": "2026-02-11T13:34:09.632000",
+    "class_name": "Friend",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_08_a. Friend.mov",
+    "size": 3963045,
+    "creationDate": "2026-02-11T13:34:09.751000",
+    "class_name": "Friend",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_08_b. Friend.mov",
+    "size": 4266319,
+    "creationDate": "2026-02-11T13:34:06.588000",
+    "class_name": "Friend",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_08_c. Friend.mov",
+    "size": 4118523,
+    "creationDate": "2026-02-11T13:34:14.985000",
+    "class_name": "Friend",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_08_d. Friend.mov",
+    "size": 4237353,
+    "creationDate": "2026-02-11T13:34:10.830000",
+    "class_name": "Friend",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_08_e. Friend.mov",
+    "size": 4253021,
+    "creationDate": "2026-02-11T13:34:09.454000",
+    "class_name": "Friend",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_09_1.mov",
+    "size": 4255768,
+    "creationDate": "2026-02-11T13:34:10.243000",
+    "class_name": "Friend",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_09_2.mov",
+    "size": 4282358,
+    "creationDate": "2026-02-11T13:34:08.889000",
+    "class_name": "Friend",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_09_3.mov",
+    "size": 3764887,
+    "creationDate": "2026-02-11T13:34:08.100000",
+    "class_name": "Friend",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_09_4.mov",
+    "size": 4181248,
+    "creationDate": "2026-02-11T13:34:14.405000",
+    "class_name": "Friend",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_09_5.mov",
+    "size": 4188146,
+    "creationDate": "2026-02-11T13:34:06.402000",
+    "class_name": "Friend",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_10_1.mov",
+    "size": 5179354,
+    "creationDate": "2026-02-11T13:34:11.569000",
+    "class_name": "Friend",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_10_2.mov",
+    "size": 5548355,
+    "creationDate": "2026-02-11T13:34:07.276000",
+    "class_name": "Friend",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_10_3.mov",
+    "size": 5379142,
+    "creationDate": "2026-02-11T13:34:14.501000",
+    "class_name": "Friend",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_10_4.mov",
+    "size": 5551783,
+    "creationDate": "2026-02-11T13:34:06.307000",
+    "class_name": "Friend",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_10_5.mov",
+    "size": 6075118,
+    "creationDate": "2026-02-11T13:34:05.839000",
+    "class_name": "Friend",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Friend/Signer_11_A001.mov",
+    "size": 7016868,
+    "creationDate": "2026-02-11T13:34:09.688000",
+    "class_name": "Friend",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_11_A002.mov",
+    "size": 6992413,
+    "creationDate": "2026-02-11T13:34:14.715000",
+    "class_name": "Friend",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_11_A003.mov",
+    "size": 6833774,
+    "creationDate": "2026-02-11T13:34:06.579000",
+    "class_name": "Friend",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_11_A004.mov",
+    "size": 6839423,
+    "creationDate": "2026-02-11T13:34:09.914000",
+    "class_name": "Friend",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_11_A005.mov",
+    "size": 7886238,
+    "creationDate": "2026-02-11T13:34:09.615000",
+    "class_name": "Friend",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_12_A151.mov",
+    "size": 7822164,
+    "creationDate": "2026-02-11T13:34:14.038000",
+    "class_name": "Friend",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_12_A152.mov",
+    "size": 5465868,
+    "creationDate": "2026-02-11T13:34:11.592000",
+    "class_name": "Friend",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_12_A153.mov",
+    "size": 6896641,
+    "creationDate": "2026-02-11T13:34:15.371000",
+    "class_name": "Friend",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_12_A154.mov",
+    "size": 6963172,
+    "creationDate": "2026-02-11T13:34:09.056000",
+    "class_name": "Friend",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_12_A155.mov",
+    "size": 5746822,
+    "creationDate": "2026-02-11T13:34:06.411000",
+    "class_name": "Friend",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Friend/Signer_13_A301.mov",
+    "size": 14860459,
+    "creationDate": "2026-02-11T13:34:09.275000",
+    "class_name": "Friend",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_13_A302.mov",
+    "size": 12708962,
+    "creationDate": "2026-02-11T13:34:09.568000",
+    "class_name": "Friend",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_13_A303.mov",
+    "size": 11107897,
+    "creationDate": "2026-02-11T13:34:10.443000",
+    "class_name": "Friend",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_13_A304.mov",
+    "size": 10273195,
+    "creationDate": "2026-02-11T13:34:09.246000",
+    "class_name": "Friend",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_13_A305.mov",
+    "size": 12241850,
+    "creationDate": "2026-02-11T13:34:11.389000",
+    "class_name": "Friend",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_14_A451.mov",
+    "size": 7683108,
+    "creationDate": "2026-02-11T13:34:14.563000",
+    "class_name": "Friend",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_14_A452.mov",
+    "size": 7113048,
+    "creationDate": "2026-02-11T13:34:10.771000",
+    "class_name": "Friend",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_14_A453.mov",
+    "size": 7948809,
+    "creationDate": "2026-02-11T13:34:14.592000",
+    "class_name": "Friend",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_14_A454.mov",
+    "size": 5988024,
+    "creationDate": "2026-02-11T13:34:15.589000",
+    "class_name": "Friend",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_14_A455.mov",
+    "size": 6446039,
+    "creationDate": "2026-02-11T13:34:08.599000",
+    "class_name": "Friend",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_15_A601.mov",
+    "size": 13870104,
+    "creationDate": "2026-02-11T13:34:08.962000",
+    "class_name": "Friend",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_15_A602.mov",
+    "size": 16255190,
+    "creationDate": "2026-02-11T13:34:11.564000",
+    "class_name": "Friend",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_15_A603.mov",
+    "size": 19102537,
+    "creationDate": "2026-02-11T13:34:08.821000",
+    "class_name": "Friend",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_15_A604.mov",
+    "size": 15911371,
+    "creationDate": "2026-02-11T13:34:15.515000",
+    "class_name": "Friend",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Friend/Signer_15_A605.mov",
+    "size": 15041202,
+    "creationDate": "2026-02-11T13:34:09.306000",
+    "class_name": "Friend",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_01_1.mov",
+    "size": 4976036,
+    "creationDate": "2026-02-11T13:34:07.419000",
+    "class_name": "Gift",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_01_2.mov",
+    "size": 4990469,
+    "creationDate": "2026-02-11T13:34:11.583000",
+    "class_name": "Gift",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_01_3.mov",
+    "size": 5050732,
+    "creationDate": "2026-02-11T13:34:10.543000",
+    "class_name": "Gift",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_01_4.mov",
+    "size": 5174630,
+    "creationDate": "2026-02-11T13:34:11.096000",
+    "class_name": "Gift",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_01_5.mov",
+    "size": 5107281,
+    "creationDate": "2026-02-11T13:34:15.974000",
+    "class_name": "Gift",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_02_1.mov",
+    "size": 4181162,
+    "creationDate": "2026-02-11T13:34:12.980000",
+    "class_name": "Gift",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_02_2.mov",
+    "size": 4219511,
+    "creationDate": "2026-02-11T13:34:14.546000",
+    "class_name": "Gift",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_02_3.mov",
+    "size": 4215551,
+    "creationDate": "2026-02-11T13:34:07.314000",
+    "class_name": "Gift",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_02_4.mov",
+    "size": 4179855,
+    "creationDate": "2026-02-11T13:34:14.446000",
+    "class_name": "Gift",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_02_5.mov",
+    "size": 4083154,
+    "creationDate": "2026-02-11T13:34:10.740000",
+    "class_name": "Gift",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_03_1.mov",
+    "size": 3308633,
+    "creationDate": "2026-02-11T13:34:14.535000",
+    "class_name": "Gift",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_03_2.mov",
+    "size": 3519448,
+    "creationDate": "2026-02-11T13:34:07.309000",
+    "class_name": "Gift",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_03_3.mov",
+    "size": 3813857,
+    "creationDate": "2026-02-11T13:34:09.038000",
+    "class_name": "Gift",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_03_4.mov",
+    "size": 3941945,
+    "creationDate": "2026-02-11T13:34:15.912000",
+    "class_name": "Gift",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_03_5.mov",
+    "size": 3688134,
+    "creationDate": "2026-02-11T13:34:06.264000",
+    "class_name": "Gift",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_04_1.mov",
+    "size": 2737266,
+    "creationDate": "2026-02-11T13:34:07.030000",
+    "class_name": "Gift",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_04_2.mov",
+    "size": 2785161,
+    "creationDate": "2026-02-11T13:34:13.910000",
+    "class_name": "Gift",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_04_3.mov",
+    "size": 2790143,
+    "creationDate": "2026-02-11T13:34:11.666000",
+    "class_name": "Gift",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_04_4.mov",
+    "size": 2822996,
+    "creationDate": "2026-02-11T13:34:09.097000",
+    "class_name": "Gift",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_04_5.mov",
+    "size": 2743305,
+    "creationDate": "2026-02-11T13:34:06.694000",
+    "class_name": "Gift",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_05_1.mov",
+    "size": 4027091,
+    "creationDate": "2026-02-11T13:34:08.100000",
+    "class_name": "Gift",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_05_2.mov",
+    "size": 3963723,
+    "creationDate": "2026-02-11T13:34:11.704000",
+    "class_name": "Gift",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_05_3.mov",
+    "size": 3897065,
+    "creationDate": "2026-02-11T13:34:05.735000",
+    "class_name": "Gift",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_05_4.mov",
+    "size": 3926988,
+    "creationDate": "2026-02-11T13:34:07.815000",
+    "class_name": "Gift",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_05_5.mov",
+    "size": 3627974,
+    "creationDate": "2026-02-11T13:34:14.574000",
+    "class_name": "Gift",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_06_1.mov",
+    "size": 4501957,
+    "creationDate": "2026-02-11T13:34:14.487000",
+    "class_name": "Gift",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_06_2.mov",
+    "size": 4109790,
+    "creationDate": "2026-02-11T13:34:07.053000",
+    "class_name": "Gift",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_06_3.mov",
+    "size": 4171783,
+    "creationDate": "2026-02-11T13:34:10.381000",
+    "class_name": "Gift",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_06_4.mov",
+    "size": 4259216,
+    "creationDate": "2026-02-11T13:34:16.201000",
+    "class_name": "Gift",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_06_5.mov",
+    "size": 4155191,
+    "creationDate": "2026-02-11T13:34:15.501000",
+    "class_name": "Gift",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_07_1.mov",
+    "size": 4029564,
+    "creationDate": "2026-02-11T13:34:06.999000",
+    "class_name": "Gift",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_07_2.mov",
+    "size": 3992868,
+    "creationDate": "2026-02-11T13:34:15.700000",
+    "class_name": "Gift",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_07_3.mov",
+    "size": 3820860,
+    "creationDate": "2026-02-11T13:34:07.434000",
+    "class_name": "Gift",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_07_4.mov",
+    "size": 3915999,
+    "creationDate": "2026-02-11T13:34:14.766000",
+    "class_name": "Gift",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_07_5.mov",
+    "size": 3834077,
+    "creationDate": "2026-02-11T13:34:10.248000",
+    "class_name": "Gift",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_08_1.mov",
+    "size": 4027292,
+    "creationDate": "2026-02-11T13:34:06.636000",
+    "class_name": "Gift",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_08_2.mov",
+    "size": 4020765,
+    "creationDate": "2026-02-11T13:34:10.304000",
+    "class_name": "Gift",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_08_3.mov",
+    "size": 3997590,
+    "creationDate": "2026-02-11T13:34:09.832000",
+    "class_name": "Gift",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_08_4.mov",
+    "size": 3979485,
+    "creationDate": "2026-02-11T13:34:07.285000",
+    "class_name": "Gift",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_08_5.mov",
+    "size": 3940563,
+    "creationDate": "2026-02-11T13:34:09.516000",
+    "class_name": "Gift",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_09_1.mov",
+    "size": 4664922,
+    "creationDate": "2026-02-11T13:34:11.066000",
+    "class_name": "Gift",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_09_2.mov",
+    "size": 4564419,
+    "creationDate": "2026-02-11T13:34:10.352000",
+    "class_name": "Gift",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_09_3.mov",
+    "size": 4974636,
+    "creationDate": "2026-02-11T13:34:09.517000",
+    "class_name": "Gift",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_09_4.mov",
+    "size": 4742393,
+    "creationDate": "2026-02-11T13:34:14.864000",
+    "class_name": "Gift",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_09_5.mov",
+    "size": 4722778,
+    "creationDate": "2026-02-11T13:34:06.592000",
+    "class_name": "Gift",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_10_1.mov",
+    "size": 5624894,
+    "creationDate": "2026-02-11T13:34:14.395000",
+    "class_name": "Gift",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_10_2.mov",
+    "size": 5356808,
+    "creationDate": "2026-02-11T13:34:07.881000",
+    "class_name": "Gift",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_10_3.mov",
+    "size": 5335425,
+    "creationDate": "2026-02-11T13:34:15.574000",
+    "class_name": "Gift",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_10_4.mov",
+    "size": 5243601,
+    "creationDate": "2026-02-11T13:34:06.656000",
+    "class_name": "Gift",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_10_5.mov",
+    "size": 5213821,
+    "creationDate": "2026-02-11T13:34:05.759000",
+    "class_name": "Gift",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Gift/Signer_11_A071.mov",
+    "size": 7815450,
+    "creationDate": "2026-02-11T13:34:10.995000",
+    "class_name": "Gift",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_11_A072.mov",
+    "size": 8541635,
+    "creationDate": "2026-02-11T13:34:15.566000",
+    "class_name": "Gift",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_11_A073.mov",
+    "size": 7358867,
+    "creationDate": "2026-02-11T13:34:11.026000",
+    "class_name": "Gift",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_11_A074.mov",
+    "size": 8007586,
+    "creationDate": "2026-02-11T13:34:08.940000",
+    "class_name": "Gift",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_11_A075.mov",
+    "size": 7579196,
+    "creationDate": "2026-02-11T13:34:11.523000",
+    "class_name": "Gift",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_12_A221.mov",
+    "size": 7856922,
+    "creationDate": "2026-02-11T13:34:15.301000",
+    "class_name": "Gift",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_12_A222.mov",
+    "size": 8228311,
+    "creationDate": "2026-02-11T13:34:07.556000",
+    "class_name": "Gift",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_12_A223.mov",
+    "size": 7867527,
+    "creationDate": "2026-02-11T13:34:15.983000",
+    "class_name": "Gift",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_12_A224.mov",
+    "size": 6943812,
+    "creationDate": "2026-02-11T13:34:14.407000",
+    "class_name": "Gift",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_12_A225.mov",
+    "size": 7466666,
+    "creationDate": "2026-02-11T13:34:09.554000",
+    "class_name": "Gift",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Gift/Signer_13_A371.mov",
+    "size": 14860330,
+    "creationDate": "2026-02-11T13:34:15.628000",
+    "class_name": "Gift",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_13_A372.mov",
+    "size": 17087479,
+    "creationDate": "2026-02-11T13:34:09.644000",
+    "class_name": "Gift",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_13_A373.mov",
+    "size": 18572622,
+    "creationDate": "2026-02-11T13:34:09.401000",
+    "class_name": "Gift",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_13_A374.mov",
+    "size": 15785609,
+    "creationDate": "2026-02-11T13:34:09.950000",
+    "class_name": "Gift",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_13_A375.mov",
+    "size": 15987900,
+    "creationDate": "2026-02-11T13:34:10.617000",
+    "class_name": "Gift",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_14_A521.mov",
+    "size": 7555933,
+    "creationDate": "2026-02-11T13:34:06.570000",
+    "class_name": "Gift",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_14_A522.mov",
+    "size": 6921646,
+    "creationDate": "2026-02-11T13:34:16.509000",
+    "class_name": "Gift",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_14_A523.mov",
+    "size": 6662890,
+    "creationDate": "2026-02-11T13:34:12.926000",
+    "class_name": "Gift",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_14_A524.mov",
+    "size": 7321329,
+    "creationDate": "2026-02-11T13:34:14.551000",
+    "class_name": "Gift",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_14_A525.mov",
+    "size": 6997556,
+    "creationDate": "2026-02-11T13:34:11.096000",
+    "class_name": "Gift",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_15_A671.mov",
+    "size": 16489548,
+    "creationDate": "2026-02-11T13:34:06.905000",
+    "class_name": "Gift",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_15_A672.mov",
+    "size": 16610088,
+    "creationDate": "2026-02-11T13:34:10.459000",
+    "class_name": "Gift",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_15_A673.mov",
+    "size": 15675888,
+    "creationDate": "2026-02-11T13:34:10.344000",
+    "class_name": "Gift",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_15_A674.mov",
+    "size": 16996671,
+    "creationDate": "2026-02-11T13:34:16.334000",
+    "class_name": "Gift",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Gift/Signer_15_A675.mov",
+    "size": 19078378,
+    "creationDate": "2026-02-11T13:34:11.551000",
+    "class_name": "Gift",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_01_1.mov",
+    "size": 4555849,
+    "creationDate": "2026-02-11T13:34:07.359000",
+    "class_name": "Market",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_01_2.mov",
+    "size": 4826118,
+    "creationDate": "2026-02-11T13:34:10.865000",
+    "class_name": "Market",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_01_3.mov",
+    "size": 4709342,
+    "creationDate": "2026-02-11T13:34:09.840000",
+    "class_name": "Market",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_01_4.mov",
+    "size": 4725791,
+    "creationDate": "2026-02-11T13:34:10.838000",
+    "class_name": "Market",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_01_5.mov",
+    "size": 4789120,
+    "creationDate": "2026-02-11T13:34:14.881000",
+    "class_name": "Market",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_02_2.mov",
+    "size": 4695548,
+    "creationDate": "2026-02-11T13:34:13.060000",
+    "class_name": "Market",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_02_3.mov",
+    "size": 4769609,
+    "creationDate": "2026-02-11T13:34:07.006000",
+    "class_name": "Market",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_02_4.mov",
+    "size": 4661698,
+    "creationDate": "2026-02-11T13:34:11.566000",
+    "class_name": "Market",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_02_5.mov",
+    "size": 4616230,
+    "creationDate": "2026-02-11T13:34:09.947000",
+    "class_name": "Market",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_03_1.mov",
+    "size": 3362813,
+    "creationDate": "2026-02-11T13:34:14.248000",
+    "class_name": "Market",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_03_2.mov",
+    "size": 3223446,
+    "creationDate": "2026-02-11T13:34:06.589000",
+    "class_name": "Market",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_03_3.mov",
+    "size": 3080369,
+    "creationDate": "2026-02-11T13:34:07.671000",
+    "class_name": "Market",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_03_4.mov",
+    "size": 3130593,
+    "creationDate": "2026-02-11T13:34:15.124000",
+    "class_name": "Market",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_03_5.mov",
+    "size": 3140515,
+    "creationDate": "2026-02-11T13:34:05.693000",
+    "class_name": "Market",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_04_1.mov",
+    "size": 2766549,
+    "creationDate": "2026-02-11T13:34:06.526000",
+    "class_name": "Market",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_04_2.mov",
+    "size": 2494135,
+    "creationDate": "2026-02-11T13:34:11.618000",
+    "class_name": "Market",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_04_3.mov",
+    "size": 2486639,
+    "creationDate": "2026-02-11T13:34:11.025000",
+    "class_name": "Market",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_04_4.mov",
+    "size": 2578122,
+    "creationDate": "2026-02-11T13:34:07.640000",
+    "class_name": "Market",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_04_5.mov",
+    "size": 2860553,
+    "creationDate": "2026-02-11T13:34:06.200000",
+    "class_name": "Market",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_05_1.mov",
+    "size": 3389636,
+    "creationDate": "2026-02-11T13:34:07.526000",
+    "class_name": "Market",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_05_2.mov",
+    "size": 3426667,
+    "creationDate": "2026-02-11T13:34:10.973000",
+    "class_name": "Market",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_05_3.mov",
+    "size": 3329895,
+    "creationDate": "2026-02-11T13:34:05.729000",
+    "class_name": "Market",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_05_4.mov",
+    "size": 3350941,
+    "creationDate": "2026-02-11T13:34:07.109000",
+    "class_name": "Market",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_05_5.mov",
+    "size": 2990797,
+    "creationDate": "2026-02-11T13:34:13.954000",
+    "class_name": "Market",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_06_1.mov",
+    "size": 5008344,
+    "creationDate": "2026-02-11T13:34:13.864000",
+    "class_name": "Market",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_06_2.mov",
+    "size": 4687513,
+    "creationDate": "2026-02-11T13:34:06.984000",
+    "class_name": "Market",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_06_3.mov",
+    "size": 4562668,
+    "creationDate": "2026-02-11T13:34:09.704000",
+    "class_name": "Market",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_06_4.mov",
+    "size": 4438625,
+    "creationDate": "2026-02-11T13:34:15.575000",
+    "class_name": "Market",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_06_5.mov",
+    "size": 4390558,
+    "creationDate": "2026-02-11T13:34:14.633000",
+    "class_name": "Market",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_07_1.mov",
+    "size": 3284130,
+    "creationDate": "2026-02-11T13:34:06.374000",
+    "class_name": "Market",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_07_2.mov",
+    "size": 3302768,
+    "creationDate": "2026-02-11T13:34:14.626000",
+    "class_name": "Market",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_07_3.mov",
+    "size": 3299795,
+    "creationDate": "2026-02-11T13:34:07.247000",
+    "class_name": "Market",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_07_4.mov",
+    "size": 3306172,
+    "creationDate": "2026-02-11T13:34:14.481000",
+    "class_name": "Market",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_07_5.mov",
+    "size": 3306964,
+    "creationDate": "2026-02-11T13:34:09.343000",
+    "class_name": "Market",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_08_a. Market.mov",
+    "size": 3979710,
+    "creationDate": "2026-02-11T13:34:10.765000",
+    "class_name": "Market",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_08_b. Market.mov",
+    "size": 3822662,
+    "creationDate": "2026-02-11T13:34:10.408000",
+    "class_name": "Market",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_08_c. Market.mov",
+    "size": 3844854,
+    "creationDate": "2026-02-11T13:34:15.163000",
+    "class_name": "Market",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_08_d. Market.mov",
+    "size": 3873418,
+    "creationDate": "2026-02-11T13:34:09.306000",
+    "class_name": "Market",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_08_e. Market.mov",
+    "size": 3801557,
+    "creationDate": "2026-02-11T13:34:06.553000",
+    "class_name": "Market",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_09_1.mov",
+    "size": 3854362,
+    "creationDate": "2026-02-11T13:34:10.439000",
+    "class_name": "Market",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_09_2.mov",
+    "size": 4066626,
+    "creationDate": "2026-02-11T13:34:08.751000",
+    "class_name": "Market",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_09_3.mov",
+    "size": 3659109,
+    "creationDate": "2026-02-11T13:34:08.568000",
+    "class_name": "Market",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_09_4.mov",
+    "size": 3644896,
+    "creationDate": "2026-02-11T13:34:14.260000",
+    "class_name": "Market",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_09_5.mov",
+    "size": 3591943,
+    "creationDate": "2026-02-11T13:34:06.568000",
+    "class_name": "Market",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_10_1.mov",
+    "size": 5599589,
+    "creationDate": "2026-02-11T13:34:11.056000",
+    "class_name": "Market",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_10_2.mov",
+    "size": 5745106,
+    "creationDate": "2026-02-11T13:34:07.514000",
+    "class_name": "Market",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_10_3.mov",
+    "size": 5654131,
+    "creationDate": "2026-02-11T13:34:14.543000",
+    "class_name": "Market",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_10_4.mov",
+    "size": 5546871,
+    "creationDate": "2026-02-11T13:34:06.402000",
+    "class_name": "Market",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Market/Signer_11_A006.mov",
+    "size": 7591448,
+    "creationDate": "2026-02-11T13:34:15.615000",
+    "class_name": "Market",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_11_A007.mov",
+    "size": 7822833,
+    "creationDate": "2026-02-11T13:34:08.555000",
+    "class_name": "Market",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_11_A008.mov",
+    "size": 8652470,
+    "creationDate": "2026-02-11T13:34:13.049000",
+    "class_name": "Market",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_11_A009.mov",
+    "size": 10205706,
+    "creationDate": "2026-02-11T13:34:10.303000",
+    "class_name": "Market",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_11_A010.mov",
+    "size": 10242178,
+    "creationDate": "2026-02-11T13:34:09.890000",
+    "class_name": "Market",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_12_A156.mov",
+    "size": 8077189,
+    "creationDate": "2026-02-11T13:34:10.324000",
+    "class_name": "Market",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_12_A157.mov",
+    "size": 7127561,
+    "creationDate": "2026-02-11T13:34:07.401000",
+    "class_name": "Market",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_12_A158.mov",
+    "size": 6534487,
+    "creationDate": "2026-02-11T13:34:15.663000",
+    "class_name": "Market",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_12_A159.mov",
+    "size": 6701903,
+    "creationDate": "2026-02-11T13:34:07.697000",
+    "class_name": "Market",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_12_A160.mov",
+    "size": 5935292,
+    "creationDate": "2026-02-11T13:34:06.120000",
+    "class_name": "Market",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Market/Signer_13_A306.mov",
+    "size": 14841359,
+    "creationDate": "2026-02-11T13:34:13.042000",
+    "class_name": "Market",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_13_A307.mov",
+    "size": 15809784,
+    "creationDate": "2026-02-11T13:34:08.432000",
+    "class_name": "Market",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_13_A308.mov",
+    "size": 13963305,
+    "creationDate": "2026-02-11T13:34:07.464000",
+    "class_name": "Market",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_13_A309.mov",
+    "size": 13316527,
+    "creationDate": "2026-02-11T13:34:12.820000",
+    "class_name": "Market",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_13_A310.mov",
+    "size": 16046824,
+    "creationDate": "2026-02-11T13:34:10.714000",
+    "class_name": "Market",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_14_A456.mov",
+    "size": 6092503,
+    "creationDate": "2026-02-11T13:34:15.229000",
+    "class_name": "Market",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_14_A457.mov",
+    "size": 6698985,
+    "creationDate": "2026-02-11T13:34:15.630000",
+    "class_name": "Market",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_14_A458.mov",
+    "size": 5937420,
+    "creationDate": "2026-02-11T13:34:10.542000",
+    "class_name": "Market",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_14_A459.mov",
+    "size": 6385492,
+    "creationDate": "2026-02-11T13:34:10.519000",
+    "class_name": "Market",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_14_A460.mov",
+    "size": 6705591,
+    "creationDate": "2026-02-11T13:34:15.024000",
+    "class_name": "Market",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_15_A606.mov",
+    "size": 15696104,
+    "creationDate": "2026-02-11T13:34:10.106000",
+    "class_name": "Market",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_15_A607.mov",
+    "size": 16083907,
+    "creationDate": "2026-02-11T13:34:09.875000",
+    "class_name": "Market",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_15_A608.mov",
+    "size": 14121610,
+    "creationDate": "2026-02-11T13:34:09.237000",
+    "class_name": "Market",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_15_A609.mov",
+    "size": 14453569,
+    "creationDate": "2026-02-11T13:34:14.857000",
+    "class_name": "Market",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Market/Signer_15_A610.mov",
+    "size": 13389848,
+    "creationDate": "2026-02-11T13:34:08.915000",
+    "class_name": "Market",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_01_1.mov",
+    "size": 4966150,
+    "creationDate": "2026-02-11T13:34:07.749000",
+    "class_name": "Monday",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_01_2.mov",
+    "size": 4879119,
+    "creationDate": "2026-02-11T13:34:10.993000",
+    "class_name": "Monday",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_01_3.mov",
+    "size": 4816824,
+    "creationDate": "2026-02-11T13:34:10.402000",
+    "class_name": "Monday",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_01_4.mov",
+    "size": 4866211,
+    "creationDate": "2026-02-11T13:34:11.015000",
+    "class_name": "Monday",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_01_5.mov",
+    "size": 5022837,
+    "creationDate": "2026-02-11T13:34:15.709000",
+    "class_name": "Monday",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_02_1.mov",
+    "size": 4180293,
+    "creationDate": "2026-02-11T13:34:10.964000",
+    "class_name": "Monday",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_02_2.mov",
+    "size": 4368704,
+    "creationDate": "2026-02-11T13:34:14.487000",
+    "class_name": "Monday",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_02_3.mov",
+    "size": 4285615,
+    "creationDate": "2026-02-11T13:34:07.872000",
+    "class_name": "Monday",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_02_4.mov",
+    "size": 4312166,
+    "creationDate": "2026-02-11T13:34:13.921000",
+    "class_name": "Monday",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_02_5.mov",
+    "size": 4189632,
+    "creationDate": "2026-02-11T13:34:10.578000",
+    "class_name": "Monday",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_03_1.mov",
+    "size": 3437885,
+    "creationDate": "2026-02-11T13:34:14.836000",
+    "class_name": "Monday",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_03_2.mov",
+    "size": 3675862,
+    "creationDate": "2026-02-11T13:34:07.088000",
+    "class_name": "Monday",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_03_3.mov",
+    "size": 3626839,
+    "creationDate": "2026-02-11T13:34:08.528000",
+    "class_name": "Monday",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_03_4.mov",
+    "size": 4053674,
+    "creationDate": "2026-02-11T13:34:15.996000",
+    "class_name": "Monday",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_03_5.mov",
+    "size": 3688493,
+    "creationDate": "2026-02-11T13:34:06.360000",
+    "class_name": "Monday",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_04_1.mov",
+    "size": 2780239,
+    "creationDate": "2026-02-11T13:34:06.896000",
+    "class_name": "Monday",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_04_2.mov",
+    "size": 2848095,
+    "creationDate": "2026-02-11T13:34:11.475000",
+    "class_name": "Monday",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_04_3.mov",
+    "size": 2824901,
+    "creationDate": "2026-02-11T13:34:10.984000",
+    "class_name": "Monday",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_04_4.mov",
+    "size": 2811581,
+    "creationDate": "2026-02-11T13:34:08.667000",
+    "class_name": "Monday",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_04_5.mov",
+    "size": 2846478,
+    "creationDate": "2026-02-11T13:34:06.650000",
+    "class_name": "Monday",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_05_1, Monday.mov",
+    "size": 2975871,
+    "creationDate": "2026-02-11T13:34:08.520000",
+    "class_name": "Monday",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_05_2.mov",
+    "size": 2995561,
+    "creationDate": "2026-02-11T13:34:11.402000",
+    "class_name": "Monday",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_05_3.mov",
+    "size": 3024401,
+    "creationDate": "2026-02-11T13:34:05.556000",
+    "class_name": "Monday",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_05_4.mov",
+    "size": 3129510,
+    "creationDate": "2026-02-11T13:34:08.151000",
+    "class_name": "Monday",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_05_5.mov",
+    "size": 3109295,
+    "creationDate": "2026-02-11T13:34:14.493000",
+    "class_name": "Monday",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_06_1.mov",
+    "size": 4291579,
+    "creationDate": "2026-02-11T13:34:13.039000",
+    "class_name": "Monday",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_06_2.mov",
+    "size": 4408998,
+    "creationDate": "2026-02-11T13:34:07.364000",
+    "class_name": "Monday",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_06_3.mov",
+    "size": 4404275,
+    "creationDate": "2026-02-11T13:34:10.186000",
+    "class_name": "Monday",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_06_4.mov",
+    "size": 3912383,
+    "creationDate": "2026-02-11T13:34:16.580000",
+    "class_name": "Monday",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_06_5.mov",
+    "size": 4046713,
+    "creationDate": "2026-02-11T13:34:15.600000",
+    "class_name": "Monday",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_07_1.mov",
+    "size": 3559032,
+    "creationDate": "2026-02-11T13:34:07.181000",
+    "class_name": "Monday",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_07_2.mov",
+    "size": 3830095,
+    "creationDate": "2026-02-11T13:34:15.470000",
+    "class_name": "Monday",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_07_3.mov",
+    "size": 4131751,
+    "creationDate": "2026-02-11T13:34:07.729000",
+    "class_name": "Monday",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_07_4.mov",
+    "size": 4159866,
+    "creationDate": "2026-02-11T13:34:15.059000",
+    "class_name": "Monday",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_07_5.mov",
+    "size": 4096429,
+    "creationDate": "2026-02-11T13:34:09.913000",
+    "class_name": "Monday",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_08_1.mov",
+    "size": 3566992,
+    "creationDate": "2026-02-11T13:34:06.547000",
+    "class_name": "Monday",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_08_2.mov",
+    "size": 3361049,
+    "creationDate": "2026-02-11T13:34:09.775000",
+    "class_name": "Monday",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_08_3.mov",
+    "size": 3418748,
+    "creationDate": "2026-02-11T13:34:08.892000",
+    "class_name": "Monday",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_08_4.mov",
+    "size": 3536193,
+    "creationDate": "2026-02-11T13:34:07.337000",
+    "class_name": "Monday",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_08_5.mov",
+    "size": 3889466,
+    "creationDate": "2026-02-11T13:34:08.043000",
+    "class_name": "Monday",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_09_1.mov",
+    "size": 3622025,
+    "creationDate": "2026-02-11T13:34:10.731000",
+    "class_name": "Monday",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_09_2.mov",
+    "size": 3767049,
+    "creationDate": "2026-02-11T13:34:09.763000",
+    "class_name": "Monday",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_09_3.mov",
+    "size": 3705989,
+    "creationDate": "2026-02-11T13:34:08.845000",
+    "class_name": "Monday",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_09_4.mov",
+    "size": 3885209,
+    "creationDate": "2026-02-11T13:34:15.160000",
+    "class_name": "Monday",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_09_5.mov",
+    "size": 3762324,
+    "creationDate": "2026-02-11T13:34:06.423000",
+    "class_name": "Monday",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_10_1.mov",
+    "size": 5160677,
+    "creationDate": "2026-02-11T13:34:11.247000",
+    "class_name": "Monday",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_10_2.mov",
+    "size": 5064245,
+    "creationDate": "2026-02-11T13:34:08.535000",
+    "class_name": "Monday",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_10_3.mov",
+    "size": 5384931,
+    "creationDate": "2026-02-11T13:34:15.276000",
+    "class_name": "Monday",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_10_4.mov",
+    "size": 5295105,
+    "creationDate": "2026-02-11T13:34:06.548000",
+    "class_name": "Monday",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_10_5.mov",
+    "size": 5443453,
+    "creationDate": "2026-02-11T13:34:05.790000",
+    "class_name": "Monday",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Monday/Signer_11_A036.mov",
+    "size": 6515704,
+    "creationDate": "2026-02-11T13:34:10.086000",
+    "class_name": "Monday",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_11_A037.mov",
+    "size": 7215161,
+    "creationDate": "2026-02-11T13:34:08.782000",
+    "class_name": "Monday",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_11_A038.mov",
+    "size": 8105071,
+    "creationDate": "2026-02-11T13:34:16.312000",
+    "class_name": "Monday",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_11_A039.mov",
+    "size": 7905712,
+    "creationDate": "2026-02-11T13:34:11.007000",
+    "class_name": "Monday",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_11_A040.mov",
+    "size": 8016786,
+    "creationDate": "2026-02-11T13:34:06.746000",
+    "class_name": "Monday",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_12_A186.mov",
+    "size": 5783886,
+    "creationDate": "2026-02-11T13:34:15.711000",
+    "class_name": "Monday",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_12_A187.mov",
+    "size": 7697105,
+    "creationDate": "2026-02-11T13:34:15.237000",
+    "class_name": "Monday",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_12_A188.mov",
+    "size": 7415849,
+    "creationDate": "2026-02-11T13:34:09.391000",
+    "class_name": "Monday",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_12_A189.mov",
+    "size": 6708157,
+    "creationDate": "2026-02-11T13:34:08.466000",
+    "class_name": "Monday",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_12_A190.mov",
+    "size": 6445356,
+    "creationDate": "2026-02-11T13:34:06.617000",
+    "class_name": "Monday",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Monday/Signer_13_A336.mov",
+    "size": 14050770,
+    "creationDate": "2026-02-11T13:34:15.471000",
+    "class_name": "Monday",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_13_A337.mov",
+    "size": 15337861,
+    "creationDate": "2026-02-11T13:34:10.870000",
+    "class_name": "Monday",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_13_A338.mov",
+    "size": 15492600,
+    "creationDate": "2026-02-11T13:34:09.797000",
+    "class_name": "Monday",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_13_A339.mov",
+    "size": 16042597,
+    "creationDate": "2026-02-11T13:34:10.169000",
+    "class_name": "Monday",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_13_A340.mov",
+    "size": 15206519,
+    "creationDate": "2026-02-11T13:34:08.344000",
+    "class_name": "Monday",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_14_A486.mov",
+    "size": 6446044,
+    "creationDate": "2026-02-11T13:34:07.341000",
+    "class_name": "Monday",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_14_A487.mov",
+    "size": 6575656,
+    "creationDate": "2026-02-11T13:34:06.240000",
+    "class_name": "Monday",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_14_A488.mov",
+    "size": 6687693,
+    "creationDate": "2026-02-11T13:34:14.110000",
+    "class_name": "Monday",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_14_A489.mov",
+    "size": 6741761,
+    "creationDate": "2026-02-11T13:34:08.850000",
+    "class_name": "Monday",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_14_A490.mov",
+    "size": 6915263,
+    "creationDate": "2026-02-11T13:34:15.842000",
+    "class_name": "Monday",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_15_A636.mov",
+    "size": 16210552,
+    "creationDate": "2026-02-11T13:34:10.572000",
+    "class_name": "Monday",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_15_A637.mov",
+    "size": 14971300,
+    "creationDate": "2026-02-11T13:34:14.184000",
+    "class_name": "Monday",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_15_A638.mov",
+    "size": 15875855,
+    "creationDate": "2026-02-11T13:34:15.278000",
+    "class_name": "Monday",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_15_A639.mov",
+    "size": 14527281,
+    "creationDate": "2026-02-11T13:34:11.496000",
+    "class_name": "Monday",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Monday/Signer_15_A640.mov",
+    "size": 16991944,
+    "creationDate": "2026-02-11T13:34:16.584000",
+    "class_name": "Monday",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_01_1.mov",
+    "size": 4925105,
+    "creationDate": "2026-02-11T13:34:23.144000",
+    "class_name": "Picture",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_01_2.mov",
+    "size": 5334475,
+    "creationDate": "2026-02-11T13:34:27.280000",
+    "class_name": "Picture",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_01_3.mov",
+    "size": 4986999,
+    "creationDate": "2026-02-11T13:34:26.376000",
+    "class_name": "Picture",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_01_4.mov",
+    "size": 4926595,
+    "creationDate": "2026-02-11T13:34:27.017000",
+    "class_name": "Picture",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_01_5.mov",
+    "size": 4968918,
+    "creationDate": "2026-02-11T13:34:29.726000",
+    "class_name": "Picture",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_02_1.mov",
+    "size": 4467603,
+    "creationDate": "2026-02-11T13:34:27.490000",
+    "class_name": "Picture",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_02_2.mov",
+    "size": 4550646,
+    "creationDate": "2026-02-11T13:34:29",
+    "class_name": "Picture",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_02_3.mov",
+    "size": 4521521,
+    "creationDate": "2026-02-11T13:34:22.896000",
+    "class_name": "Picture",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_02_4.mov",
+    "size": 4478080,
+    "creationDate": "2026-02-11T13:34:29.080000",
+    "class_name": "Picture",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_02_5.mov",
+    "size": 4494138,
+    "creationDate": "2026-02-11T13:34:26.412000",
+    "class_name": "Picture",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_03_1.mov",
+    "size": 3935321,
+    "creationDate": "2026-02-11T13:34:29.128000",
+    "class_name": "Picture",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_03_2.mov",
+    "size": 4262180,
+    "creationDate": "2026-02-11T13:34:22.304000",
+    "class_name": "Picture",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_03_3.mov",
+    "size": 4263184,
+    "creationDate": "2026-02-11T13:34:24.077000",
+    "class_name": "Picture",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_03_4.mov",
+    "size": 4281373,
+    "creationDate": "2026-02-11T13:34:29.886000",
+    "class_name": "Picture",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_03_5.mov",
+    "size": 4198676,
+    "creationDate": "2026-02-11T13:34:20.289000",
+    "class_name": "Picture",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_04_1.mov",
+    "size": 2889350,
+    "creationDate": "2026-02-11T13:34:20.898000",
+    "class_name": "Picture",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_04_2.mov",
+    "size": 2825832,
+    "creationDate": "2026-02-11T13:34:28.465000",
+    "class_name": "Picture",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_04_3.mov",
+    "size": 2837225,
+    "creationDate": "2026-02-11T13:34:27.557000",
+    "class_name": "Picture",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_04_4.mov",
+    "size": 2927424,
+    "creationDate": "2026-02-11T13:34:24.343000",
+    "class_name": "Picture",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_04_5.mov",
+    "size": 2924132,
+    "creationDate": "2026-02-11T13:34:20.804000",
+    "class_name": "Picture",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_05_1.mov",
+    "size": 3646051,
+    "creationDate": "2026-02-11T13:34:23.796000",
+    "class_name": "Picture",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_05_2.mov",
+    "size": 3687471,
+    "creationDate": "2026-02-11T13:34:27.466000",
+    "class_name": "Picture",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_05_3.mov",
+    "size": 3529476,
+    "creationDate": "2026-02-11T13:34:20.169000",
+    "class_name": "Picture",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_05_4.mov",
+    "size": 3581173,
+    "creationDate": "2026-02-11T13:34:23.475000",
+    "class_name": "Picture",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_05_5.mov",
+    "size": 3667688,
+    "creationDate": "2026-02-11T13:34:29.149000",
+    "class_name": "Picture",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_06_1.mov",
+    "size": 4658537,
+    "creationDate": "2026-02-11T13:34:28.965000",
+    "class_name": "Picture",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_06_2.mov",
+    "size": 4850678,
+    "creationDate": "2026-02-11T13:34:22.521000",
+    "class_name": "Picture",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_06_3.mov",
+    "size": 4325423,
+    "creationDate": "2026-02-11T13:34:25.983000",
+    "class_name": "Picture",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_06_4.mov",
+    "size": 4236441,
+    "creationDate": "2026-02-11T13:34:30.181000",
+    "class_name": "Picture",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_06_5.mov",
+    "size": 4337950,
+    "creationDate": "2026-02-11T13:34:29.347000",
+    "class_name": "Picture",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_07_1.mov",
+    "size": 3606574,
+    "creationDate": "2026-02-11T13:34:21.065000",
+    "class_name": "Picture",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_07_2.mov",
+    "size": 3859623,
+    "creationDate": "2026-02-11T13:34:29.676000",
+    "class_name": "Picture",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_07_3.mov",
+    "size": 3846563,
+    "creationDate": "2026-02-11T13:34:23.124000",
+    "class_name": "Picture",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_07_4.mov",
+    "size": 3770877,
+    "creationDate": "2026-02-11T13:34:29.278000",
+    "class_name": "Picture",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_07_5.mov",
+    "size": 3630744,
+    "creationDate": "2026-02-11T13:34:25.763000",
+    "class_name": "Picture",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_08_1.mov",
+    "size": 4095235,
+    "creationDate": "2026-02-11T13:34:20.533000",
+    "class_name": "Picture",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_08_2.mov",
+    "size": 4157983,
+    "creationDate": "2026-02-11T13:34:26.367000",
+    "class_name": "Picture",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_08_3.mov",
+    "size": 4142798,
+    "creationDate": "2026-02-11T13:34:24.579000",
+    "class_name": "Picture",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_08_4.mov",
+    "size": 4122519,
+    "creationDate": "2026-02-11T13:34:22.473000",
+    "class_name": "Picture",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_08_5.mov",
+    "size": 4344159,
+    "creationDate": "2026-02-11T13:34:23.992000",
+    "class_name": "Picture",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_09_1.mov",
+    "size": 5198255,
+    "creationDate": "2026-02-11T13:34:26.965000",
+    "class_name": "Picture",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_09_2.mov",
+    "size": 5217564,
+    "creationDate": "2026-02-11T13:34:26.039000",
+    "class_name": "Picture",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_09_3.mov",
+    "size": 5407483,
+    "creationDate": "2026-02-11T13:34:24.358000",
+    "class_name": "Picture",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_09_4.mov",
+    "size": 5083850,
+    "creationDate": "2026-02-11T13:34:29.221000",
+    "class_name": "Picture",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_09_5.mov",
+    "size": 5071541,
+    "creationDate": "2026-02-11T13:34:20.637000",
+    "class_name": "Picture",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_10_1.mov",
+    "size": 5732495,
+    "creationDate": "2026-02-11T13:34:27.849000",
+    "class_name": "Picture",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_10_2.mov",
+    "size": 6052638,
+    "creationDate": "2026-02-11T13:34:23.458000",
+    "class_name": "Picture",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_10_3.mov",
+    "size": 5806322,
+    "creationDate": "2026-02-11T13:34:29.457000",
+    "class_name": "Picture",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_10_4.mov",
+    "size": 5792779,
+    "creationDate": "2026-02-11T13:34:20.310000",
+    "class_name": "Picture",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_10_5.mov",
+    "size": 5823480,
+    "creationDate": "2026-02-11T13:34:20.157000",
+    "class_name": "Picture",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Picture/Signer_11_A051.mov",
+    "size": 7867665,
+    "creationDate": "2026-02-11T13:34:30.194000",
+    "class_name": "Picture",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_11_A052.mov",
+    "size": 8134390,
+    "creationDate": "2026-02-11T13:34:30.942000",
+    "class_name": "Picture",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_11_A053.mov",
+    "size": 7213180,
+    "creationDate": "2026-02-11T13:34:27.036000",
+    "class_name": "Picture",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_11_A054.mov",
+    "size": 7787254,
+    "creationDate": "2026-02-11T13:34:23.958000",
+    "class_name": "Picture",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_11_A055.mov",
+    "size": 8861747,
+    "creationDate": "2026-02-11T13:34:20.745000",
+    "class_name": "Picture",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_12_A201.mov",
+    "size": 7801419,
+    "creationDate": "2026-02-11T13:34:28.504000",
+    "class_name": "Picture",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_12_A202.mov",
+    "size": 6388720,
+    "creationDate": "2026-02-11T13:34:25.763000",
+    "class_name": "Picture",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_12_A203.mov",
+    "size": 6393835,
+    "creationDate": "2026-02-11T13:34:26.758000",
+    "class_name": "Picture",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_12_A204.mov",
+    "size": 6557367,
+    "creationDate": "2026-02-11T13:34:24.050000",
+    "class_name": "Picture",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_12_A205.mov",
+    "size": 7481533,
+    "creationDate": "2026-02-11T13:34:29.331000",
+    "class_name": "Picture",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Picture/Signer_13_A351.mov",
+    "size": 15512344,
+    "creationDate": "2026-02-11T13:34:29.957000",
+    "class_name": "Picture",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_13_A352.mov",
+    "size": 16170606,
+    "creationDate": "2026-02-11T13:34:29.070000",
+    "class_name": "Picture",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_13_A353.mov",
+    "size": 17639136,
+    "creationDate": "2026-02-11T13:34:22.637000",
+    "class_name": "Picture",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_13_A354.mov",
+    "size": 15515465,
+    "creationDate": "2026-02-11T13:34:27.005000",
+    "class_name": "Picture",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_13_A355.mov",
+    "size": 14404054,
+    "creationDate": "2026-02-11T13:34:27.775000",
+    "class_name": "Picture",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_14_A501.mov",
+    "size": 7640441,
+    "creationDate": "2026-02-11T13:34:22.439000",
+    "class_name": "Picture",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_14_A502.mov",
+    "size": 7747072,
+    "creationDate": "2026-02-11T13:34:27.543000",
+    "class_name": "Picture",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_14_A503.mov",
+    "size": 7195066,
+    "creationDate": "2026-02-11T13:34:23.108000",
+    "class_name": "Picture",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_14_A504.mov",
+    "size": 6942962,
+    "creationDate": "2026-02-11T13:34:29.684000",
+    "class_name": "Picture",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_14_A505.mov",
+    "size": 6701771,
+    "creationDate": "2026-02-11T13:34:28.576000",
+    "class_name": "Picture",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_15_A651.mov",
+    "size": 14870475,
+    "creationDate": "2026-02-11T13:34:30.512000",
+    "class_name": "Picture",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_15_A652.mov",
+    "size": 17239120,
+    "creationDate": "2026-02-11T13:34:28.156000",
+    "class_name": "Picture",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_15_A653.mov",
+    "size": 16651713,
+    "creationDate": "2026-02-11T13:34:23.194000",
+    "class_name": "Picture",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_15_A654.mov",
+    "size": 16694696,
+    "creationDate": "2026-02-11T13:34:25.713000",
+    "class_name": "Picture",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Picture/Signer_15_A655.mov",
+    "size": 16655737,
+    "creationDate": "2026-02-11T13:34:25.445000",
+    "class_name": "Picture",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_01_1.mov",
+    "size": 5050675,
+    "creationDate": "2026-02-11T13:34:23.781000",
+    "class_name": "Proud",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_01_2.mov",
+    "size": 5299815,
+    "creationDate": "2026-02-11T13:34:28.440000",
+    "class_name": "Proud",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_01_3.mov",
+    "size": 5338608,
+    "creationDate": "2026-02-11T13:34:27.442000",
+    "class_name": "Proud",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_01_4.mov",
+    "size": 5267437,
+    "creationDate": "2026-02-11T13:34:27.985000",
+    "class_name": "Proud",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_01_5.mov",
+    "size": 4936733,
+    "creationDate": "2026-02-11T13:34:30.454000",
+    "class_name": "Proud",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_02_1.mov",
+    "size": 4420679,
+    "creationDate": "2026-02-11T13:34:28.470000",
+    "class_name": "Proud",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_02_2.mov",
+    "size": 4401499,
+    "creationDate": "2026-02-11T13:34:29.542000",
+    "class_name": "Proud",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_02_3.mov",
+    "size": 4323730,
+    "creationDate": "2026-02-11T13:34:23.083000",
+    "class_name": "Proud",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_02_4.mov",
+    "size": 4398822,
+    "creationDate": "2026-02-11T13:34:29.399000",
+    "class_name": "Proud",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_02_5.mov",
+    "size": 4323047,
+    "creationDate": "2026-02-11T13:34:27.845000",
+    "class_name": "Proud",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_03_1.mov",
+    "size": 3499177,
+    "creationDate": "2026-02-11T13:34:29.551000",
+    "class_name": "Proud",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_03_2.mov",
+    "size": 3574123,
+    "creationDate": "2026-02-11T13:34:22.665000",
+    "class_name": "Proud",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_03_3.mov",
+    "size": 3696115,
+    "creationDate": "2026-02-11T13:34:24.894000",
+    "class_name": "Proud",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_03_4.mov",
+    "size": 3748028,
+    "creationDate": "2026-02-11T13:34:30.049000",
+    "class_name": "Proud",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_03_5.mov",
+    "size": 3589949,
+    "creationDate": "2026-02-11T13:34:20.321000",
+    "class_name": "Proud",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_04_1.mov",
+    "size": 2806893,
+    "creationDate": "2026-02-11T13:34:22.539000",
+    "class_name": "Proud",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_04_2.mov",
+    "size": 2839029,
+    "creationDate": "2026-02-11T13:34:29.266000",
+    "class_name": "Proud",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_04_3.mov",
+    "size": 2869888,
+    "creationDate": "2026-02-11T13:34:29.062000",
+    "class_name": "Proud",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_04_4.mov",
+    "size": 2879919,
+    "creationDate": "2026-02-11T13:34:25.150000",
+    "class_name": "Proud",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_04_5.mov",
+    "size": 2911481,
+    "creationDate": "2026-02-11T13:34:22.203000",
+    "class_name": "Proud",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_05_1.mov",
+    "size": 3673102,
+    "creationDate": "2026-02-11T13:34:24.749000",
+    "class_name": "Proud",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_05_2.mov",
+    "size": 3651674,
+    "creationDate": "2026-02-11T13:34:29.020000",
+    "class_name": "Proud",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_05_3.mov",
+    "size": 3855576,
+    "creationDate": "2026-02-11T13:34:20.277000",
+    "class_name": "Proud",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_05_4.mov",
+    "size": 3704650,
+    "creationDate": "2026-02-11T13:34:24.161000",
+    "class_name": "Proud",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_05_5.mov",
+    "size": 3629974,
+    "creationDate": "2026-02-11T13:34:29.461000",
+    "class_name": "Proud",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_06_1.mov",
+    "size": 4191716,
+    "creationDate": "2026-02-11T13:34:29.409000",
+    "class_name": "Proud",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_06_2.mov",
+    "size": 4281351,
+    "creationDate": "2026-02-11T13:34:22.921000",
+    "class_name": "Proud",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_06_3.mov",
+    "size": 4184168,
+    "creationDate": "2026-02-11T13:34:27.543000",
+    "class_name": "Proud",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_06_4.mov",
+    "size": 4209313,
+    "creationDate": "2026-02-11T13:34:31.103000",
+    "class_name": "Proud",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_06_5.mov",
+    "size": 4357085,
+    "creationDate": "2026-02-11T13:34:29.667000",
+    "class_name": "Proud",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_07_1.mov",
+    "size": 3384537,
+    "creationDate": "2026-02-11T13:34:22.560000",
+    "class_name": "Proud",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_07_2.mov",
+    "size": 3437968,
+    "creationDate": "2026-02-11T13:34:29.681000",
+    "class_name": "Proud",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_07_3.mov",
+    "size": 3853355,
+    "creationDate": "2026-02-11T13:34:24.160000",
+    "class_name": "Proud",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_07_4.mov",
+    "size": 4208694,
+    "creationDate": "2026-02-11T13:34:29.433000",
+    "class_name": "Proud",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_07_5.mov",
+    "size": 3826215,
+    "creationDate": "2026-02-11T13:34:27.277000",
+    "class_name": "Proud",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_08_1.mov",
+    "size": 4143192,
+    "creationDate": "2026-02-11T13:34:21.460000",
+    "class_name": "Proud",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_08_2.mov",
+    "size": 4138430,
+    "creationDate": "2026-02-11T13:34:27.128000",
+    "class_name": "Proud",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_08_3.mov",
+    "size": 4576480,
+    "creationDate": "2026-02-11T13:34:26.618000",
+    "class_name": "Proud",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_08_4.mov",
+    "size": 4588119,
+    "creationDate": "2026-02-11T13:34:23.065000",
+    "class_name": "Proud",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_08_5.mov",
+    "size": 4490748,
+    "creationDate": "2026-02-11T13:34:24.586000",
+    "class_name": "Proud",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_09_1.mov",
+    "size": 4269005,
+    "creationDate": "2026-02-11T13:34:27.748000",
+    "class_name": "Proud",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_09_2.mov",
+    "size": 4391186,
+    "creationDate": "2026-02-11T13:34:26.921000",
+    "class_name": "Proud",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_09_3.mov",
+    "size": 4425470,
+    "creationDate": "2026-02-11T13:34:26.407000",
+    "class_name": "Proud",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_09_4.mov",
+    "size": 4070367,
+    "creationDate": "2026-02-11T13:34:29.655000",
+    "class_name": "Proud",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_09_5.mov",
+    "size": 4036585,
+    "creationDate": "2026-02-11T13:34:22.376000",
+    "class_name": "Proud",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_10_1.mov",
+    "size": 5751011,
+    "creationDate": "2026-02-11T13:34:29.183000",
+    "class_name": "Proud",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_10_2.mov",
+    "size": 5841715,
+    "creationDate": "2026-02-11T13:34:24.276000",
+    "class_name": "Proud",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_10_3.mov",
+    "size": 5867582,
+    "creationDate": "2026-02-11T13:34:29.784000",
+    "class_name": "Proud",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_10_4.mov",
+    "size": 5845848,
+    "creationDate": "2026-02-11T13:34:22.472000",
+    "class_name": "Proud",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_10_5.mov",
+    "size": 5744320,
+    "creationDate": "2026-02-11T13:34:20.318000",
+    "class_name": "Proud",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Proud/Signer_11_A046.mov",
+    "size": 7985766,
+    "creationDate": "2026-02-11T13:34:28.548000",
+    "class_name": "Proud",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_11_A047.mov",
+    "size": 7941473,
+    "creationDate": "2026-02-11T13:34:25.933000",
+    "class_name": "Proud",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_11_A048.mov",
+    "size": 8435797,
+    "creationDate": "2026-02-11T13:34:28.930000",
+    "class_name": "Proud",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_11_A049.mov",
+    "size": 8536611,
+    "creationDate": "2026-02-11T13:34:26.755000",
+    "class_name": "Proud",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_11_A050.mov",
+    "size": 8510603,
+    "creationDate": "2026-02-11T13:34:29.267000",
+    "class_name": "Proud",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_12_A196.mov",
+    "size": 6847252,
+    "creationDate": "2026-02-11T13:34:24.005000",
+    "class_name": "Proud",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_12_A197.mov",
+    "size": 7194641,
+    "creationDate": "2026-02-11T13:34:22.479000",
+    "class_name": "Proud",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_12_A198.mov",
+    "size": 7898175,
+    "creationDate": "2026-02-11T13:34:22.437000",
+    "class_name": "Proud",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_12_A199.mov",
+    "size": 8088820,
+    "creationDate": "2026-02-11T13:34:30.342000",
+    "class_name": "Proud",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_12_A200.mov",
+    "size": 6652226,
+    "creationDate": "2026-02-11T13:34:29.145000",
+    "class_name": "Proud",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Proud/Signer_13_A346.mov",
+    "size": 15026107,
+    "creationDate": "2026-02-11T13:34:29.337000",
+    "class_name": "Proud",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_13_A347.mov",
+    "size": 12706939,
+    "creationDate": "2026-02-11T13:34:28.112000",
+    "class_name": "Proud",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_13_A348.mov",
+    "size": 15068557,
+    "creationDate": "2026-02-11T13:34:30.475000",
+    "class_name": "Proud",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_13_A349.mov",
+    "size": 13698999,
+    "creationDate": "2026-02-11T13:34:31.377000",
+    "class_name": "Proud",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_13_A350.mov",
+    "size": 16461851,
+    "creationDate": "2026-02-11T13:34:22.477000",
+    "class_name": "Proud",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_14_A491.mov",
+    "size": 6000157,
+    "creationDate": "2026-02-11T13:34:24.478000",
+    "class_name": "Proud",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_14_A492.mov",
+    "size": 6086749,
+    "creationDate": "2026-02-11T13:34:30.147000",
+    "class_name": "Proud",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_14_A493.mov",
+    "size": 6771441,
+    "creationDate": "2026-02-11T13:34:23.031000",
+    "class_name": "Proud",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_14_A494.mov",
+    "size": 6892537,
+    "creationDate": "2026-02-11T13:34:31.531000",
+    "class_name": "Proud",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_14_A495.mov",
+    "size": 6927547,
+    "creationDate": "2026-02-11T13:34:27.719000",
+    "class_name": "Proud",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_15_A646.mov",
+    "size": 15558132,
+    "creationDate": "2026-02-11T13:34:31.856000",
+    "class_name": "Proud",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_15_A647.mov",
+    "size": 16445657,
+    "creationDate": "2026-02-11T13:34:27.878000",
+    "class_name": "Proud",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_15_A648.mov",
+    "size": 17646290,
+    "creationDate": "2026-02-11T13:34:26.854000",
+    "class_name": "Proud",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_15_A649.mov",
+    "size": 17701335,
+    "creationDate": "2026-02-11T13:34:27.251000",
+    "class_name": "Proud",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Proud/Signer_15_A650.mov",
+    "size": 18274075,
+    "creationDate": "2026-02-11T13:34:21.699000",
+    "class_name": "Proud",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_01_1.mov",
+    "size": 4657981,
+    "creationDate": "2026-02-11T13:34:27.303000",
+    "class_name": "Teach",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_01_2.mov",
+    "size": 5363324,
+    "creationDate": "2026-02-11T13:34:30.385000",
+    "class_name": "Teach",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_01_3.mov",
+    "size": 5672766,
+    "creationDate": "2026-02-11T13:34:29.299000",
+    "class_name": "Teach",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_01_4.mov",
+    "size": 5555259,
+    "creationDate": "2026-02-11T13:34:29.666000",
+    "class_name": "Teach",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_01_5.mov",
+    "size": 5780678,
+    "creationDate": "2026-02-11T13:34:32.046000",
+    "class_name": "Teach",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_02_1.mov",
+    "size": 4569292,
+    "creationDate": "2026-02-11T13:34:30.295000",
+    "class_name": "Teach",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_02_2.mov",
+    "size": 4605205,
+    "creationDate": "2026-02-11T13:34:31.746000",
+    "class_name": "Teach",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_02_3.mov",
+    "size": 4622785,
+    "creationDate": "2026-02-11T13:34:27.088000",
+    "class_name": "Teach",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_02_4.mov",
+    "size": 4627257,
+    "creationDate": "2026-02-11T13:34:31.690000",
+    "class_name": "Teach",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_02_5.mov",
+    "size": 4770349,
+    "creationDate": "2026-02-11T13:34:29.236000",
+    "class_name": "Teach",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_03_1.mov",
+    "size": 3485706,
+    "creationDate": "2026-02-11T13:34:31.804000",
+    "class_name": "Teach",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_03_2.mov",
+    "size": 3625440,
+    "creationDate": "2026-02-11T13:34:27.153000",
+    "class_name": "Teach",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_03_3.mov",
+    "size": 3722697,
+    "creationDate": "2026-02-11T13:34:27.944000",
+    "class_name": "Teach",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_03_4.mov",
+    "size": 3757625,
+    "creationDate": "2026-02-11T13:34:32.281000",
+    "class_name": "Teach",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_03_5.mov",
+    "size": 3873306,
+    "creationDate": "2026-02-11T13:34:24.797000",
+    "class_name": "Teach",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_04_1.mov",
+    "size": 2714314,
+    "creationDate": "2026-02-11T13:34:26.960000",
+    "class_name": "Teach",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_04_2.mov",
+    "size": 2717042,
+    "creationDate": "2026-02-11T13:34:31.159000",
+    "class_name": "Teach",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_04_3.mov",
+    "size": 2741178,
+    "creationDate": "2026-02-11T13:34:31.038000",
+    "class_name": "Teach",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_04_4.mov",
+    "size": 2805516,
+    "creationDate": "2026-02-11T13:34:28.107000",
+    "class_name": "Teach",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_04_5.mov",
+    "size": 2783050,
+    "creationDate": "2026-02-11T13:34:26.787000",
+    "class_name": "Teach",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_05_1.mov",
+    "size": 3121644,
+    "creationDate": "2026-02-11T13:34:27.672000",
+    "class_name": "Teach",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_05_2.mov",
+    "size": 3154562,
+    "creationDate": "2026-02-11T13:34:30.362000",
+    "class_name": "Teach",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_05_3.mov",
+    "size": 3216230,
+    "creationDate": "2026-02-11T13:34:24.570000",
+    "class_name": "Teach",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_05_4.mov",
+    "size": 3333893,
+    "creationDate": "2026-02-11T13:34:27.461000",
+    "class_name": "Teach",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_05_5.mov",
+    "size": 3344379,
+    "creationDate": "2026-02-11T13:34:31.757000",
+    "class_name": "Teach",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_06_1.mov",
+    "size": 4376770,
+    "creationDate": "2026-02-11T13:34:31.625000",
+    "class_name": "Teach",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_06_2.mov",
+    "size": 4530839,
+    "creationDate": "2026-02-11T13:34:27.001000",
+    "class_name": "Teach",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_06_3.mov",
+    "size": 4746073,
+    "creationDate": "2026-02-11T13:34:29.138000",
+    "class_name": "Teach",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_06_4.mov",
+    "size": 4457719,
+    "creationDate": "2026-02-11T13:34:32.285000",
+    "class_name": "Teach",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_06_5.mov",
+    "size": 4308603,
+    "creationDate": "2026-02-11T13:34:31.855000",
+    "class_name": "Teach",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_07_1.mov",
+    "size": 3306177,
+    "creationDate": "2026-02-11T13:34:26.821000",
+    "class_name": "Teach",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_07_2.mov",
+    "size": 3377818,
+    "creationDate": "2026-02-11T13:34:31.937000",
+    "class_name": "Teach",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_07_3.mov",
+    "size": 3676930,
+    "creationDate": "2026-02-11T13:34:27.328000",
+    "class_name": "Teach",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_07_4.mov",
+    "size": 3102800,
+    "creationDate": "2026-02-11T13:34:31.804000",
+    "class_name": "Teach",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_07_5.mov",
+    "size": 3643963,
+    "creationDate": "2026-02-11T13:34:29.111000",
+    "class_name": "Teach",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_09_1.mov",
+    "size": 3649553,
+    "creationDate": "2026-02-11T13:34:29.351000",
+    "class_name": "Teach",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_09_2.mov",
+    "size": 4069886,
+    "creationDate": "2026-02-11T13:34:28.888000",
+    "class_name": "Teach",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_09_3.mov",
+    "size": 3832722,
+    "creationDate": "2026-02-11T13:34:28.465000",
+    "class_name": "Teach",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_09_4.mov",
+    "size": 4346443,
+    "creationDate": "2026-02-11T13:34:31.869000",
+    "class_name": "Teach",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_10_1.mov",
+    "size": 5824592,
+    "creationDate": "2026-02-11T13:34:30.999000",
+    "class_name": "Teach",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_10_2.mov",
+    "size": 7232912,
+    "creationDate": "2026-02-11T13:34:27.829000",
+    "class_name": "Teach",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_10_3.mov",
+    "size": 7235569,
+    "creationDate": "2026-02-11T13:34:32.075000",
+    "class_name": "Teach",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_10_4.mov",
+    "size": 6198958,
+    "creationDate": "2026-02-11T13:34:26.478000",
+    "class_name": "Teach",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_10_5.mov",
+    "size": 5972156,
+    "creationDate": "2026-02-11T13:34:24.525000",
+    "class_name": "Teach",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Teach/Signer_11_A011.mov",
+    "size": 7520123,
+    "creationDate": "2026-02-11T13:34:31.998000",
+    "class_name": "Teach",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_11_A012.mov",
+    "size": 7672081,
+    "creationDate": "2026-02-11T13:34:28.885000",
+    "class_name": "Teach",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_11_A013.mov",
+    "size": 7956476,
+    "creationDate": "2026-02-11T13:34:27.004000",
+    "class_name": "Teach",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_11_A014.mov",
+    "size": 9355966,
+    "creationDate": "2026-02-11T13:34:26.675000",
+    "class_name": "Teach",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_11_A015.mov",
+    "size": 9142549,
+    "creationDate": "2026-02-11T13:34:31.355000",
+    "class_name": "Teach",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_12_A161.mov",
+    "size": 7746445,
+    "creationDate": "2026-02-11T13:34:26.468000",
+    "class_name": "Teach",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_12_A162.mov",
+    "size": 8265085,
+    "creationDate": "2026-02-11T13:34:26.603000",
+    "class_name": "Teach",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_12_A163.mov",
+    "size": 7927917,
+    "creationDate": "2026-02-11T13:34:31.506000",
+    "class_name": "Teach",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_12_A164.mov",
+    "size": 7497284,
+    "creationDate": "2026-02-11T13:34:26.849000",
+    "class_name": "Teach",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_12_A165.mov",
+    "size": 6310787,
+    "creationDate": "2026-02-11T13:34:27.482000",
+    "class_name": "Teach",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Teach/Signer_13_A311.mov",
+    "size": 12794577,
+    "creationDate": "2026-02-11T13:34:28.500000",
+    "class_name": "Teach",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_13_A312.mov",
+    "size": 14170149,
+    "creationDate": "2026-02-11T13:34:28.104000",
+    "class_name": "Teach",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_13_A313.mov",
+    "size": 15546597,
+    "creationDate": "2026-02-11T13:34:30.604000",
+    "class_name": "Teach",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_13_A314.mov",
+    "size": 14364200,
+    "creationDate": "2026-02-11T13:34:30.042000",
+    "class_name": "Teach",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_13_A315.mov",
+    "size": 13972689,
+    "creationDate": "2026-02-11T13:34:29.683000",
+    "class_name": "Teach",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_14_A461.mov",
+    "size": 7147918,
+    "creationDate": "2026-02-11T13:34:31.898000",
+    "class_name": "Teach",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_14_A462.mov",
+    "size": 7357907,
+    "creationDate": "2026-02-11T13:34:31.064000",
+    "class_name": "Teach",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_14_A463.mov",
+    "size": 6849997,
+    "creationDate": "2026-02-11T13:34:28.922000",
+    "class_name": "Teach",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_14_A464.mov",
+    "size": 7138441,
+    "creationDate": "2026-02-11T13:34:24.962000",
+    "class_name": "Teach",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_14_A465.mov",
+    "size": 5975392,
+    "creationDate": "2026-02-11T13:34:30.693000",
+    "class_name": "Teach",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_15_A611.mov",
+    "size": 17322267,
+    "creationDate": "2026-02-11T13:34:32.097000",
+    "class_name": "Teach",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_15_A612.mov",
+    "size": 17116751,
+    "creationDate": "2026-02-11T13:34:29.331000",
+    "class_name": "Teach",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_15_A613.mov",
+    "size": 17087299,
+    "creationDate": "2026-02-11T13:34:30.364000",
+    "class_name": "Teach",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_15_A614.mov",
+    "size": 18252390,
+    "creationDate": "2026-02-11T13:34:32.036000",
+    "class_name": "Teach",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Teach/Signer_15_A615.mov",
+    "size": 13498864,
+    "creationDate": "2026-02-11T13:34:26.487000",
+    "class_name": "Teach",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_01_1.mov",
+    "size": 4536080,
+    "creationDate": "2026-02-11T13:34:28.795000",
+    "class_name": "Twin",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_01_2.mov",
+    "size": 4734646,
+    "creationDate": "2026-02-11T13:34:31.524000",
+    "class_name": "Twin",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_01_3.mov",
+    "size": 4694520,
+    "creationDate": "2026-02-11T13:34:31.433000",
+    "class_name": "Twin",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_01_4.mov",
+    "size": 5098264,
+    "creationDate": "2026-02-11T13:34:31.641000",
+    "class_name": "Twin",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_01_5.mov",
+    "size": 4717667,
+    "creationDate": "2026-02-11T13:34:32.384000",
+    "class_name": "Twin",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_02_1.mov",
+    "size": 4294674,
+    "creationDate": "2026-02-11T13:34:31.756000",
+    "class_name": "Twin",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_02_2.mov",
+    "size": 4330786,
+    "creationDate": "2026-02-11T13:34:32.061000",
+    "class_name": "Twin",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_02_3.mov",
+    "size": 4167462,
+    "creationDate": "2026-02-11T13:34:28.665000",
+    "class_name": "Twin",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_02_4.mov",
+    "size": 4254274,
+    "creationDate": "2026-02-11T13:34:32.037000",
+    "class_name": "Twin",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_02_5.mov",
+    "size": 4182169,
+    "creationDate": "2026-02-11T13:34:31.305000",
+    "class_name": "Twin",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_03_1.mov",
+    "size": 3521107,
+    "creationDate": "2026-02-11T13:34:32.192000",
+    "class_name": "Twin",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_03_2.mov",
+    "size": 3470776,
+    "creationDate": "2026-02-11T13:34:28.074000",
+    "class_name": "Twin",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_03_3.mov",
+    "size": 3533106,
+    "creationDate": "2026-02-11T13:34:29.229000",
+    "class_name": "Twin",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_03_4.mov",
+    "size": 3552731,
+    "creationDate": "2026-02-11T13:34:32.362000",
+    "class_name": "Twin",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_03_5.mov",
+    "size": 3505241,
+    "creationDate": "2026-02-11T13:34:26.471000",
+    "class_name": "Twin",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_04_1.mov",
+    "size": 2700081,
+    "creationDate": "2026-02-11T13:34:27.899000",
+    "class_name": "Twin",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_04_2.mov",
+    "size": 2725213,
+    "creationDate": "2026-02-11T13:34:32.012000",
+    "class_name": "Twin",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_04_3.mov",
+    "size": 2807940,
+    "creationDate": "2026-02-11T13:34:31.756000",
+    "class_name": "Twin",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_04_4.mov",
+    "size": 2792232,
+    "creationDate": "2026-02-11T13:34:29.178000",
+    "class_name": "Twin",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_04_5.mov",
+    "size": 2811387,
+    "creationDate": "2026-02-11T13:34:27.409000",
+    "class_name": "Twin",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_05_1.mov",
+    "size": 3896405,
+    "creationDate": "2026-02-11T13:34:29.151000",
+    "class_name": "Twin",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_05_2.mov",
+    "size": 3853179,
+    "creationDate": "2026-02-11T13:34:31.690000",
+    "class_name": "Twin",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_05_3.mov",
+    "size": 3750583,
+    "creationDate": "2026-02-11T13:34:25.888000",
+    "class_name": "Twin",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_05_4.mov",
+    "size": 3793075,
+    "creationDate": "2026-02-11T13:34:29.001000",
+    "class_name": "Twin",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_05_5.mov",
+    "size": 3839276,
+    "creationDate": "2026-02-11T13:34:32.299000",
+    "class_name": "Twin",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_06_1.mov",
+    "size": 4688319,
+    "creationDate": "2026-02-11T13:34:31.859000",
+    "class_name": "Twin",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_06_2.mov",
+    "size": 4671409,
+    "creationDate": "2026-02-11T13:34:28.362000",
+    "class_name": "Twin",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_06_3.mov",
+    "size": 4771178,
+    "creationDate": "2026-02-11T13:34:31.276000",
+    "class_name": "Twin",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_06_4.mov",
+    "size": 4799422,
+    "creationDate": "2026-02-11T13:34:32.297000",
+    "class_name": "Twin",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_06_5.mov",
+    "size": 4767448,
+    "creationDate": "2026-02-11T13:34:32.226000",
+    "class_name": "Twin",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_07_1.mov",
+    "size": 3768253,
+    "creationDate": "2026-02-11T13:34:27.783000",
+    "class_name": "Twin",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_07_2.mov",
+    "size": 3735659,
+    "creationDate": "2026-02-11T13:34:32.272000",
+    "class_name": "Twin",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_07_3.mov",
+    "size": 3814843,
+    "creationDate": "2026-02-11T13:34:28.798000",
+    "class_name": "Twin",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_07_4.mov",
+    "size": 3902478,
+    "creationDate": "2026-02-11T13:34:32.137000",
+    "class_name": "Twin",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_07_5.mov",
+    "size": 3832176,
+    "creationDate": "2026-02-11T13:34:30.340000",
+    "class_name": "Twin",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_08_1.mov",
+    "size": 3719269,
+    "creationDate": "2026-02-11T13:34:26.782000",
+    "class_name": "Twin",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_08_2.mov",
+    "size": 3701142,
+    "creationDate": "2026-02-11T13:34:29.977000",
+    "class_name": "Twin",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_08_3.mov",
+    "size": 4187132,
+    "creationDate": "2026-02-11T13:34:30.019000",
+    "class_name": "Twin",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_08_4.mov",
+    "size": 4206193,
+    "creationDate": "2026-02-11T13:34:28.548000",
+    "class_name": "Twin",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_08_5.mov",
+    "size": 4188518,
+    "creationDate": "2026-02-11T13:34:29.236000",
+    "class_name": "Twin",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_09_1.mov",
+    "size": 4822806,
+    "creationDate": "2026-02-11T13:34:31.561000",
+    "class_name": "Twin",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_09_2.mov",
+    "size": 4912448,
+    "creationDate": "2026-02-11T13:34:29.919000",
+    "class_name": "Twin",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_09_3.mov",
+    "size": 5100337,
+    "creationDate": "2026-02-11T13:34:29.774000",
+    "class_name": "Twin",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_09_4.mov",
+    "size": 4852315,
+    "creationDate": "2026-02-11T13:34:32.161000",
+    "class_name": "Twin",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_09_5.mov",
+    "size": 4719096,
+    "creationDate": "2026-02-11T13:34:27.207000",
+    "class_name": "Twin",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_10_1.mov",
+    "size": 5525578,
+    "creationDate": "2026-02-11T13:34:31.805000",
+    "class_name": "Twin",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_10_2.mov",
+    "size": 5386185,
+    "creationDate": "2026-02-11T13:34:29.189000",
+    "class_name": "Twin",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_10_3.mov",
+    "size": 5340423,
+    "creationDate": "2026-02-11T13:34:32.279000",
+    "class_name": "Twin",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_10_4.mov",
+    "size": 5534061,
+    "creationDate": "2026-02-11T13:34:26.846000",
+    "class_name": "Twin",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_10_5.mov",
+    "size": 5862628,
+    "creationDate": "2026-02-11T13:34:26.404000",
+    "class_name": "Twin",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Twin/Signer_11_A066.mov",
+    "size": 8180518,
+    "creationDate": "2026-02-11T13:34:32.272000",
+    "class_name": "Twin",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_11_A067.mov",
+    "size": 8434673,
+    "creationDate": "2026-02-11T13:34:26.982000",
+    "class_name": "Twin",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_11_A068.mov",
+    "size": 7152398,
+    "creationDate": "2026-02-11T13:34:32.176000",
+    "class_name": "Twin",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_11_A069.mov",
+    "size": 8526904,
+    "creationDate": "2026-02-11T13:34:31.999000",
+    "class_name": "Twin",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_11_A070.mov",
+    "size": 8989991,
+    "creationDate": "2026-02-11T13:34:27.489000",
+    "class_name": "Twin",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_12_A216.mov",
+    "size": 8012881,
+    "creationDate": "2026-02-11T13:34:29.667000",
+    "class_name": "Twin",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_12_A217.mov",
+    "size": 6035459,
+    "creationDate": "2026-02-11T13:34:32.338000",
+    "class_name": "Twin",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_12_A218.mov",
+    "size": 7156612,
+    "creationDate": "2026-02-11T13:34:27.200000",
+    "class_name": "Twin",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_12_A219.mov",
+    "size": 7330727,
+    "creationDate": "2026-02-11T13:34:28.918000",
+    "class_name": "Twin",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_12_A220.mov",
+    "size": 6463522,
+    "creationDate": "2026-02-11T13:34:27.826000",
+    "class_name": "Twin",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Twin/Signer_13_A366.mov",
+    "size": 16092267,
+    "creationDate": "2026-02-11T13:34:28.971000",
+    "class_name": "Twin",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_13_A367.mov",
+    "size": 15694859,
+    "creationDate": "2026-02-11T13:34:28.315000",
+    "class_name": "Twin",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_13_A368.mov",
+    "size": 16929539,
+    "creationDate": "2026-02-11T13:34:27.294000",
+    "class_name": "Twin",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_13_A369.mov",
+    "size": 15742537,
+    "creationDate": "2026-02-11T13:34:32.558000",
+    "class_name": "Twin",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_13_A370.mov",
+    "size": 16661192,
+    "creationDate": "2026-02-11T13:34:30.678000",
+    "class_name": "Twin",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_14_A516.mov",
+    "size": 6187994,
+    "creationDate": "2026-02-11T13:34:32.076000",
+    "class_name": "Twin",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_14_A517.mov",
+    "size": 7088937,
+    "creationDate": "2026-02-11T13:34:32.259000",
+    "class_name": "Twin",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_14_A518.mov",
+    "size": 7202709,
+    "creationDate": "2026-02-11T13:34:30.347000",
+    "class_name": "Twin",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_14_A519.mov",
+    "size": 7364005,
+    "creationDate": "2026-02-11T13:34:31.611000",
+    "class_name": "Twin",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_14_A520.mov",
+    "size": 8754852,
+    "creationDate": "2026-02-11T13:34:29.123000",
+    "class_name": "Twin",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_15_A666.mov",
+    "size": 18444901,
+    "creationDate": "2026-02-11T13:34:30.197000",
+    "class_name": "Twin",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_15_A667.mov",
+    "size": 19195328,
+    "creationDate": "2026-02-11T13:34:31.855000",
+    "class_name": "Twin",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_15_A668.mov",
+    "size": 17358653,
+    "creationDate": "2026-02-11T13:34:29.790000",
+    "class_name": "Twin",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_15_A669.mov",
+    "size": 17344497,
+    "creationDate": "2026-02-11T13:34:32.031000",
+    "class_name": "Twin",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Twin/Signer_15_A670.mov",
+    "size": 17621065,
+    "creationDate": "2026-02-11T13:34:31.804000",
+    "class_name": "Twin",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_01_1.mov",
+    "size": 4651627,
+    "creationDate": "2026-02-11T13:34:28.867000",
+    "class_name": "Ugali",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_01_2.mov",
+    "size": 4648676,
+    "creationDate": "2026-02-11T13:34:31.161000",
+    "class_name": "Ugali",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_01_3.mov",
+    "size": 4626503,
+    "creationDate": "2026-02-11T13:34:29.733000",
+    "class_name": "Ugali",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_01_4.mov",
+    "size": 4729354,
+    "creationDate": "2026-02-11T13:34:30.659000",
+    "class_name": "Ugali",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_01_5.mov",
+    "size": 4715208,
+    "creationDate": "2026-02-11T13:34:32.357000",
+    "class_name": "Ugali",
+    "signer_id": 1,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_02_1.mov",
+    "size": 4393199,
+    "creationDate": "2026-02-11T13:34:31.506000",
+    "class_name": "Ugali",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_02_2.mov",
+    "size": 4420130,
+    "creationDate": "2026-02-11T13:34:31.945000",
+    "class_name": "Ugali",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_02_3.mov",
+    "size": 4369251,
+    "creationDate": "2026-02-11T13:34:28.789000",
+    "class_name": "Ugali",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_02_4.mov",
+    "size": 4444207,
+    "creationDate": "2026-02-11T13:34:31.756000",
+    "class_name": "Ugali",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_02_5.mov",
+    "size": 4151597,
+    "creationDate": "2026-02-11T13:34:29.987000",
+    "class_name": "Ugali",
+    "signer_id": 2,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_03_1.mov",
+    "size": 3193224,
+    "creationDate": "2026-02-11T13:34:32.023000",
+    "class_name": "Ugali",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_03_2.mov",
+    "size": 3242256,
+    "creationDate": "2026-02-11T13:34:28.178000",
+    "class_name": "Ugali",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_03_3.mov",
+    "size": 3310953,
+    "creationDate": "2026-02-11T13:34:29.373000",
+    "class_name": "Ugali",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_03_4.mov",
+    "size": 3150158,
+    "creationDate": "2026-02-11T13:34:32.362000",
+    "class_name": "Ugali",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_03_5.mov",
+    "size": 2884419,
+    "creationDate": "2026-02-11T13:34:27.017000",
+    "class_name": "Ugali",
+    "signer_id": 3,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_04_1.mov",
+    "size": 2535198,
+    "creationDate": "2026-02-11T13:34:27.805000",
+    "class_name": "Ugali",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_04_2.mov",
+    "size": 2586322,
+    "creationDate": "2026-02-11T13:34:31.690000",
+    "class_name": "Ugali",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_04_3.mov",
+    "size": 2578161,
+    "creationDate": "2026-02-11T13:34:31.506000",
+    "class_name": "Ugali",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_04_4.mov",
+    "size": 2642153,
+    "creationDate": "2026-02-11T13:34:29.286000",
+    "class_name": "Ugali",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_04_5.mov",
+    "size": 2622637,
+    "creationDate": "2026-02-11T13:34:27.404000",
+    "class_name": "Ugali",
+    "signer_id": 4,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_05_1.mov",
+    "size": 3331498,
+    "creationDate": "2026-02-11T13:34:29.374000",
+    "class_name": "Ugali",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_05_2.mov",
+    "size": 3409732,
+    "creationDate": "2026-02-11T13:34:31.377000",
+    "class_name": "Ugali",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_05_3.mov",
+    "size": 3172477,
+    "creationDate": "2026-02-11T13:34:26.923000",
+    "class_name": "Ugali",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_05_4.mov",
+    "size": 3112903,
+    "creationDate": "2026-02-11T13:34:28.919000",
+    "class_name": "Ugali",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_05_5.mov",
+    "size": 2904134,
+    "creationDate": "2026-02-11T13:34:31.952000",
+    "class_name": "Ugali",
+    "signer_id": 5,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_06_1.mov",
+    "size": 4139811,
+    "creationDate": "2026-02-11T13:34:31.694000",
+    "class_name": "Ugali",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_06_2.mov",
+    "size": 4177825,
+    "creationDate": "2026-02-11T13:34:28.859000",
+    "class_name": "Ugali",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_06_3.mov",
+    "size": 4090247,
+    "creationDate": "2026-02-11T13:34:29.738000",
+    "class_name": "Ugali",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_06_4.mov",
+    "size": 3223649,
+    "creationDate": "2026-02-11T13:34:32.331000",
+    "class_name": "Ugali",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_06_5.mov",
+    "size": 3784114,
+    "creationDate": "2026-02-11T13:34:32.050000",
+    "class_name": "Ugali",
+    "signer_id": 6,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_07_1.mov",
+    "size": 3167684,
+    "creationDate": "2026-02-11T13:34:27.746000",
+    "class_name": "Ugali",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_07_2.mov",
+    "size": 3330996,
+    "creationDate": "2026-02-11T13:34:32.287000",
+    "class_name": "Ugali",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_07_3.mov",
+    "size": 3490720,
+    "creationDate": "2026-02-11T13:34:28.773000",
+    "class_name": "Ugali",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_07_4.mov",
+    "size": 3488097,
+    "creationDate": "2026-02-11T13:34:32.221000",
+    "class_name": "Ugali",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_07_5.mov",
+    "size": 3467610,
+    "creationDate": "2026-02-11T13:34:29.526000",
+    "class_name": "Ugali",
+    "signer_id": 7,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_08_a. Ugali.mov",
+    "size": 3635973,
+    "creationDate": "2026-02-11T13:34:28.945000",
+    "class_name": "Ugali",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_08_b. Ugali.mov",
+    "size": 3312542,
+    "creationDate": "2026-02-11T13:34:30.549000",
+    "class_name": "Ugali",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_08_c. Ugali.mov",
+    "size": 3231372,
+    "creationDate": "2026-02-11T13:34:28.623000",
+    "class_name": "Ugali",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_08_d. Ugali.mov",
+    "size": 3310504,
+    "creationDate": "2026-02-11T13:34:27.298000",
+    "class_name": "Ugali",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_08_e. Ugali.mov",
+    "size": 3518760,
+    "creationDate": "2026-02-11T13:34:32.203000",
+    "class_name": "Ugali",
+    "signer_id": 8,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_09_1.mov",
+    "size": 3231177,
+    "creationDate": "2026-02-11T13:34:30.152000",
+    "class_name": "Ugali",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_09_2.mov",
+    "size": 3658525,
+    "creationDate": "2026-02-11T13:34:29.524000",
+    "class_name": "Ugali",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_09_3.mov",
+    "size": 3690457,
+    "creationDate": "2026-02-11T13:34:29.348000",
+    "class_name": "Ugali",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_09_4.mov",
+    "size": 3606145,
+    "creationDate": "2026-02-11T13:34:32.046000",
+    "class_name": "Ugali",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_09_5.mov",
+    "size": 3772154,
+    "creationDate": "2026-02-11T13:34:27.493000",
+    "class_name": "Ugali",
+    "signer_id": 9,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_10_1.mov",
+    "size": 4849385,
+    "creationDate": "2026-02-11T13:34:31.641000",
+    "class_name": "Ugali",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_10_2.mov",
+    "size": 5150249,
+    "creationDate": "2026-02-11T13:34:28.908000",
+    "class_name": "Ugali",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_10_3.mov",
+    "size": 5152000,
+    "creationDate": "2026-02-11T13:34:32.203000",
+    "class_name": "Ugali",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_10_4.mov",
+    "size": 5040807,
+    "creationDate": "2026-02-11T13:34:27.267000",
+    "class_name": "Ugali",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_10_5.mov",
+    "size": 5144935,
+    "creationDate": "2026-02-11T13:34:26.855000",
+    "class_name": "Ugali",
+    "signer_id": 10,
+    "split": "train"
+  },
+  {
+    "name": "Ugali/Signer_11_A031.mov",
+    "size": 7040162,
+    "creationDate": "2026-02-11T13:34:30.419000",
+    "class_name": "Ugali",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_11_A032.mov",
+    "size": 6477624,
+    "creationDate": "2026-02-11T13:34:29.591000",
+    "class_name": "Ugali",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_11_A033.mov",
+    "size": 7352847,
+    "creationDate": "2026-02-11T13:34:29.453000",
+    "class_name": "Ugali",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_11_A034.mov",
+    "size": 7640701,
+    "creationDate": "2026-02-11T13:34:32.314000",
+    "class_name": "Ugali",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_11_A035.mov",
+    "size": 8215381,
+    "creationDate": "2026-02-11T13:34:31.519000",
+    "class_name": "Ugali",
+    "signer_id": 11,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_12_A181.mov",
+    "size": 7623587,
+    "creationDate": "2026-02-11T13:34:27.672000",
+    "class_name": "Ugali",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_12_A182.mov",
+    "size": 6939695,
+    "creationDate": "2026-02-11T13:34:32.279000",
+    "class_name": "Ugali",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_12_A183.mov",
+    "size": 6495600,
+    "creationDate": "2026-02-11T13:34:31.811000",
+    "class_name": "Ugali",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_12_A184.mov",
+    "size": 6437740,
+    "creationDate": "2026-02-11T13:34:29.302000",
+    "class_name": "Ugali",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_12_A185.mov",
+    "size": 6439141,
+    "creationDate": "2026-02-11T13:34:28.352000",
+    "class_name": "Ugali",
+    "signer_id": 12,
+    "split": "val"
+  },
+  {
+    "name": "Ugali/Signer_13_A331.mov",
+    "size": 14152865,
+    "creationDate": "2026-02-11T13:34:29.373000",
+    "class_name": "Ugali",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_13_A332.mov",
+    "size": 14929028,
+    "creationDate": "2026-02-11T13:34:27.377000",
+    "class_name": "Ugali",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_13_A333.mov",
+    "size": 14802857,
+    "creationDate": "2026-02-11T13:34:28.616000",
+    "class_name": "Ugali",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_13_A334.mov",
+    "size": 11468422,
+    "creationDate": "2026-02-11T13:34:31.778000",
+    "class_name": "Ugali",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_13_A335.mov",
+    "size": 12847870,
+    "creationDate": "2026-02-11T13:34:30.225000",
+    "class_name": "Ugali",
+    "signer_id": 13,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_14_A481.mov",
+    "size": 6528039,
+    "creationDate": "2026-02-11T13:34:29.246000",
+    "class_name": "Ugali",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_14_A482.mov",
+    "size": 6370952,
+    "creationDate": "2026-02-11T13:34:31.207000",
+    "class_name": "Ugali",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_14_A483.mov",
+    "size": 6062638,
+    "creationDate": "2026-02-11T13:34:30.648000",
+    "class_name": "Ugali",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_14_A484.mov",
+    "size": 6106766,
+    "creationDate": "2026-02-11T13:34:31.804000",
+    "class_name": "Ugali",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_14_A485.mov",
+    "size": 5516608,
+    "creationDate": "2026-02-11T13:34:27.943000",
+    "class_name": "Ugali",
+    "signer_id": 14,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_15_A631.mov",
+    "size": 15245146,
+    "creationDate": "2026-02-11T13:34:32.102000",
+    "class_name": "Ugali",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_15_A632.mov",
+    "size": 15180734,
+    "creationDate": "2026-02-11T13:34:32.195000",
+    "class_name": "Ugali",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_15_A633.mov",
+    "size": 13010909,
+    "creationDate": "2026-02-11T13:34:31.864000",
+    "class_name": "Ugali",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_15_A634.mov",
+    "size": 15522293,
+    "creationDate": "2026-02-11T13:34:32.393000",
+    "class_name": "Ugali",
+    "signer_id": 15,
+    "split": "test"
+  },
+  {
+    "name": "Ugali/Signer_15_A635.mov",
+    "size": 13041561,
+    "creationDate": "2026-02-11T13:34:30.451000",
+    "class_name": "Ugali",
+    "signer_id": 15,
+    "split": "test"
+  }
+]

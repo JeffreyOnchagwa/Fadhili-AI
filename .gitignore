@@ -30,3 +30,13 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+# Fadhili AI training data
+backend/training/data/videos/
+backend/training/models/
+backend/training/checkpoints/
+backend/training/logs/
+
+# ML training artifacts
+*.keras
+*.ckpt
+*.tflite

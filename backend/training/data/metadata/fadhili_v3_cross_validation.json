@@ -1,0 +1,474 @@
+{
+  "experiment": "Fadhili v3 signer-group cross-validation",
+  "development_signers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "locked_test_signers": [
+    13,
+    14,
+    15
+  ],
+  "locked_test_used": false,
+  "folds": [
+    {
+      "fold": 1,
+      "validation_signers": [
+        1,
+        2
+      ],
+      "train_samples": 493,
+      "validation_samples": 99,
+      "epochs_trained": 31,
+      "best_epoch": 27,
+      "validation_loss": 0.5499547123908997,
+      "validation_accuracy": 0.9494949579238892,
+      "per_class": {
+        "Agreement": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Friend": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Gift": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Market": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 1.0
+        },
+        "Monday": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Picture": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Proud": {
+          "correct": 5,
+          "total": 10,
+          "accuracy": 0.5
+        },
+        "Teach": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Twin": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Ugali": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "validation_signers": [
+        3,
+        4
+      ],
+      "train_samples": 492,
+      "validation_samples": 100,
+      "epochs_trained": 53,
+      "best_epoch": 17,
+      "validation_loss": 0.2014375478029251,
+      "validation_accuracy": 0.9900000095367432,
+      "per_class": {
+        "Agreement": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Friend": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Gift": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Market": {
+          "correct": 9,
+          "total": 10,
+          "accuracy": 0.9
+        },
+        "Monday": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Picture": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Proud": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Teach": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Twin": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Ugali": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "validation_signers": [
+        5,
+        6
+      ],
+      "train_samples": 492,
+      "validation_samples": 100,
+      "epochs_trained": 55,
+      "best_epoch": 39,
+      "validation_loss": 0.10023785382509232,
+      "validation_accuracy": 1.0,
+      "per_class": {
+        "Agreement": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Friend": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Gift": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Market": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Monday": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Picture": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Proud": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Teach": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Twin": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Ugali": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "validation_signers": [
+        7,
+        8
+      ],
+      "train_samples": 497,
+      "validation_samples": 95,
+      "epochs_trained": 65,
+      "best_epoch": 15,
+      "validation_loss": 0.2242414951324463,
+      "validation_accuracy": 1.0,
+      "per_class": {
+        "Agreement": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Friend": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Gift": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Market": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Monday": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Picture": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Proud": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Teach": {
+          "correct": 5,
+          "total": 5,
+          "accuracy": 1.0
+        },
+        "Twin": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Ugali": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        }
+      }
+    },
+    {
+      "fold": 5,
+      "validation_signers": [
+        9,
+        10
+      ],
+      "train_samples": 494,
+      "validation_samples": 98,
+      "epochs_trained": 28,
+      "best_epoch": 19,
+      "validation_loss": 0.430530309677124,
+      "validation_accuracy": 0.918367326259613,
+      "per_class": {
+        "Agreement": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Friend": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Gift": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Market": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 1.0
+        },
+        "Monday": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Picture": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Proud": {
+          "correct": 5,
+          "total": 10,
+          "accuracy": 0.5
+        },
+        "Teach": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 1.0
+        },
+        "Twin": {
+          "correct": 7,
+          "total": 10,
+          "accuracy": 0.7
+        },
+        "Ugali": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        }
+      }
+    },
+    {
+      "fold": 6,
+      "validation_signers": [
+        11,
+        12
+      ],
+      "train_samples": 492,
+      "validation_samples": 100,
+      "epochs_trained": 49,
+      "best_epoch": 37,
+      "validation_loss": 0.12373944371938705,
+      "validation_accuracy": 1.0,
+      "per_class": {
+        "Agreement": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Friend": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Gift": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Market": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Monday": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Picture": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Proud": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Teach": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Twin": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        },
+        "Ugali": {
+          "correct": 10,
+          "total": 10,
+          "accuracy": 1.0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "mean_fold_accuracy": 0.9763104319572449,
+    "std_fold_accuracy": 0.03448902443051338,
+    "minimum_fold_accuracy": 0.918367326259613,
+    "maximum_fold_accuracy": 1.0,
+    "combined_out_of_signer_accuracy": 0.9763513513513513
+  },
+  "aggregate_per_class": {
+    "Agreement": {
+      "correct": 60,
+      "total": 60,
+      "accuracy": 1.0
+    },
+    "Friend": {
+      "correct": 60,
+      "total": 60,
+      "accuracy": 1.0
+    },
+    "Gift": {
+      "correct": 60,
+      "total": 60,
+      "accuracy": 1.0
+    },
+    "Market": {
+      "correct": 57,
+      "total": 58,
+      "accuracy": 0.9827586206896551
+    },
+    "Monday": {
+      "correct": 60,
+      "total": 60,
+      "accuracy": 1.0
+    },
+    "Picture": {
+      "correct": 60,
+      "total": 60,
+      "accuracy": 1.0
+    },
+    "Proud": {
+      "correct": 50,
+      "total": 60,
+      "accuracy": 0.8333333333333334
+    },
+    "Teach": {
+      "correct": 54,
+      "total": 54,
+      "accuracy": 1.0
+    },
+    "Twin": {
+      "correct": 57,
+      "total": 60,
+      "accuracy": 0.95
+    },
+    "Ugali": {
+      "correct": 60,
+      "total": 60,
+      "accuracy": 1.0
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "model_name": "Fadhili_KSL_v3",
+  "classes": [
+    "Agreement",
+    "Friend",
+    "Gift",
+    "Market",
+    "Monday",
+    "Picture",
+    "Proud",
+    "Teach",
+    "Twin",
+    "Ugali"
+  ],
+  "input_shape": [
+    30,
+    150
+  ],
+  "model_parameters": 107018,
+  "train_samples": 492,
+  "validation_samples": 100,
+  "test_policy": "Test signers 13-15 were not loaded or evaluated.",
+  "augmentation": {
+    "coordinate_noise_std": 0.008,
+    "scale_range": [
+      0.92,
+      1.08
+    ],
+    "coordinate_dropout": 0.025,
+    "temporal_frame_dropout": 0.05,
+    "temporal_shift_frames": [
+      -2,
+      2
+    ]
+  },
+  "epochs_trained": 100,
+  "best_validation_epoch": 69,
+  "best_validation_accuracy": 0.9900000095367432,
+  "loaded_candidate_validation_accuracy": 0.9900000095367432,
+  "loaded_candidate_validation_loss": 0.13487935066223145
+}

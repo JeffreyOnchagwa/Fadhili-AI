@@ -1,0 +1,6999 @@
+{
+  "config": {
+    "threshold_ratio": 0.25,
+    "minimum_threshold": 0.015,
+    "context_frames": 2
+  },
+  "overall": {
+    "n": 742,
+    "mean_start": 4.66711590296496,
+    "mean_end": 27.454177897574123,
+    "mean_length": 23.787061994609164,
+    "min_length": 10,
+    "max_length": 30,
+    "fallbacks": 0,
+    "short_under_8": 0,
+    "almost_full_28_plus": 118
+  },
+  "development_01_12": {
+    "n": 592,
+    "mean_start": 4.1925675675675675,
+    "mean_end": 27.597972972972972,
+    "mean_length": 24.405405405405407,
+    "min_length": 10,
+    "max_length": 30,
+    "fallbacks": 0,
+    "short_under_8": 0,
+    "almost_full_28_plus": 109
+  },
+  "diagnostic_13_15": {
+    "n": 150,
+    "mean_start": 6.54,
+    "mean_end": 26.886666666666667,
+    "mean_length": 21.346666666666668,
+    "min_length": 17,
+    "max_length": 30,
+    "fallbacks": 0,
+    "short_under_8": 0,
+    "almost_full_28_plus": 9
+  },
+  "per_signer": {
+    "1": {
+      "n": 50,
+      "mean_start": 2.44,
+      "mean_end": 28.72,
+      "mean_length": 27.28,
+      "min_length": 22,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 20
+    },
+    "2": {
+      "n": 49,
+      "mean_start": 3.1020408163265305,
+      "mean_end": 27.367346938775512,
+      "mean_length": 25.26530612244898,
+      "min_length": 19,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 9
+    },
+    "3": {
+      "n": 50,
+      "mean_start": 3.64,
+      "mean_end": 29.36,
+      "mean_length": 26.72,
+      "min_length": 21,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 20
+    },
+    "4": {
+      "n": 50,
+      "mean_start": 4.68,
+      "mean_end": 28.1,
+      "mean_length": 24.42,
+      "min_length": 21,
+      "max_length": 28,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 1
+    },
+    "5": {
+      "n": 50,
+      "mean_start": 3.88,
+      "mean_end": 25.94,
+      "mean_length": 23.06,
+      "min_length": 18,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 4
+    },
+    "6": {
+      "n": 50,
+      "mean_start": 3.18,
+      "mean_end": 26.78,
+      "mean_length": 24.6,
+      "min_length": 21,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 6
+    },
+    "7": {
+      "n": 50,
+      "mean_start": 3.58,
+      "mean_end": 28.32,
+      "mean_length": 25.74,
+      "min_length": 21,
+      "max_length": 29,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 7
+    },
+    "8": {
+      "n": 45,
+      "mean_start": 4.311111111111111,
+      "mean_end": 27.68888888888889,
+      "mean_length": 24.377777777777776,
+      "min_length": 20,
+      "max_length": 28,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 1
+    },
+    "9": {
+      "n": 49,
+      "mean_start": 4.224489795918367,
+      "mean_end": 29.06122448979592,
+      "mean_length": 25.836734693877553,
+      "min_length": 20,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 12
+    },
+    "10": {
+      "n": 49,
+      "mean_start": 2.3877551020408165,
+      "mean_end": 28.979591836734695,
+      "mean_length": 27.591836734693878,
+      "min_length": 22,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 25
+    },
+    "11": {
+      "n": 50,
+      "mean_start": 8.84,
+      "mean_end": 25.16,
+      "mean_length": 17.32,
+      "min_length": 10,
+      "max_length": 29,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 2
+    },
+    "12": {
+      "n": 50,
+      "mean_start": 6.0,
+      "mean_end": 25.76,
+      "mean_length": 20.76,
+      "min_length": 16,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 2
+    },
+    "13": {
+      "n": 50,
+      "mean_start": 7.1,
+      "mean_end": 27.08,
+      "mean_length": 20.98,
+      "min_length": 17,
+      "max_length": 27,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 0
+    },
+    "14": {
+      "n": 50,
+      "mean_start": 7.6,
+      "mean_end": 26.22,
+      "mean_length": 19.62,
+      "min_length": 17,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 1
+    },
+    "15": {
+      "n": 50,
+      "mean_start": 4.92,
+      "mean_end": 27.36,
+      "mean_length": 23.44,
+      "min_length": 17,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 8
+    }
+  },
+  "per_class": {
+    "Agreement": {
+      "n": 75,
+      "mean_start": 4.733333333333333,
+      "mean_end": 28.28,
+      "mean_length": 24.546666666666667,
+      "min_length": 15,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 15
+    },
+    "Friend": {
+      "n": 75,
+      "mean_start": 4.56,
+      "mean_end": 27.493333333333332,
+      "mean_length": 23.933333333333334,
+      "min_length": 15,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 11
+    },
+    "Gift": {
+      "n": 75,
+      "mean_start": 4.373333333333333,
+      "mean_end": 26.906666666666666,
+      "mean_length": 23.533333333333335,
+      "min_length": 15,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 7
+    },
+    "Market": {
+      "n": 73,
+      "mean_start": 4.958904109589041,
+      "mean_end": 25.84931506849315,
+      "mean_length": 21.89041095890411,
+      "min_length": 14,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 3
+    },
+    "Monday": {
+      "n": 75,
+      "mean_start": 4.88,
+      "mean_end": 28.293333333333333,
+      "mean_length": 24.413333333333334,
+      "min_length": 10,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 18
+    },
+    "Picture": {
+      "n": 75,
+      "mean_start": 4.506666666666667,
+      "mean_end": 27.466666666666665,
+      "mean_length": 23.96,
+      "min_length": 15,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 14
+    },
+    "Proud": {
+      "n": 75,
+      "mean_start": 4.76,
+      "mean_end": 28.293333333333333,
+      "mean_length": 24.533333333333335,
+      "min_length": 11,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 17
+    },
+    "Teach": {
+      "n": 69,
+      "mean_start": 4.826086956521739,
+      "mean_end": 27.44927536231884,
+      "mean_length": 23.6231884057971,
+      "min_length": 15,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 14
+    },
+    "Twin": {
+      "n": 75,
+      "mean_start": 4.626666666666667,
+      "mean_end": 27.28,
+      "mean_length": 23.653333333333332,
+      "min_length": 15,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 9
+    },
+    "Ugali": {
+      "n": 75,
+      "mean_start": 4.466666666666667,
+      "mean_end": 27.186666666666667,
+      "mean_length": 23.72,
+      "min_length": 16,
+      "max_length": 30,
+      "fallbacks": 0,
+      "short_under_8": 0,
+      "almost_full_28_plus": 10
+    }
+  },
+  "records": [
+    {
+      "signer": 1,
+      "class": "Agreement",
+      "video": "Signer_01_1.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Agreement",
+      "video": "Signer_01_2.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Agreement",
+      "video": "Signer_01_3.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Agreement",
+      "video": "Signer_01_4.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Agreement",
+      "video": "Signer_01_5.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Agreement",
+      "video": "Signer_02_1.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Agreement",
+      "video": "Signer_02_2.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Agreement",
+      "video": "Signer_02_3.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Agreement",
+      "video": "Signer_02_4.mov",
+      "start": 6,
+      "end": 26,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Agreement",
+      "video": "Signer_02_5.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Agreement",
+      "video": "Signer_03_1.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Agreement",
+      "video": "Signer_03_2.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Agreement",
+      "video": "Signer_03_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Agreement",
+      "video": "Signer_03_4.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Agreement",
+      "video": "Signer_03_5.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Agreement",
+      "video": "Signer_04_1.mov",
+      "start": 7,
+      "end": 28,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Agreement",
+      "video": "Signer_04_2.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Agreement",
+      "video": "Signer_04_3.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Agreement",
+      "video": "Signer_04_4.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Agreement",
+      "video": "Signer_04_5.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Agreement",
+      "video": "Signer_05_1.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Agreement",
+      "video": "Signer_05_2.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Agreement",
+      "video": "Signer_05_3.mov",
+      "start": 3,
+      "end": 24,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Agreement",
+      "video": "Signer_05_4.mov",
+      "start": 2,
+      "end": 25,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Agreement",
+      "video": "Signer_05_5.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Agreement",
+      "video": "Signer_06_1.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Agreement",
+      "video": "Signer_06_2.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Agreement",
+      "video": "Signer_06_3.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Agreement",
+      "video": "Signer_06_4.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Agreement",
+      "video": "Signer_06_5.mov",
+      "start": 2,
+      "end": 25,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Agreement",
+      "video": "Signer_07_1.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Agreement",
+      "video": "Signer_07_2.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Agreement",
+      "video": "Signer_07_3.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Agreement",
+      "video": "Signer_07_4.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Agreement",
+      "video": "Signer_07_5.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Agreement",
+      "video": "Signer_08_1.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Agreement",
+      "video": "Signer_08_2.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Agreement",
+      "video": "Signer_08_3.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Agreement",
+      "video": "Signer_08_4.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Agreement",
+      "video": "Signer_08_5.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Agreement",
+      "video": "Signer_09_1.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Agreement",
+      "video": "Signer_09_2.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Agreement",
+      "video": "Signer_09_3.mov",
+      "start": 6,
+      "end": 29,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Agreement",
+      "video": "Signer_09_4.mov",
+      "start": 9,
+      "end": 30,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Agreement",
+      "video": "Signer_09_5.mov",
+      "start": 9,
+      "end": 30,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Agreement",
+      "video": "Signer_10_1.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Agreement",
+      "video": "Signer_10_2.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Agreement",
+      "video": "Signer_10_3.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Agreement",
+      "video": "Signer_10_4.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Agreement",
+      "video": "Signer_10_5.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Friend",
+      "video": "Signer_01_1.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Friend",
+      "video": "Signer_01_2.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Friend",
+      "video": "Signer_01_3.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Friend",
+      "video": "Signer_01_4.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Friend",
+      "video": "Signer_01_5.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Friend",
+      "video": "Signer_02_1.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Friend",
+      "video": "Signer_02_2.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Friend",
+      "video": "Signer_02_3.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Friend",
+      "video": "Signer_02_4.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Friend",
+      "video": "Signer_02_5.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Friend",
+      "video": "Signer_03_1.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Friend",
+      "video": "Signer_03_2.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Friend",
+      "video": "Signer_03_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Friend",
+      "video": "Signer_03_4.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Friend",
+      "video": "Signer_03_5.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Friend",
+      "video": "Signer_04_1.mov",
+      "start": 6,
+      "end": 26,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Friend",
+      "video": "Signer_04_2.mov",
+      "start": 6,
+      "end": 26,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Friend",
+      "video": "Signer_04_3.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Friend",
+      "video": "Signer_04_4.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Friend",
+      "video": "Signer_04_5.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Friend",
+      "video": "Signer_05_1.mov",
+      "start": 2,
+      "end": 25,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Friend",
+      "video": "Signer_05_2.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Friend",
+      "video": "Signer_05_3.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Friend",
+      "video": "Signer_05_4.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Friend",
+      "video": "Signer_05_5.mov",
+      "start": 2,
+      "end": 24,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Friend",
+      "video": "Signer_06_1.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Friend",
+      "video": "Signer_06_2.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Friend",
+      "video": "Signer_06_3.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Friend",
+      "video": "Signer_06_4.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Friend",
+      "video": "Signer_06_5.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Friend",
+      "video": "Signer_07_1.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Friend",
+      "video": "Signer_07_2.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Friend",
+      "video": "Signer_07_3.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Friend",
+      "video": "Signer_07_4.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Friend",
+      "video": "Signer_07_5.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Friend",
+      "video": "Signer_08_a.%20Friend.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Friend",
+      "video": "Signer_08_b.%20Friend.mov",
+      "start": 8,
+      "end": 30,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Friend",
+      "video": "Signer_08_c.%20Friend.mov",
+      "start": 8,
+      "end": 30,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Friend",
+      "video": "Signer_08_d.%20Friend.mov",
+      "start": 6,
+      "end": 29,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Friend",
+      "video": "Signer_08_e.%20Friend.mov",
+      "start": 4,
+      "end": 25,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Friend",
+      "video": "Signer_09_1.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Friend",
+      "video": "Signer_09_2.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Friend",
+      "video": "Signer_09_3.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Friend",
+      "video": "Signer_09_4.mov",
+      "start": 7,
+      "end": 29,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Friend",
+      "video": "Signer_09_5.mov",
+      "start": 6,
+      "end": 28,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Friend",
+      "video": "Signer_10_1.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Friend",
+      "video": "Signer_10_2.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Friend",
+      "video": "Signer_10_3.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Friend",
+      "video": "Signer_10_4.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Friend",
+      "video": "Signer_10_5.mov",
+      "start": 9,
+      "end": 30,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Gift",
+      "video": "Signer_01_1.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Gift",
+      "video": "Signer_01_2.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Gift",
+      "video": "Signer_01_3.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Gift",
+      "video": "Signer_01_4.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Gift",
+      "video": "Signer_01_5.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Gift",
+      "video": "Signer_02_1.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Gift",
+      "video": "Signer_02_2.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Gift",
+      "video": "Signer_02_3.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Gift",
+      "video": "Signer_02_4.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Gift",
+      "video": "Signer_02_5.mov",
+      "start": 1,
+      "end": 25,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Gift",
+      "video": "Signer_03_1.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Gift",
+      "video": "Signer_03_2.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Gift",
+      "video": "Signer_03_3.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Gift",
+      "video": "Signer_03_4.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Gift",
+      "video": "Signer_03_5.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Gift",
+      "video": "Signer_04_1.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Gift",
+      "video": "Signer_04_2.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Gift",
+      "video": "Signer_04_3.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Gift",
+      "video": "Signer_04_4.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Gift",
+      "video": "Signer_04_5.mov",
+      "start": 4,
+      "end": 26,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Gift",
+      "video": "Signer_05_1.mov",
+      "start": 8,
+      "end": 25,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Gift",
+      "video": "Signer_05_2.mov",
+      "start": 7,
+      "end": 25,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Gift",
+      "video": "Signer_05_3.mov",
+      "start": 5,
+      "end": 24,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Gift",
+      "video": "Signer_05_4.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Gift",
+      "video": "Signer_05_5.mov",
+      "start": 2,
+      "end": 24,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Gift",
+      "video": "Signer_06_1.mov",
+      "start": 1,
+      "end": 22,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Gift",
+      "video": "Signer_06_2.mov",
+      "start": 1,
+      "end": 25,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Gift",
+      "video": "Signer_06_3.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Gift",
+      "video": "Signer_06_4.mov",
+      "start": 2,
+      "end": 24,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Gift",
+      "video": "Signer_06_5.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Gift",
+      "video": "Signer_07_1.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Gift",
+      "video": "Signer_07_2.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Gift",
+      "video": "Signer_07_3.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Gift",
+      "video": "Signer_07_4.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Gift",
+      "video": "Signer_07_5.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Gift",
+      "video": "Signer_08_1.mov",
+      "start": 6,
+      "end": 26,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Gift",
+      "video": "Signer_08_2.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Gift",
+      "video": "Signer_08_3.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Gift",
+      "video": "Signer_08_4.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Gift",
+      "video": "Signer_08_5.mov",
+      "start": 2,
+      "end": 27,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Gift",
+      "video": "Signer_09_1.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Gift",
+      "video": "Signer_09_2.mov",
+      "start": 2,
+      "end": 26,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Gift",
+      "video": "Signer_09_3.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Gift",
+      "video": "Signer_09_4.mov",
+      "start": 5,
+      "end": 26,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Gift",
+      "video": "Signer_09_5.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Gift",
+      "video": "Signer_10_1.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Gift",
+      "video": "Signer_10_2.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Gift",
+      "video": "Signer_10_3.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Gift",
+      "video": "Signer_10_4.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Gift",
+      "video": "Signer_10_5.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Market",
+      "video": "Signer_01_1.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Market",
+      "video": "Signer_01_2.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Market",
+      "video": "Signer_01_3.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Market",
+      "video": "Signer_01_4.mov",
+      "start": 4,
+      "end": 25,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Market",
+      "video": "Signer_01_5.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Market",
+      "video": "Signer_02_2.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Market",
+      "video": "Signer_02_3.mov",
+      "start": 3,
+      "end": 23,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Market",
+      "video": "Signer_02_4.mov",
+      "start": 3,
+      "end": 21,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Market",
+      "video": "Signer_02_5.mov",
+      "start": 2,
+      "end": 21,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Market",
+      "video": "Signer_03_1.mov",
+      "start": 2,
+      "end": 24,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Market",
+      "video": "Signer_03_2.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Market",
+      "video": "Signer_03_3.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Market",
+      "video": "Signer_03_4.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Market",
+      "video": "Signer_03_5.mov",
+      "start": 6,
+      "end": 29,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Market",
+      "video": "Signer_04_1.mov",
+      "start": 1,
+      "end": 23,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Market",
+      "video": "Signer_04_2.mov",
+      "start": 6,
+      "end": 29,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Market",
+      "video": "Signer_04_3.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Market",
+      "video": "Signer_04_4.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Market",
+      "video": "Signer_04_5.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Market",
+      "video": "Signer_05_1.mov",
+      "start": 6,
+      "end": 23,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Market",
+      "video": "Signer_05_2.mov",
+      "start": 3,
+      "end": 22,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Market",
+      "video": "Signer_05_3.mov",
+      "start": 4,
+      "end": 21,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Market",
+      "video": "Signer_05_4.mov",
+      "start": 4,
+      "end": 21,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Market",
+      "video": "Signer_05_5.mov",
+      "start": 1,
+      "end": 18,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Market",
+      "video": "Signer_06_1.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Market",
+      "video": "Signer_06_2.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Market",
+      "video": "Signer_06_3.mov",
+      "start": 2,
+      "end": 24,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Market",
+      "video": "Signer_06_4.mov",
+      "start": 4,
+      "end": 26,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Market",
+      "video": "Signer_06_5.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Market",
+      "video": "Signer_07_1.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Market",
+      "video": "Signer_07_2.mov",
+      "start": 2,
+      "end": 25,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Market",
+      "video": "Signer_07_3.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Market",
+      "video": "Signer_07_4.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Market",
+      "video": "Signer_07_5.mov",
+      "start": 2,
+      "end": 22,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Market",
+      "video": "Signer_08_a.%20Market.mov",
+      "start": 6,
+      "end": 27,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Market",
+      "video": "Signer_08_b.%20Market.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Market",
+      "video": "Signer_08_c.%20Market.mov",
+      "start": 6,
+      "end": 29,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Market",
+      "video": "Signer_08_d.%20Market.mov",
+      "start": 8,
+      "end": 30,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Market",
+      "video": "Signer_08_e.%20Market.mov",
+      "start": 6,
+      "end": 29,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Market",
+      "video": "Signer_09_1.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Market",
+      "video": "Signer_09_2.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Market",
+      "video": "Signer_09_3.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Market",
+      "video": "Signer_09_4.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Market",
+      "video": "Signer_09_5.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Market",
+      "video": "Signer_10_1.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Market",
+      "video": "Signer_10_2.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Market",
+      "video": "Signer_10_3.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Market",
+      "video": "Signer_10_4.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Monday",
+      "video": "Signer_01_1.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Monday",
+      "video": "Signer_01_2.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Monday",
+      "video": "Signer_01_3.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Monday",
+      "video": "Signer_01_4.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Monday",
+      "video": "Signer_01_5.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Monday",
+      "video": "Signer_02_1.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Monday",
+      "video": "Signer_02_2.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Monday",
+      "video": "Signer_02_3.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Monday",
+      "video": "Signer_02_4.mov",
+      "start": 2,
+      "end": 26,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Monday",
+      "video": "Signer_02_5.mov",
+      "start": 1,
+      "end": 24,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Monday",
+      "video": "Signer_03_1.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Monday",
+      "video": "Signer_03_2.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Monday",
+      "video": "Signer_03_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Monday",
+      "video": "Signer_03_4.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Monday",
+      "video": "Signer_03_5.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Monday",
+      "video": "Signer_04_1.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Monday",
+      "video": "Signer_04_2.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Monday",
+      "video": "Signer_04_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Monday",
+      "video": "Signer_04_4.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Monday",
+      "video": "Signer_04_5.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Monday",
+      "video": "Signer_05_1,%20Monday.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Monday",
+      "video": "Signer_05_2.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Monday",
+      "video": "Signer_05_3.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Monday",
+      "video": "Signer_05_4.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Monday",
+      "video": "Signer_05_5.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Monday",
+      "video": "Signer_06_1.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Monday",
+      "video": "Signer_06_2.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Monday",
+      "video": "Signer_06_3.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Monday",
+      "video": "Signer_06_4.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Monday",
+      "video": "Signer_06_5.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Monday",
+      "video": "Signer_07_1.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Monday",
+      "video": "Signer_07_2.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Monday",
+      "video": "Signer_07_3.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Monday",
+      "video": "Signer_07_4.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Monday",
+      "video": "Signer_07_5.mov",
+      "start": 2,
+      "end": 27,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Monday",
+      "video": "Signer_08_1.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Monday",
+      "video": "Signer_08_2.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Monday",
+      "video": "Signer_08_3.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Monday",
+      "video": "Signer_08_4.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Monday",
+      "video": "Signer_08_5.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Monday",
+      "video": "Signer_09_1.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Monday",
+      "video": "Signer_09_2.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Monday",
+      "video": "Signer_09_3.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Monday",
+      "video": "Signer_09_4.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Monday",
+      "video": "Signer_09_5.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Monday",
+      "video": "Signer_10_1.mov",
+      "start": 1,
+      "end": 24,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Monday",
+      "video": "Signer_10_2.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Monday",
+      "video": "Signer_10_3.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Monday",
+      "video": "Signer_10_4.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Monday",
+      "video": "Signer_10_5.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Picture",
+      "video": "Signer_01_1.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Picture",
+      "video": "Signer_01_2.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Picture",
+      "video": "Signer_01_3.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Picture",
+      "video": "Signer_01_4.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Picture",
+      "video": "Signer_01_5.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Picture",
+      "video": "Signer_02_1.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Picture",
+      "video": "Signer_02_2.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Picture",
+      "video": "Signer_02_3.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Picture",
+      "video": "Signer_02_4.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Picture",
+      "video": "Signer_02_5.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Picture",
+      "video": "Signer_03_1.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Picture",
+      "video": "Signer_03_2.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Picture",
+      "video": "Signer_03_3.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Picture",
+      "video": "Signer_03_4.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Picture",
+      "video": "Signer_03_5.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Picture",
+      "video": "Signer_04_1.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Picture",
+      "video": "Signer_04_2.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Picture",
+      "video": "Signer_04_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Picture",
+      "video": "Signer_04_4.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Picture",
+      "video": "Signer_04_5.mov",
+      "start": 2,
+      "end": 27,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Picture",
+      "video": "Signer_05_1.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Picture",
+      "video": "Signer_05_2.mov",
+      "start": 2,
+      "end": 24,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Picture",
+      "video": "Signer_05_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Picture",
+      "video": "Signer_05_4.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Picture",
+      "video": "Signer_05_5.mov",
+      "start": 8,
+      "end": 30,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Picture",
+      "video": "Signer_06_1.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Picture",
+      "video": "Signer_06_2.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Picture",
+      "video": "Signer_06_3.mov",
+      "start": 1,
+      "end": 24,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Picture",
+      "video": "Signer_06_4.mov",
+      "start": 2,
+      "end": 27,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Picture",
+      "video": "Signer_06_5.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Picture",
+      "video": "Signer_07_1.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Picture",
+      "video": "Signer_07_2.mov",
+      "start": 2,
+      "end": 27,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Picture",
+      "video": "Signer_07_3.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Picture",
+      "video": "Signer_07_4.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Picture",
+      "video": "Signer_07_5.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Picture",
+      "video": "Signer_08_1.mov",
+      "start": 2,
+      "end": 25,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Picture",
+      "video": "Signer_08_2.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Picture",
+      "video": "Signer_08_3.mov",
+      "start": 1,
+      "end": 24,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Picture",
+      "video": "Signer_08_4.mov",
+      "start": 4,
+      "end": 25,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Picture",
+      "video": "Signer_08_5.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Picture",
+      "video": "Signer_09_1.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Picture",
+      "video": "Signer_09_2.mov",
+      "start": 6,
+      "end": 29,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Picture",
+      "video": "Signer_09_3.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Picture",
+      "video": "Signer_09_4.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Picture",
+      "video": "Signer_09_5.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Picture",
+      "video": "Signer_10_1.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Picture",
+      "video": "Signer_10_2.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Picture",
+      "video": "Signer_10_3.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Picture",
+      "video": "Signer_10_4.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Picture",
+      "video": "Signer_10_5.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Proud",
+      "video": "Signer_01_1.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Proud",
+      "video": "Signer_01_2.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Proud",
+      "video": "Signer_01_3.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Proud",
+      "video": "Signer_01_4.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Proud",
+      "video": "Signer_01_5.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Proud",
+      "video": "Signer_02_1.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Proud",
+      "video": "Signer_02_2.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Proud",
+      "video": "Signer_02_3.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Proud",
+      "video": "Signer_02_4.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Proud",
+      "video": "Signer_02_5.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Proud",
+      "video": "Signer_03_1.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Proud",
+      "video": "Signer_03_2.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Proud",
+      "video": "Signer_03_3.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Proud",
+      "video": "Signer_03_4.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Proud",
+      "video": "Signer_03_5.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Proud",
+      "video": "Signer_04_1.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Proud",
+      "video": "Signer_04_2.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Proud",
+      "video": "Signer_04_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Proud",
+      "video": "Signer_04_4.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Proud",
+      "video": "Signer_04_5.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Proud",
+      "video": "Signer_05_1.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Proud",
+      "video": "Signer_05_2.mov",
+      "start": 5,
+      "end": 26,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Proud",
+      "video": "Signer_05_3.mov",
+      "start": 2,
+      "end": 26,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Proud",
+      "video": "Signer_05_4.mov",
+      "start": 7,
+      "end": 28,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Proud",
+      "video": "Signer_05_5.mov",
+      "start": 6,
+      "end": 24,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Proud",
+      "video": "Signer_06_1.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Proud",
+      "video": "Signer_06_2.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Proud",
+      "video": "Signer_06_3.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Proud",
+      "video": "Signer_06_4.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Proud",
+      "video": "Signer_06_5.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Proud",
+      "video": "Signer_07_1.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Proud",
+      "video": "Signer_07_2.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Proud",
+      "video": "Signer_07_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Proud",
+      "video": "Signer_07_4.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Proud",
+      "video": "Signer_07_5.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Proud",
+      "video": "Signer_08_1.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Proud",
+      "video": "Signer_08_2.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Proud",
+      "video": "Signer_08_3.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Proud",
+      "video": "Signer_08_4.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Proud",
+      "video": "Signer_08_5.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Proud",
+      "video": "Signer_09_1.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Proud",
+      "video": "Signer_09_2.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Proud",
+      "video": "Signer_09_3.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Proud",
+      "video": "Signer_09_4.mov",
+      "start": 1,
+      "end": 25,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Proud",
+      "video": "Signer_09_5.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Proud",
+      "video": "Signer_10_1.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Proud",
+      "video": "Signer_10_2.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Proud",
+      "video": "Signer_10_3.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Proud",
+      "video": "Signer_10_4.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Proud",
+      "video": "Signer_10_5.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Teach",
+      "video": "Signer_01_1.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Teach",
+      "video": "Signer_01_2.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Teach",
+      "video": "Signer_01_3.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Teach",
+      "video": "Signer_01_4.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Teach",
+      "video": "Signer_01_5.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Teach",
+      "video": "Signer_02_1.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Teach",
+      "video": "Signer_02_2.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Teach",
+      "video": "Signer_02_3.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Teach",
+      "video": "Signer_02_4.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Teach",
+      "video": "Signer_02_5.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Teach",
+      "video": "Signer_03_1.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Teach",
+      "video": "Signer_03_2.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Teach",
+      "video": "Signer_03_3.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Teach",
+      "video": "Signer_03_4.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Teach",
+      "video": "Signer_03_5.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Teach",
+      "video": "Signer_04_1.mov",
+      "start": 1,
+      "end": 22,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Teach",
+      "video": "Signer_04_2.mov",
+      "start": 2,
+      "end": 25,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Teach",
+      "video": "Signer_04_3.mov",
+      "start": 10,
+      "end": 30,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Teach",
+      "video": "Signer_04_4.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Teach",
+      "video": "Signer_04_5.mov",
+      "start": 8,
+      "end": 29,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Teach",
+      "video": "Signer_05_1.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Teach",
+      "video": "Signer_05_2.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Teach",
+      "video": "Signer_05_3.mov",
+      "start": 1,
+      "end": 25,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Teach",
+      "video": "Signer_05_4.mov",
+      "start": 6,
+      "end": 28,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Teach",
+      "video": "Signer_05_5.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Teach",
+      "video": "Signer_06_1.mov",
+      "start": 6,
+      "end": 28,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Teach",
+      "video": "Signer_06_2.mov",
+      "start": 6,
+      "end": 28,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Teach",
+      "video": "Signer_06_3.mov",
+      "start": 4,
+      "end": 25,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Teach",
+      "video": "Signer_06_4.mov",
+      "start": 1,
+      "end": 24,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Teach",
+      "video": "Signer_06_5.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Teach",
+      "video": "Signer_07_1.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Teach",
+      "video": "Signer_07_2.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Teach",
+      "video": "Signer_07_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Teach",
+      "video": "Signer_07_4.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Teach",
+      "video": "Signer_07_5.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Teach",
+      "video": "Signer_09_1.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Teach",
+      "video": "Signer_09_2.mov",
+      "start": 4,
+      "end": 28,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Teach",
+      "video": "Signer_09_3.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Teach",
+      "video": "Signer_09_4.mov",
+      "start": 11,
+      "end": 30,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Teach",
+      "video": "Signer_10_1.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Teach",
+      "video": "Signer_10_2.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Teach",
+      "video": "Signer_10_3.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Teach",
+      "video": "Signer_10_4.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Teach",
+      "video": "Signer_10_5.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Twin",
+      "video": "Signer_01_1.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Twin",
+      "video": "Signer_01_2.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Twin",
+      "video": "Signer_01_3.mov",
+      "start": 1,
+      "end": 25,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Twin",
+      "video": "Signer_01_4.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Twin",
+      "video": "Signer_01_5.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Twin",
+      "video": "Signer_02_1.mov",
+      "start": 4,
+      "end": 25,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Twin",
+      "video": "Signer_02_2.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Twin",
+      "video": "Signer_02_3.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Twin",
+      "video": "Signer_02_4.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Twin",
+      "video": "Signer_02_5.mov",
+      "start": 5,
+      "end": 26,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Twin",
+      "video": "Signer_03_1.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Twin",
+      "video": "Signer_03_2.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Twin",
+      "video": "Signer_03_3.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Twin",
+      "video": "Signer_03_4.mov",
+      "start": 8,
+      "end": 30,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Twin",
+      "video": "Signer_03_5.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Twin",
+      "video": "Signer_04_1.mov",
+      "start": 6,
+      "end": 28,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Twin",
+      "video": "Signer_04_2.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Twin",
+      "video": "Signer_04_3.mov",
+      "start": 2,
+      "end": 27,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Twin",
+      "video": "Signer_04_4.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Twin",
+      "video": "Signer_04_5.mov",
+      "start": 4,
+      "end": 26,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Twin",
+      "video": "Signer_05_1.mov",
+      "start": 7,
+      "end": 25,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Twin",
+      "video": "Signer_05_2.mov",
+      "start": 6,
+      "end": 26,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Twin",
+      "video": "Signer_05_3.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Twin",
+      "video": "Signer_05_4.mov",
+      "start": 6,
+      "end": 27,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Twin",
+      "video": "Signer_05_5.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Twin",
+      "video": "Signer_06_1.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Twin",
+      "video": "Signer_06_2.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Twin",
+      "video": "Signer_06_3.mov",
+      "start": 3,
+      "end": 27,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Twin",
+      "video": "Signer_06_4.mov",
+      "start": 2,
+      "end": 25,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Twin",
+      "video": "Signer_06_5.mov",
+      "start": 4,
+      "end": 26,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Twin",
+      "video": "Signer_07_1.mov",
+      "start": 2,
+      "end": 29,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Twin",
+      "video": "Signer_07_2.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Twin",
+      "video": "Signer_07_3.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Twin",
+      "video": "Signer_07_4.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Twin",
+      "video": "Signer_07_5.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Twin",
+      "video": "Signer_08_1.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Twin",
+      "video": "Signer_08_2.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Twin",
+      "video": "Signer_08_3.mov",
+      "start": 7,
+      "end": 28,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Twin",
+      "video": "Signer_08_4.mov",
+      "start": 4,
+      "end": 23,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Twin",
+      "video": "Signer_08_5.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Twin",
+      "video": "Signer_09_1.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Twin",
+      "video": "Signer_09_2.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Twin",
+      "video": "Signer_09_3.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Twin",
+      "video": "Signer_09_4.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Twin",
+      "video": "Signer_09_5.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Twin",
+      "video": "Signer_10_1.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Twin",
+      "video": "Signer_10_2.mov",
+      "start": 1,
+      "end": 25,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Twin",
+      "video": "Signer_10_3.mov",
+      "start": 4,
+      "end": 29,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Twin",
+      "video": "Signer_10_4.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Twin",
+      "video": "Signer_10_5.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Ugali",
+      "video": "Signer_01_1.mov",
+      "start": 3,
+      "end": 28,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Ugali",
+      "video": "Signer_01_2.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Ugali",
+      "video": "Signer_01_3.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Ugali",
+      "video": "Signer_01_4.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 1,
+      "class": "Ugali",
+      "video": "Signer_01_5.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Ugali",
+      "video": "Signer_02_1.mov",
+      "start": 2,
+      "end": 25,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Ugali",
+      "video": "Signer_02_2.mov",
+      "start": 2,
+      "end": 27,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Ugali",
+      "video": "Signer_02_3.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Ugali",
+      "video": "Signer_02_4.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 2,
+      "class": "Ugali",
+      "video": "Signer_02_5.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Ugali",
+      "video": "Signer_03_1.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Ugali",
+      "video": "Signer_03_2.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Ugali",
+      "video": "Signer_03_3.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Ugali",
+      "video": "Signer_03_4.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 3,
+      "class": "Ugali",
+      "video": "Signer_03_5.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Ugali",
+      "video": "Signer_04_1.mov",
+      "start": 1,
+      "end": 28,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Ugali",
+      "video": "Signer_04_2.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Ugali",
+      "video": "Signer_04_3.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Ugali",
+      "video": "Signer_04_4.mov",
+      "start": 6,
+      "end": 29,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 4,
+      "class": "Ugali",
+      "video": "Signer_04_5.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Ugali",
+      "video": "Signer_05_1.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Ugali",
+      "video": "Signer_05_2.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Ugali",
+      "video": "Signer_05_3.mov",
+      "start": 3,
+      "end": 24,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Ugali",
+      "video": "Signer_05_4.mov",
+      "start": 3,
+      "end": 23,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 5,
+      "class": "Ugali",
+      "video": "Signer_05_5.mov",
+      "start": 2,
+      "end": 25,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Ugali",
+      "video": "Signer_06_1.mov",
+      "start": 4,
+      "end": 27,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Ugali",
+      "video": "Signer_06_2.mov",
+      "start": 5,
+      "end": 27,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Ugali",
+      "video": "Signer_06_3.mov",
+      "start": 2,
+      "end": 22,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Ugali",
+      "video": "Signer_06_4.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 6,
+      "class": "Ugali",
+      "video": "Signer_06_5.mov",
+      "start": 4,
+      "end": 26,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Ugali",
+      "video": "Signer_07_1.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Ugali",
+      "video": "Signer_07_2.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Ugali",
+      "video": "Signer_07_3.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Ugali",
+      "video": "Signer_07_4.mov",
+      "start": 4,
+      "end": 26,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 7,
+      "class": "Ugali",
+      "video": "Signer_07_5.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Ugali",
+      "video": "Signer_08_a.%20Ugali.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Ugali",
+      "video": "Signer_08_b.%20Ugali.mov",
+      "start": 2,
+      "end": 26,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Ugali",
+      "video": "Signer_08_c.%20Ugali.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Ugali",
+      "video": "Signer_08_d.%20Ugali.mov",
+      "start": 8,
+      "end": 30,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 8,
+      "class": "Ugali",
+      "video": "Signer_08_e.%20Ugali.mov",
+      "start": 2,
+      "end": 26,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Ugali",
+      "video": "Signer_09_1.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Ugali",
+      "video": "Signer_09_2.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Ugali",
+      "video": "Signer_09_3.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Ugali",
+      "video": "Signer_09_4.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 9,
+      "class": "Ugali",
+      "video": "Signer_09_5.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Ugali",
+      "video": "Signer_10_1.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Ugali",
+      "video": "Signer_10_2.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Ugali",
+      "video": "Signer_10_3.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Ugali",
+      "video": "Signer_10_4.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 10,
+      "class": "Ugali",
+      "video": "Signer_10_5.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Agreement",
+      "video": "Signer_11_A056.mov",
+      "start": 12,
+      "end": 30,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Agreement",
+      "video": "Signer_11_A057.mov",
+      "start": 1,
+      "end": 29,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Agreement",
+      "video": "Signer_11_A058.mov",
+      "start": 9,
+      "end": 23,
+      "length": 15,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Agreement",
+      "video": "Signer_11_A059.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Agreement",
+      "video": "Signer_11_A060.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Agreement",
+      "video": "Signer_12_A206.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Agreement",
+      "video": "Signer_12_A207.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Agreement",
+      "video": "Signer_12_A208.mov",
+      "start": 9,
+      "end": 28,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Agreement",
+      "video": "Signer_12_A209.mov",
+      "start": 5,
+      "end": 26,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Agreement",
+      "video": "Signer_12_A210.mov",
+      "start": 3,
+      "end": 24,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Friend",
+      "video": "Signer_11_A001.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Friend",
+      "video": "Signer_11_A002.mov",
+      "start": 10,
+      "end": 27,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Friend",
+      "video": "Signer_11_A003.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Friend",
+      "video": "Signer_11_A004.mov",
+      "start": 8,
+      "end": 26,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Friend",
+      "video": "Signer_11_A005.mov",
+      "start": 5,
+      "end": 19,
+      "length": 15,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Friend",
+      "video": "Signer_12_A151.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Friend",
+      "video": "Signer_12_A152.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Friend",
+      "video": "Signer_12_A153.mov",
+      "start": 7,
+      "end": 27,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Friend",
+      "video": "Signer_12_A154.mov",
+      "start": 6,
+      "end": 26,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Friend",
+      "video": "Signer_12_A155.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Gift",
+      "video": "Signer_11_A071.mov",
+      "start": 12,
+      "end": 26,
+      "length": 15,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Gift",
+      "video": "Signer_11_A072.mov",
+      "start": 6,
+      "end": 25,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Gift",
+      "video": "Signer_11_A073.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Gift",
+      "video": "Signer_11_A074.mov",
+      "start": 8,
+      "end": 25,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Gift",
+      "video": "Signer_11_A075.mov",
+      "start": 6,
+      "end": 23,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Gift",
+      "video": "Signer_12_A221.mov",
+      "start": 8,
+      "end": 28,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Gift",
+      "video": "Signer_12_A222.mov",
+      "start": 10,
+      "end": 28,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Gift",
+      "video": "Signer_12_A223.mov",
+      "start": 8,
+      "end": 27,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Gift",
+      "video": "Signer_12_A224.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Gift",
+      "video": "Signer_12_A225.mov",
+      "start": 1,
+      "end": 21,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Market",
+      "video": "Signer_11_A006.mov",
+      "start": 11,
+      "end": 28,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Market",
+      "video": "Signer_11_A007.mov",
+      "start": 12,
+      "end": 27,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Market",
+      "video": "Signer_11_A008.mov",
+      "start": 10,
+      "end": 25,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Market",
+      "video": "Signer_11_A009.mov",
+      "start": 14,
+      "end": 27,
+      "length": 14,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Market",
+      "video": "Signer_11_A010.mov",
+      "start": 5,
+      "end": 30,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Market",
+      "video": "Signer_12_A156.mov",
+      "start": 11,
+      "end": 29,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Market",
+      "video": "Signer_12_A157.mov",
+      "start": 9,
+      "end": 25,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Market",
+      "video": "Signer_12_A158.mov",
+      "start": 1,
+      "end": 23,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Market",
+      "video": "Signer_12_A159.mov",
+      "start": 5,
+      "end": 22,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Market",
+      "video": "Signer_12_A160.mov",
+      "start": 4,
+      "end": 21,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Monday",
+      "video": "Signer_11_A036.mov",
+      "start": 10,
+      "end": 24,
+      "length": 15,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Monday",
+      "video": "Signer_11_A037.mov",
+      "start": 13,
+      "end": 28,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Monday",
+      "video": "Signer_11_A038.mov",
+      "start": 19,
+      "end": 28,
+      "length": 10,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Monday",
+      "video": "Signer_11_A039.mov",
+      "start": 8,
+      "end": 24,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Monday",
+      "video": "Signer_11_A040.mov",
+      "start": 13,
+      "end": 22,
+      "length": 10,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Monday",
+      "video": "Signer_12_A186.mov",
+      "start": 9,
+      "end": 27,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Monday",
+      "video": "Signer_12_A187.mov",
+      "start": 10,
+      "end": 28,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Monday",
+      "video": "Signer_12_A188.mov",
+      "start": 11,
+      "end": 26,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Monday",
+      "video": "Signer_12_A189.mov",
+      "start": 3,
+      "end": 24,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Monday",
+      "video": "Signer_12_A190.mov",
+      "start": 7,
+      "end": 25,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Picture",
+      "video": "Signer_11_A051.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Picture",
+      "video": "Signer_11_A052.mov",
+      "start": 10,
+      "end": 25,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Picture",
+      "video": "Signer_11_A053.mov",
+      "start": 5,
+      "end": 23,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Picture",
+      "video": "Signer_11_A054.mov",
+      "start": 7,
+      "end": 23,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Picture",
+      "video": "Signer_11_A055.mov",
+      "start": 6,
+      "end": 20,
+      "length": 15,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Picture",
+      "video": "Signer_12_A201.mov",
+      "start": 8,
+      "end": 23,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Picture",
+      "video": "Signer_12_A202.mov",
+      "start": 4,
+      "end": 21,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Picture",
+      "video": "Signer_12_A203.mov",
+      "start": 8,
+      "end": 25,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Picture",
+      "video": "Signer_12_A204.mov",
+      "start": 8,
+      "end": 25,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Picture",
+      "video": "Signer_12_A205.mov",
+      "start": 5,
+      "end": 21,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Proud",
+      "video": "Signer_11_A046.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Proud",
+      "video": "Signer_11_A047.mov",
+      "start": 8,
+      "end": 29,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Proud",
+      "video": "Signer_11_A048.mov",
+      "start": 15,
+      "end": 28,
+      "length": 14,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Proud",
+      "video": "Signer_11_A049.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Proud",
+      "video": "Signer_11_A050.mov",
+      "start": 14,
+      "end": 24,
+      "length": 11,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Proud",
+      "video": "Signer_12_A196.mov",
+      "start": 9,
+      "end": 28,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Proud",
+      "video": "Signer_12_A197.mov",
+      "start": 10,
+      "end": 26,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Proud",
+      "video": "Signer_12_A198.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Proud",
+      "video": "Signer_12_A199.mov",
+      "start": 5,
+      "end": 22,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Proud",
+      "video": "Signer_12_A200.mov",
+      "start": 3,
+      "end": 24,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Teach",
+      "video": "Signer_11_A011.mov",
+      "start": 9,
+      "end": 24,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Teach",
+      "video": "Signer_11_A012.mov",
+      "start": 10,
+      "end": 25,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Teach",
+      "video": "Signer_11_A013.mov",
+      "start": 9,
+      "end": 24,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Teach",
+      "video": "Signer_11_A014.mov",
+      "start": 8,
+      "end": 22,
+      "length": 15,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Teach",
+      "video": "Signer_11_A015.mov",
+      "start": 8,
+      "end": 22,
+      "length": 15,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Teach",
+      "video": "Signer_12_A161.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Teach",
+      "video": "Signer_12_A162.mov",
+      "start": 10,
+      "end": 27,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Teach",
+      "video": "Signer_12_A163.mov",
+      "start": 8,
+      "end": 26,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Teach",
+      "video": "Signer_12_A164.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Teach",
+      "video": "Signer_12_A165.mov",
+      "start": 1,
+      "end": 20,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Twin",
+      "video": "Signer_11_A066.mov",
+      "start": 12,
+      "end": 26,
+      "length": 15,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Twin",
+      "video": "Signer_11_A067.mov",
+      "start": 8,
+      "end": 24,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Twin",
+      "video": "Signer_11_A068.mov",
+      "start": 4,
+      "end": 22,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Twin",
+      "video": "Signer_11_A069.mov",
+      "start": 7,
+      "end": 23,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Twin",
+      "video": "Signer_11_A070.mov",
+      "start": 9,
+      "end": 25,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Twin",
+      "video": "Signer_12_A216.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Twin",
+      "video": "Signer_12_A217.mov",
+      "start": 3,
+      "end": 25,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Twin",
+      "video": "Signer_12_A218.mov",
+      "start": 7,
+      "end": 26,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Twin",
+      "video": "Signer_12_A219.mov",
+      "start": 4,
+      "end": 23,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Twin",
+      "video": "Signer_12_A220.mov",
+      "start": 3,
+      "end": 24,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Ugali",
+      "video": "Signer_11_A031.mov",
+      "start": 10,
+      "end": 25,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Ugali",
+      "video": "Signer_11_A032.mov",
+      "start": 9,
+      "end": 25,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Ugali",
+      "video": "Signer_11_A033.mov",
+      "start": 10,
+      "end": 26,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Ugali",
+      "video": "Signer_11_A034.mov",
+      "start": 9,
+      "end": 24,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 11,
+      "class": "Ugali",
+      "video": "Signer_11_A035.mov",
+      "start": 5,
+      "end": 20,
+      "length": 16,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Ugali",
+      "video": "Signer_12_A181.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Ugali",
+      "video": "Signer_12_A182.mov",
+      "start": 7,
+      "end": 26,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Ugali",
+      "video": "Signer_12_A183.mov",
+      "start": 6,
+      "end": 26,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Ugali",
+      "video": "Signer_12_A184.mov",
+      "start": 6,
+      "end": 28,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 12,
+      "class": "Ugali",
+      "video": "Signer_12_A185.mov",
+      "start": 7,
+      "end": 26,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Agreement",
+      "video": "Signer_13_A356.mov",
+      "start": 7,
+      "end": 27,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Agreement",
+      "video": "Signer_13_A357.mov",
+      "start": 10,
+      "end": 29,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Agreement",
+      "video": "Signer_13_A358.mov",
+      "start": 10,
+      "end": 29,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Agreement",
+      "video": "Signer_13_A359.mov",
+      "start": 11,
+      "end": 27,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Agreement",
+      "video": "Signer_13_A360.mov",
+      "start": 7,
+      "end": 27,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Agreement",
+      "video": "Signer_14_A506.mov",
+      "start": 8,
+      "end": 26,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Agreement",
+      "video": "Signer_14_A507.mov",
+      "start": 12,
+      "end": 28,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Agreement",
+      "video": "Signer_14_A508.mov",
+      "start": 12,
+      "end": 30,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Agreement",
+      "video": "Signer_14_A509.mov",
+      "start": 4,
+      "end": 24,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Agreement",
+      "video": "Signer_14_A510.mov",
+      "start": 11,
+      "end": 29,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Agreement",
+      "video": "Signer_15_A656.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Agreement",
+      "video": "Signer_15_A657.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Agreement",
+      "video": "Signer_15_A658.mov",
+      "start": 2,
+      "end": 30,
+      "length": 29,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Agreement",
+      "video": "Signer_15_A659.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Agreement",
+      "video": "Signer_15_A660.mov",
+      "start": 3,
+      "end": 26,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Friend",
+      "video": "Signer_13_A301.mov",
+      "start": 10,
+      "end": 28,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Friend",
+      "video": "Signer_13_A302.mov",
+      "start": 4,
+      "end": 26,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Friend",
+      "video": "Signer_13_A303.mov",
+      "start": 1,
+      "end": 24,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Friend",
+      "video": "Signer_13_A304.mov",
+      "start": 3,
+      "end": 29,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Friend",
+      "video": "Signer_13_A305.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Friend",
+      "video": "Signer_14_A451.mov",
+      "start": 14,
+      "end": 30,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Friend",
+      "video": "Signer_14_A452.mov",
+      "start": 8,
+      "end": 28,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Friend",
+      "video": "Signer_14_A453.mov",
+      "start": 7,
+      "end": 24,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Friend",
+      "video": "Signer_14_A454.mov",
+      "start": 1,
+      "end": 25,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Friend",
+      "video": "Signer_14_A455.mov",
+      "start": 7,
+      "end": 28,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Friend",
+      "video": "Signer_15_A601.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Friend",
+      "video": "Signer_15_A602.mov",
+      "start": 8,
+      "end": 28,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Friend",
+      "video": "Signer_15_A603.mov",
+      "start": 10,
+      "end": 27,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Friend",
+      "video": "Signer_15_A604.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Friend",
+      "video": "Signer_15_A605.mov",
+      "start": 4,
+      "end": 21,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Gift",
+      "video": "Signer_13_A371.mov",
+      "start": 6,
+      "end": 28,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Gift",
+      "video": "Signer_13_A372.mov",
+      "start": 11,
+      "end": 30,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Gift",
+      "video": "Signer_13_A373.mov",
+      "start": 10,
+      "end": 29,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Gift",
+      "video": "Signer_13_A374.mov",
+      "start": 7,
+      "end": 26,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Gift",
+      "video": "Signer_13_A375.mov",
+      "start": 7,
+      "end": 24,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Gift",
+      "video": "Signer_14_A521.mov",
+      "start": 7,
+      "end": 23,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Gift",
+      "video": "Signer_14_A522.mov",
+      "start": 1,
+      "end": 20,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Gift",
+      "video": "Signer_14_A523.mov",
+      "start": 5,
+      "end": 24,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Gift",
+      "video": "Signer_14_A524.mov",
+      "start": 9,
+      "end": 28,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Gift",
+      "video": "Signer_14_A525.mov",
+      "start": 8,
+      "end": 27,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Gift",
+      "video": "Signer_15_A671.mov",
+      "start": 7,
+      "end": 27,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Gift",
+      "video": "Signer_15_A672.mov",
+      "start": 2,
+      "end": 26,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Gift",
+      "video": "Signer_15_A673.mov",
+      "start": 3,
+      "end": 23,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Gift",
+      "video": "Signer_15_A674.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Gift",
+      "video": "Signer_15_A675.mov",
+      "start": 3,
+      "end": 30,
+      "length": 28,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Market",
+      "video": "Signer_13_A306.mov",
+      "start": 8,
+      "end": 28,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Market",
+      "video": "Signer_13_A307.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Market",
+      "video": "Signer_13_A308.mov",
+      "start": 8,
+      "end": 25,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Market",
+      "video": "Signer_13_A309.mov",
+      "start": 7,
+      "end": 26,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Market",
+      "video": "Signer_13_A310.mov",
+      "start": 5,
+      "end": 22,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Market",
+      "video": "Signer_14_A456.mov",
+      "start": 8,
+      "end": 28,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Market",
+      "video": "Signer_14_A457.mov",
+      "start": 6,
+      "end": 24,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Market",
+      "video": "Signer_14_A458.mov",
+      "start": 6,
+      "end": 25,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Market",
+      "video": "Signer_14_A459.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Market",
+      "video": "Signer_14_A460.mov",
+      "start": 9,
+      "end": 25,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Market",
+      "video": "Signer_15_A606.mov",
+      "start": 8,
+      "end": 25,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Market",
+      "video": "Signer_15_A607.mov",
+      "start": 9,
+      "end": 25,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Market",
+      "video": "Signer_15_A608.mov",
+      "start": 5,
+      "end": 24,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Market",
+      "video": "Signer_15_A609.mov",
+      "start": 6,
+      "end": 23,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Market",
+      "video": "Signer_15_A610.mov",
+      "start": 5,
+      "end": 23,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Monday",
+      "video": "Signer_13_A336.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Monday",
+      "video": "Signer_13_A337.mov",
+      "start": 8,
+      "end": 30,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Monday",
+      "video": "Signer_13_A338.mov",
+      "start": 8,
+      "end": 30,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Monday",
+      "video": "Signer_13_A339.mov",
+      "start": 8,
+      "end": 29,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Monday",
+      "video": "Signer_13_A340.mov",
+      "start": 6,
+      "end": 27,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Monday",
+      "video": "Signer_14_A486.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Monday",
+      "video": "Signer_14_A487.mov",
+      "start": 8,
+      "end": 25,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Monday",
+      "video": "Signer_14_A488.mov",
+      "start": 9,
+      "end": 28,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Monday",
+      "video": "Signer_14_A489.mov",
+      "start": 7,
+      "end": 25,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Monday",
+      "video": "Signer_14_A490.mov",
+      "start": 8,
+      "end": 24,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Monday",
+      "video": "Signer_15_A636.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Monday",
+      "video": "Signer_15_A637.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Monday",
+      "video": "Signer_15_A638.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Monday",
+      "video": "Signer_15_A639.mov",
+      "start": 7,
+      "end": 29,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Monday",
+      "video": "Signer_15_A640.mov",
+      "start": 6,
+      "end": 26,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Picture",
+      "video": "Signer_13_A351.mov",
+      "start": 7,
+      "end": 28,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Picture",
+      "video": "Signer_13_A352.mov",
+      "start": 9,
+      "end": 30,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Picture",
+      "video": "Signer_13_A353.mov",
+      "start": 9,
+      "end": 28,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Picture",
+      "video": "Signer_13_A354.mov",
+      "start": 6,
+      "end": 26,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Picture",
+      "video": "Signer_13_A355.mov",
+      "start": 3,
+      "end": 23,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Picture",
+      "video": "Signer_14_A501.mov",
+      "start": 10,
+      "end": 27,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Picture",
+      "video": "Signer_14_A502.mov",
+      "start": 9,
+      "end": 25,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Picture",
+      "video": "Signer_14_A503.mov",
+      "start": 9,
+      "end": 26,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Picture",
+      "video": "Signer_14_A504.mov",
+      "start": 8,
+      "end": 25,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Picture",
+      "video": "Signer_14_A505.mov",
+      "start": 7,
+      "end": 25,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Picture",
+      "video": "Signer_15_A651.mov",
+      "start": 7,
+      "end": 26,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Picture",
+      "video": "Signer_15_A652.mov",
+      "start": 7,
+      "end": 29,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Picture",
+      "video": "Signer_15_A653.mov",
+      "start": 8,
+      "end": 30,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Picture",
+      "video": "Signer_15_A654.mov",
+      "start": 5,
+      "end": 26,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Picture",
+      "video": "Signer_15_A655.mov",
+      "start": 7,
+      "end": 26,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Proud",
+      "video": "Signer_13_A346.mov",
+      "start": 9,
+      "end": 28,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Proud",
+      "video": "Signer_13_A347.mov",
+      "start": 2,
+      "end": 24,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Proud",
+      "video": "Signer_13_A348.mov",
+      "start": 10,
+      "end": 29,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Proud",
+      "video": "Signer_13_A349.mov",
+      "start": 12,
+      "end": 30,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Proud",
+      "video": "Signer_13_A350.mov",
+      "start": 9,
+      "end": 25,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Proud",
+      "video": "Signer_14_A491.mov",
+      "start": 6,
+      "end": 25,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Proud",
+      "video": "Signer_14_A492.mov",
+      "start": 10,
+      "end": 28,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Proud",
+      "video": "Signer_14_A493.mov",
+      "start": 14,
+      "end": 30,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Proud",
+      "video": "Signer_14_A494.mov",
+      "start": 12,
+      "end": 29,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Proud",
+      "video": "Signer_14_A495.mov",
+      "start": 12,
+      "end": 29,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Proud",
+      "video": "Signer_15_A646.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Proud",
+      "video": "Signer_15_A647.mov",
+      "start": 5,
+      "end": 29,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Proud",
+      "video": "Signer_15_A648.mov",
+      "start": 5,
+      "end": 28,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Proud",
+      "video": "Signer_15_A649.mov",
+      "start": 7,
+      "end": 29,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Proud",
+      "video": "Signer_15_A650.mov",
+      "start": 6,
+      "end": 30,
+      "length": 25,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Teach",
+      "video": "Signer_13_A311.mov",
+      "start": 6,
+      "end": 28,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Teach",
+      "video": "Signer_13_A312.mov",
+      "start": 8,
+      "end": 28,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Teach",
+      "video": "Signer_13_A313.mov",
+      "start": 10,
+      "end": 27,
+      "length": 18,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Teach",
+      "video": "Signer_13_A314.mov",
+      "start": 7,
+      "end": 26,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Teach",
+      "video": "Signer_13_A315.mov",
+      "start": 3,
+      "end": 23,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Teach",
+      "video": "Signer_14_A461.mov",
+      "start": 8,
+      "end": 27,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Teach",
+      "video": "Signer_14_A462.mov",
+      "start": 4,
+      "end": 24,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Teach",
+      "video": "Signer_14_A463.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Teach",
+      "video": "Signer_14_A464.mov",
+      "start": 6,
+      "end": 24,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Teach",
+      "video": "Signer_14_A465.mov",
+      "start": 7,
+      "end": 30,
+      "length": 24,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Teach",
+      "video": "Signer_15_A611.mov",
+      "start": 9,
+      "end": 27,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Teach",
+      "video": "Signer_15_A612.mov",
+      "start": 7,
+      "end": 29,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Teach",
+      "video": "Signer_15_A613.mov",
+      "start": 8,
+      "end": 26,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Teach",
+      "video": "Signer_15_A614.mov",
+      "start": 6,
+      "end": 25,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Teach",
+      "video": "Signer_15_A615.mov",
+      "start": 1,
+      "end": 21,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Twin",
+      "video": "Signer_13_A366.mov",
+      "start": 5,
+      "end": 26,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Twin",
+      "video": "Signer_13_A367.mov",
+      "start": 8,
+      "end": 29,
+      "length": 22,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Twin",
+      "video": "Signer_13_A368.mov",
+      "start": 11,
+      "end": 29,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Twin",
+      "video": "Signer_13_A369.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Twin",
+      "video": "Signer_13_A370.mov",
+      "start": 6,
+      "end": 24,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Twin",
+      "video": "Signer_14_A516.mov",
+      "start": 4,
+      "end": 24,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Twin",
+      "video": "Signer_14_A517.mov",
+      "start": 7,
+      "end": 27,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Twin",
+      "video": "Signer_14_A518.mov",
+      "start": 9,
+      "end": 28,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Twin",
+      "video": "Signer_14_A519.mov",
+      "start": 9,
+      "end": 28,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Twin",
+      "video": "Signer_14_A520.mov",
+      "start": 9,
+      "end": 27,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Twin",
+      "video": "Signer_15_A666.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Twin",
+      "video": "Signer_15_A667.mov",
+      "start": 1,
+      "end": 30,
+      "length": 30,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Twin",
+      "video": "Signer_15_A668.mov",
+      "start": 4,
+      "end": 30,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Twin",
+      "video": "Signer_15_A669.mov",
+      "start": 7,
+      "end": 29,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Twin",
+      "video": "Signer_15_A670.mov",
+      "start": 1,
+      "end": 27,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Ugali",
+      "video": "Signer_13_A331.mov",
+      "start": 10,
+      "end": 28,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Ugali",
+      "video": "Signer_13_A332.mov",
+      "start": 10,
+      "end": 28,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Ugali",
+      "video": "Signer_13_A333.mov",
+      "start": 9,
+      "end": 29,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Ugali",
+      "video": "Signer_13_A334.mov",
+      "start": 4,
+      "end": 26,
+      "length": 23,
+      "fallback": false
+    },
+    {
+      "signer": 13,
+      "class": "Ugali",
+      "video": "Signer_13_A335.mov",
+      "start": 4,
+      "end": 24,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Ugali",
+      "video": "Signer_14_A481.mov",
+      "start": 10,
+      "end": 26,
+      "length": 17,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Ugali",
+      "video": "Signer_14_A482.mov",
+      "start": 6,
+      "end": 25,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Ugali",
+      "video": "Signer_14_A483.mov",
+      "start": 5,
+      "end": 25,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Ugali",
+      "video": "Signer_14_A484.mov",
+      "start": 4,
+      "end": 24,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 14,
+      "class": "Ugali",
+      "video": "Signer_14_A485.mov",
+      "start": 5,
+      "end": 24,
+      "length": 20,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Ugali",
+      "video": "Signer_15_A631.mov",
+      "start": 2,
+      "end": 28,
+      "length": 27,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Ugali",
+      "video": "Signer_15_A632.mov",
+      "start": 10,
+      "end": 30,
+      "length": 21,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Ugali",
+      "video": "Signer_15_A633.mov",
+      "start": 1,
+      "end": 26,
+      "length": 26,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Ugali",
+      "video": "Signer_15_A634.mov",
+      "start": 6,
+      "end": 24,
+      "length": 19,
+      "fallback": false
+    },
+    {
+      "signer": 15,
+      "class": "Ugali",
+      "video": "Signer_15_A635.mov",
+      "start": 4,
+      "end": 26,
+      "length": 23,
+      "fallback": false
+    }
+  ]
+}

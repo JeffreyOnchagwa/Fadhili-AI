@@ -292,7 +292,7 @@ export async function getKSLClasses(): Promise<ApiResult<KSLClassesResponse>> {
 }
 
 /**
- * Sends a 30x1662 MediaPipe feature sequence to the KSL model.
+ * Sends a 30x150 MediaPipe feature sequence to the KSL model.
  * The model is experimental — a response is never fabricated, and a
  * network or backend failure is reported as an error rather than
  * silently retried or guessed at.

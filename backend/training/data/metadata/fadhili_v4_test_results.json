@@ -1,0 +1,190 @@
+{
+  "model": "Fadhili_KSL_v3",
+  "evaluation": "Signer-independent locked test",
+  "test_signers": "13-15",
+  "samples": 150,
+  "test_loss": 2.1532087326049805,
+  "test_accuracy": 0.5199999809265137,
+  "v2_test_accuracy": 0.47333332896232605,
+  "absolute_improvement": 0.04666665196418762,
+  "relative_error_reduction": 0.08860756628522147,
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      5,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      10,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      13,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      5,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      5,
+      5,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      6,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      4,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+    ]
+  ],
+  "per_class_accuracy": {
+    "Agreement": {
+      "correct": 5,
+      "total": 15,
+      "accuracy": 0.3333333333333333
+    },
+    "Friend": {
+      "correct": 9,
+      "total": 15,
+      "accuracy": 0.6
+    },
+    "Gift": {
+      "correct": 10,
+      "total": 15,
+      "accuracy": 0.6666666666666666
+    },
+    "Market": {
+      "correct": 13,
+      "total": 15,
+      "accuracy": 0.8666666666666667
+    },
+    "Monday": {
+      "correct": 5,
+      "total": 15,
+      "accuracy": 0.3333333333333333
+    },
+    "Picture": {
+      "correct": 5,
+      "total": 15,
+      "accuracy": 0.3333333333333333
+    },
+    "Proud": {
+      "correct": 4,
+      "total": 15,
+      "accuracy": 0.26666666666666666
+    },
+    "Teach": {
+      "correct": 7,
+      "total": 15,
+      "accuracy": 0.4666666666666667
+    },
+    "Twin": {
+      "correct": 14,
+      "total": 15,
+      "accuracy": 0.9333333333333333
+    },
+    "Ugali": {
+      "correct": 6,
+      "total": 15,
+      "accuracy": 0.4
+    }
+  },
+  "confidence": {
+    "mean": 0.864864706993103,
+    "correct": 0.8854478597640991,
+    "incorrect": 0.8425661325454712
+  }
+}
