@@ -23,6 +23,7 @@ RUN pip install --no-cache-dir -r requirements-serve.txt
 
 COPY app ./app
 COPY training/models ./training/models
+COPY training/data/metadata/fadhili_v5_champion.json ./training/data/metadata/fadhili_v5_champion.json
 
 # Non-root user.
 RUN useradd --create-home --uid 1000 fadhili \

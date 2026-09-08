@@ -8,15 +8,16 @@ from pathlib import Path
 # PROJECT PATHS
 # ---------------------------------------------------------------------
 
-# config.py:
-# backend/app/config.py
-#
-# parents[0] = app
-# parents[1] = backend
-# parents[2] = project root
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
-BACKEND_ROOT = PROJECT_ROOT / "backend"
+# config.py lives at <backend>/app/config.py, so parents[1] is always
+# the directory that holds both app/ and training/ — whether that
+# directory is called "backend" in this monorepo checkout or is /app
+# at the root of the deployed container. Computing it via a
+# project-root-then-append-"backend" path (as an earlier version did)
+# breaks inside Docker: the Dockerfile copies app/ and training/models
+# straight into /app with no "backend" subdirectory, so that approach
+# would silently point at a path that doesn't exist and the model would
+# fail to load in production.
+BACKEND_ROOT = Path(__file__).resolve().parents[1]
 
 
 class Settings:
