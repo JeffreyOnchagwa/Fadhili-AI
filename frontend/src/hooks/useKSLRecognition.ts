@@ -1,31 +1,32 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { RefObject } from "react";
 
-import { predictKSL } from "../services/api";
-import type { KSLPredictionResponse } from "../services/api";
-import { extractFeatures, SEQUENCE_LENGTH } from "../services/mediapipeFeatures";
+import { predictKSLv2 } from "../services/api";
+import type { KSLPredictionV2Response } from "../services/api";
+import {
+  extractRawLandmarks,
+  resampleWindow,
+  roundForTransport,
+  WINDOW_FRAMES,
+  WINDOW_MS,
+} from "../services/mediapipeFeatures";
 import {
   loadMediaPipeHolistic,
   locateHolisticFile,
 } from "../services/mediapipeHolisticLoader";
 import type { HolisticInstance } from "../services/mediapipeHolisticLoader";
 
-const PREDICTION_INTERVAL_MS = 800;
-const FEATURE_LENGTH = 150;
+const PREDICTION_INTERVAL_MS = 1000;
 
 /**
  * Temporal stabilization.
  *
- * The model runs roughly once a second and is substantially
- * overconfident: on held-out signers it averaged 0.92 confidence on
- * predictions that were WRONG. Confidence alone is therefore a poor
- * gate, and showing every raw inference makes the UI flicker between
- * unrelated words.
- *
- * Agreement over time is the stronger signal, so a sign is only
- * surfaced as settled once the same label wins a majority of a short
- * rolling window. This cannot make the model correct — it only stops
- * the interface from presenting noise as if it were a reading.
+ * The model is overconfident — on held-out signers it averaged 0.92
+ * confidence on predictions that were WRONG — so confidence alone is a
+ * poor gate, and surfacing every raw inference makes the panel flicker
+ * between unrelated words. A sign is only presented once it wins a
+ * majority of a short rolling window. This cannot make the model
+ * correct; it stops the UI presenting noise as a reading.
  */
 const HISTORY_WINDOW = 5;
 const AGREEMENT_REQUIRED = 3;
@@ -35,15 +36,14 @@ export type RecognitionPhase =
   | "collecting"
   | "watching"
   | "uncertain"
+  | "no_sign"
   | "settled";
 
 export interface StableSign {
   label: string;
-  /** Mean confidence across the agreeing predictions in the window. */
   meanConfidence: number;
-  /** How many of the last HISTORY_WINDOW predictions agreed. */
   agreement: number;
-  /** Increments each time a NEW sign settles; drives speech. */
+  /** Increments only when a NEW sign settles; drives speech. */
   sequence: number;
 }
 
@@ -52,12 +52,15 @@ export interface UseKSLRecognitionResult {
   isWarmingUp: boolean;
   isPredicting: boolean;
   phase: RecognitionPhase;
-  /** Raw latest inference. Useful for diagnostics, not for display. */
-  lastPrediction: KSLPredictionResponse | null;
-  /** The settled sign, or null while nothing has stabilized. */
+  lastPrediction: KSLPredictionV2Response | null;
   stableSign: StableSign | null;
   lastError: string | null;
   resetRecognition: () => void;
+}
+
+interface BufferedFrame {
+  values: number[];
+  at: number;
 }
 
 export function useKSLRecognition(
@@ -67,13 +70,14 @@ export function useKSLRecognition(
   const [framesCollected, setFramesCollected] = useState(0);
   const [isPredicting, setIsPredicting] = useState(false);
   const [lastPrediction, setLastPrediction] =
-    useState<KSLPredictionResponse | null>(null);
+    useState<KSLPredictionV2Response | null>(null);
   const [stableSign, setStableSign] = useState<StableSign | null>(null);
   const [phase, setPhase] = useState<RecognitionPhase>("idle");
   const [lastError, setLastError] = useState<string | null>(null);
 
-  const bufferRef = useRef<number[][]>([]);
-  const historyRef = useRef<{ label: string | null; confidence: number }[]>([]);
+  const bufferRef = useRef<BufferedFrame[]>([]);
+  const historyRef = useRef<(string | null)[]>([]);
+  const confidenceRef = useRef<Map<string, number[]>>(new Map());
   const settledLabelRef = useRef<string | null>(null);
   const sequenceRef = useRef(0);
   const isPredictingRef = useRef(false);
@@ -83,6 +87,7 @@ export function useKSLRecognition(
   const resetRecognition = useCallback(() => {
     bufferRef.current = [];
     historyRef.current = [];
+    confidenceRef.current = new Map();
     settledLabelRef.current = null;
     lastPredictTimeRef.current = 0;
     setFramesCollected(0);
@@ -92,44 +97,52 @@ export function useKSLRecognition(
     setPhase(activeRef.current ? "collecting" : "idle");
   }, []);
 
-  /**
-   * Folds one inference into the rolling window and decides whether a
-   * sign has settled.
-   */
-  const integrate = useCallback((response: KSLPredictionResponse) => {
+  /** Folds one inference into the rolling window. */
+  const integrate = useCallback((response: KSLPredictionV2Response) => {
+    // The server's motion gate is authoritative about "nobody is
+    // signing". Clear the settled sign rather than leaving a stale word
+    // on screen after the user has stopped.
+    if (response.reason === "no_sign_detected") {
+      historyRef.current = [];
+      confidenceRef.current = new Map();
+      settledLabelRef.current = null;
+      setStableSign(null);
+      setPhase("no_sign");
+      return;
+    }
+
     const history = historyRef.current;
-    history.push({
-      label: response.accepted ? response.prediction : null,
-      confidence: response.confidence,
-    });
+    const label = response.accepted ? response.prediction : null;
+    history.push(label);
     if (history.length > HISTORY_WINDOW) history.shift();
 
-    // Tally accepted labels across the window.
-    const tally = new Map<string, number[]>();
-    for (const item of history) {
-      if (!item.label) continue;
-      const scores = tally.get(item.label) ?? [];
-      scores.push(item.confidence);
-      tally.set(item.label, scores);
+    const counts = new Map<string, number>();
+    for (const entry of history) {
+      if (!entry) continue;
+      counts.set(entry, (counts.get(entry) ?? 0) + 1);
+    }
+    if (label) {
+      const scores = confidenceRef.current.get(label) ?? [];
+      scores.push(response.confidence);
+      confidenceRef.current.set(label, scores.slice(-HISTORY_WINDOW));
     }
 
     let winner: string | null = null;
-    let winnerScores: number[] = [];
-    for (const [label, scores] of tally) {
-      if (scores.length > winnerScores.length) {
-        winner = label;
-        winnerScores = scores;
+    let winnerCount = 0;
+    for (const [entry, count] of counts) {
+      if (count > winnerCount) {
+        winner = entry;
+        winnerCount = count;
       }
     }
 
-    if (winner && winnerScores.length >= AGREEMENT_REQUIRED) {
+    if (winner && winnerCount >= AGREEMENT_REQUIRED) {
+      const scores = confidenceRef.current.get(winner) ?? [
+        response.confidence,
+      ];
       const meanConfidence =
-        winnerScores.reduce((sum, value) => sum + value, 0) /
-        winnerScores.length;
+        scores.reduce((sum, value) => sum + value, 0) / scores.length;
 
-      // Only bump the sequence when the settled sign actually changes,
-      // so speech and announcements fire once per sign rather than once
-      // per inference.
       if (settledLabelRef.current !== winner) {
         settledLabelRef.current = winner;
         sequenceRef.current += 1;
@@ -138,29 +151,42 @@ export function useKSLRecognition(
       setStableSign({
         label: winner,
         meanConfidence,
-        agreement: winnerScores.length,
+        agreement: winnerCount,
         sequence: sequenceRef.current,
       });
       setPhase("settled");
       return;
     }
 
-    // Nothing has a majority. Keep the previous settled sign on screen
-    // rather than blanking it, but say the reading is unsettled.
-    setPhase(tally.size > 0 ? "uncertain" : "watching");
+    setPhase(counts.size > 0 ? "uncertain" : "watching");
   }, []);
 
   const runPrediction = useCallback(async () => {
     if (isPredictingRef.current) return;
 
-    const snapshot = bufferRef.current.slice(-SEQUENCE_LENGTH);
-    if (snapshot.length !== SEQUENCE_LENGTH) return;
+    const video = videoRef.current;
+    if (!video || !video.videoWidth || !video.videoHeight) return;
+
+    const cutoff = performance.now() - WINDOW_MS;
+    const recent = bufferRef.current.filter((frame) => frame.at >= cutoff);
+    if (recent.length < 16) return;
 
     isPredictingRef.current = true;
     if (activeRef.current) setIsPredicting(true);
 
     try {
-      const result = await predictKSL(snapshot);
+      const window = roundForTransport(
+        resampleWindow(
+          recent.map((frame) => frame.values),
+          WINDOW_FRAMES
+        )
+      );
+
+      const result = await predictKSLv2(
+        window,
+        video.videoWidth,
+        video.videoHeight
+      );
       if (!activeRef.current) return;
 
       if (result.ok) {
@@ -182,7 +208,7 @@ export function useKSLRecognition(
       isPredictingRef.current = false;
       if (activeRef.current) setIsPredicting(false);
     }
-  }, [integrate]);
+  }, [integrate, videoRef]);
 
   useEffect(() => {
     activeRef.current = true;
@@ -192,6 +218,7 @@ export function useKSLRecognition(
 
     bufferRef.current = [];
     historyRef.current = [];
+    confidenceRef.current = new Map();
     settledLabelRef.current = null;
     setFramesCollected(0);
     setLastPrediction(null);
@@ -227,30 +254,25 @@ export function useKSLRecognition(
         holistic.onResults((results) => {
           if (cancelled || !activeRef.current) return;
 
-          const features = extractFeatures(results);
-          if (!features) return;
+          const frame = extractRawLandmarks(results);
+          if (!frame) return;
 
-          if (features.length !== FEATURE_LENGTH) {
-            console.error(
-              `[Fadhili AI] Invalid MediaPipe feature length: ${features.length}`
-            );
-            return;
-          }
-
+          const now = performance.now();
           const buffer = bufferRef.current;
-          buffer.push(features);
-          if (buffer.length > SEQUENCE_LENGTH) buffer.shift();
-          setFramesCollected(buffer.length);
+          buffer.push({ values: frame, at: now });
 
-          if (buffer.length === SEQUENCE_LENGTH) {
-            const now = performance.now();
-            const enoughTimePassed =
-              now - lastPredictTimeRef.current >= PREDICTION_INTERVAL_MS;
+          // Keep a little more than one window so a slow device still
+          // has a full window's worth of history to resample from.
+          const cutoff = now - WINDOW_MS * 1.5;
+          while (buffer.length && buffer[0].at < cutoff) buffer.shift();
 
-            if (!isPredictingRef.current && enoughTimePassed) {
-              lastPredictTimeRef.current = now;
-              void runPrediction();
-            }
+          setFramesCollected(
+            buffer.filter((f) => f.at >= now - WINDOW_MS).length
+          );
+
+          if (now - lastPredictTimeRef.current >= PREDICTION_INTERVAL_MS) {
+            lastPredictTimeRef.current = now;
+            void runPrediction();
           }
         });
 
@@ -326,7 +348,9 @@ export function useKSLRecognition(
 
   return {
     framesCollected,
-    isWarmingUp: framesCollected < SEQUENCE_LENGTH,
+    // Warming up until the buffer covers enough of the window to be
+    // worth sending.
+    isWarmingUp: framesCollected < 16,
     isPredicting,
     phase,
     lastPrediction,

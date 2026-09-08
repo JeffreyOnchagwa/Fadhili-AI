@@ -46,7 +46,17 @@ import numpy as np
 
 os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "3")
 
-from features_v5 import FeatureConfig, build_sequence, feature_dimension  # noqa: E402
+from features_v5 import (  # noqa: E402
+    FeatureConfig,
+    build_background_sequence,
+    build_sequence,
+    feature_dimension,
+)
+
+# Label used for the rejection class. A production interpreter must be
+# able to say "nothing is being signed" rather than forcing every input
+# into a known word.
+NO_SIGN_LABEL = "__no_sign__"
 
 REPO = Path(__file__).resolve().parents[3]
 RAW_ROOT = REPO / "backend" / "training" / "data" / "raw_landmarks"
@@ -66,9 +76,15 @@ SEED = 1337
 # =====================================================================
 
 
-def load_dataset(config, classes=None):
+def load_dataset(config, classes=None, with_background=False):
     """
     Build the full dataset from the raw landmark cache.
+
+    When `with_background` is set, an extra rejection class is added,
+    built from the idle stretches that motion trimming discards — real
+    footage of the same people not signing. Those samples carry the
+    signer id of the recording they came from, so signer-grouped splits
+    keep them on the correct side and no signer leaks across a fold.
 
     Returns X, y, signers, class_names.
     """
@@ -101,11 +117,40 @@ def load_dataset(config, classes=None):
             y.append(index)
             signers.append(int(match.group(1)))
 
+    class_names = list(classes)
+
+    if with_background:
+        rng = np.random.default_rng(SEED)
+        background_index = len(class_names)
+        class_names.append(NO_SIGN_LABEL)
+
+        # Sample background from a subset so the rejection class does
+        # not swamp the vocabulary: roughly one background example per
+        # class keeps the problem balanced.
+        stride = max(1, len(classes))
+        candidates = [
+            path
+            for index, path in enumerate(paths)
+            if index % stride == 0
+            and path.parent.name in classes
+        ]
+
+        for path in candidates:
+            match = re.match(r"Signer_(\d+)_", path.name)
+            if not match:
+                continue
+            sequence = build_background_sequence(path, config, rng)
+            if sequence is None:
+                continue
+            X.append(sequence)
+            y.append(background_index)
+            signers.append(int(match.group(1)))
+
     return (
         np.asarray(X, dtype=np.float32),
         np.asarray(y, dtype=np.int32),
         np.asarray(signers, dtype=np.int32),
-        list(classes),
+        class_names,
     )
 
 
@@ -306,23 +351,62 @@ def evaluate(model, X, y, signers, n_classes):
 
 
 def train_fold(
-    model_name, X_tr, y_tr, X_va, y_va, n_classes, epochs, aug_strength, rng
+    model_name,
+    X_tr,
+    y_tr,
+    signers_tr,
+    n_classes,
+    epochs,
+    aug_strength,
+    rng,
 ):
+    """
+    Train one fold.
+
+    The evaluation split is NOT passed in. Early stopping uses an INNER
+    signer-grouped split carved out of the training signers only.
+
+    This matters: an earlier version of this function took the
+    evaluation split as `validation_data` and early-stopped on it with
+    restore_best_weights. That leaks the evaluation set into model
+    selection and optimistically biases every reported number, which is
+    exactly the failure this project must not ship. The held-out fold is
+    now never seen until `evaluate` runs.
+    """
     import tensorflow as tf
+
+    unique = sorted(set(signers_tr.tolist()))
+
+    # Hold out roughly a fifth of the TRAINING signers to choose the
+    # epoch. Grouped by signer, so no signer straddles the boundary.
+    n_inner = max(1, len(unique) // 5)
+    inner_val_signers = unique[-n_inner:]
+
+    inner_val = np.isin(signers_tr, inner_val_signers)
+    inner_train = ~inner_val
+
+    # Degenerate case: too few signers to split. Fall back to a
+    # stratified random split, still never touching the eval fold.
+    if inner_train.sum() == 0 or inner_val.sum() == 0:
+        shuffled = rng.permutation(len(y_tr))
+        cut = int(0.85 * len(y_tr))
+        inner_train = np.zeros(len(y_tr), dtype=bool)
+        inner_val = np.zeros(len(y_tr), dtype=bool)
+        inner_train[shuffled[:cut]] = True
+        inner_val[shuffled[cut:]] = True
 
     seq_len, dim = X_tr.shape[1], X_tr.shape[2]
     model = build_model(model_name, seq_len, dim, n_classes)
 
-    y_tr_oh = tf.keras.utils.to_categorical(y_tr, n_classes)
-    y_va_oh = tf.keras.utils.to_categorical(y_va, n_classes)
+    y_inner_train = tf.keras.utils.to_categorical(y_tr[inner_train], n_classes)
+    y_inner_val = tf.keras.utils.to_categorical(y_tr[inner_val], n_classes)
 
     if aug_strength > 0:
-        # One augmented copy alongside the originals.
-        X_aug = augment(X_tr, rng, aug_strength)
-        X_fit = np.concatenate([X_tr, X_aug])
-        y_fit = np.concatenate([y_tr_oh, y_tr_oh])
+        X_aug = augment(X_tr[inner_train], rng, aug_strength)
+        X_fit = np.concatenate([X_tr[inner_train], X_aug])
+        y_fit = np.concatenate([y_inner_train, y_inner_train])
     else:
-        X_fit, y_fit = X_tr, y_tr_oh
+        X_fit, y_fit = X_tr[inner_train], y_inner_train
 
     callbacks = [
         tf.keras.callbacks.EarlyStopping(
@@ -339,7 +423,7 @@ def train_fold(
     history = model.fit(
         X_fit,
         y_fit,
-        validation_data=(X_va, y_va_oh),
+        validation_data=(X_tr[inner_val], y_inner_val),
         epochs=epochs,
         batch_size=32,
         callbacks=callbacks,
@@ -383,6 +467,24 @@ def run_protocol(
             for s in DEV_SIGNERS
         ]
 
+    elif protocol == "dev_groupcv":
+        # Six folds of two signers over the development set (01-12).
+        #
+        # Used for architecture selection. Signers 13-15 are excluded
+        # entirely so that selection pressure never touches them, and
+        # each fold pairs a studio signer with another signer so folds
+        # are not trivially all-studio. Cheaper than 12-fold LOSO while
+        # still strictly signer-grouped.
+        pairs = [(1, 2), (3, 4), (5, 6), (7, 8), (9, 10), (11, 12)]
+        splits = [
+            (
+                f"fold_{a}_{b}",
+                np.isin(signers, [x for x in DEV_SIGNERS if x not in (a, b)]),
+                np.isin(signers, [a, b]),
+            )
+            for a, b in pairs
+        ]
+
     else:
         raise ValueError(protocol)
 
@@ -395,8 +497,7 @@ def run_protocol(
             model_name,
             X[train_mask],
             y[train_mask],
-            X[test_mask],
-            y[test_mask],
+            signers[train_mask],
             n_classes,
             epochs,
             aug,
@@ -444,7 +545,7 @@ def main():
     parser.add_argument(
         "--protocol",
         default="cross_domain",
-        choices=["cross_domain", "within_studio", "dev_loso"],
+        choices=["cross_domain", "within_studio", "dev_loso", "dev_groupcv"],
     )
     parser.add_argument("--epochs", type=int, default=80)
     parser.add_argument("--aug", type=float, default=1.0)
@@ -455,6 +556,8 @@ def main():
     parser.add_argument("--no-masks", action="store_true")
     parser.add_argument("--no-trim", action="store_true",
                         help="Disable motion trimming, for A/B.")
+    parser.add_argument("--with-background", action="store_true",
+                        help="Add a 'no sign' rejection class from idle footage.")
     parser.add_argument("--tag", default="")
     parser.add_argument(
         "--classes",
@@ -485,7 +588,9 @@ def main():
     )
 
     print(f"Building dataset  dim={feature_dimension(config)} ...", flush=True)
-    X, y, signers, classes = load_dataset(config, wanted_classes)
+    X, y, signers, classes = load_dataset(
+        config, wanted_classes, with_background=args.with_background
+    )
 
     if args.signers:
         keep = [int(s) for s in args.signers.split(",")]

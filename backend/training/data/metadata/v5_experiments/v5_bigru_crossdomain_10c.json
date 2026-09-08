@@ -1,0 +1,123 @@
+{
+  "protocol": "cross_domain",
+  "model": "bigru",
+  "config": {
+    "sequence_length": 32,
+    "aspect_correct": true,
+    "robust_hand_scale": true,
+    "interpolate_gaps": true,
+    "max_gap": 5,
+    "include_masks": true,
+    "include_wrist_position": true,
+    "include_scale_ratio": true,
+    "include_velocity": true,
+    "clip_value": 5.0,
+    "trim_to_motion": true,
+    "motion_energy_keep": 0.9,
+    "motion_pad_frames": 4
+  },
+  "classes": [
+    "Agreement",
+    "Friend",
+    "Gift",
+    "Market",
+    "Monday",
+    "Picture",
+    "Proud",
+    "Teach",
+    "Twin",
+    "Ugali"
+  ],
+  "folds": [
+    {
+      "accuracy": 0.776,
+      "macro_f1": 0.7861,
+      "mean_signer_accuracy": 0.776,
+      "worst_signer_accuracy": 0.42,
+      "mean_confidence": 0.8572,
+      "mean_confidence_when_wrong": 0.7592,
+      "ece": 0.1024,
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 0.48,
+          "f1": 0.6486,
+          "support": 25
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.88,
+          "f1": 0.9362,
+          "support": 25
+        },
+        "2": {
+          "precision": 1.0,
+          "recall": 0.92,
+          "f1": 0.9583,
+          "support": 25
+        },
+        "3": {
+          "precision": 0.381,
+          "recall": 0.64,
+          "f1": 0.4776,
+          "support": 25
+        },
+        "4": {
+          "precision": 1.0,
+          "recall": 0.72,
+          "f1": 0.8372,
+          "support": 25
+        },
+        "5": {
+          "precision": 1.0,
+          "recall": 0.92,
+          "f1": 0.9583,
+          "support": 25
+        },
+        "6": {
+          "precision": 0.5556,
+          "recall": 0.6,
+          "f1": 0.5769,
+          "support": 25
+        },
+        "7": {
+          "precision": 0.7407,
+          "recall": 0.8,
+          "f1": 0.7692,
+          "support": 25
+        },
+        "8": {
+          "precision": 0.7353,
+          "recall": 1.0,
+          "f1": 0.8475,
+          "support": 25
+        },
+        "9": {
+          "precision": 0.9091,
+          "recall": 0.8,
+          "f1": 0.8511,
+          "support": 25
+        }
+      },
+      "per_signer": {
+        "11": 0.92,
+        "12": 0.86,
+        "13": 0.9,
+        "14": 0.42,
+        "15": 0.78
+      },
+      "n": 250,
+      "fold": "studio->wild",
+      "best_epoch": 33,
+      "train_n": 492,
+      "seconds": 286.2
+    }
+  ],
+  "summary": {
+    "mean_accuracy": 0.776,
+    "std_accuracy": 0.0,
+    "min_fold_accuracy": 0.776,
+    "mean_macro_f1": 0.7861,
+    "mean_ece": 0.1024
+  }
+}

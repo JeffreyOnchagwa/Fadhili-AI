@@ -1,0 +1,213 @@
+{
+  "model_name": "Fadhili_KSL_v5_bigru",
+  "architecture": "bigru",
+  "parameters": 184138,
+  "classes": [
+    "Agreement",
+    "Friend",
+    "Gift",
+    "Market",
+    "Monday",
+    "Picture",
+    "Proud",
+    "Teach",
+    "Twin",
+    "Ugali"
+  ],
+  "feature_config": {
+    "sequence_length": 32,
+    "aspect_correct": true,
+    "robust_hand_scale": true,
+    "interpolate_gaps": true,
+    "max_gap": 5,
+    "include_masks": true,
+    "include_wrist_position": true,
+    "include_scale_ratio": true,
+    "include_velocity": true,
+    "clip_value": 5.0,
+    "trim_to_motion": true,
+    "motion_energy_keep": 0.9,
+    "motion_pad_frames": 4
+  },
+  "feature_dimension": 320,
+  "sequence_length": 32,
+  "temperature": 0.8938413262367249,
+  "train_signers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "early_stop_signers": [
+    11,
+    12
+  ],
+  "diagnostic_signers": [
+    13,
+    14,
+    15
+  ],
+  "training_minutes": 5.7,
+  "best_epoch": 30,
+  "seed": 1337,
+  "evaluation_note": "Signers 13-15 are a held-out DIAGNOSTIC set, not a pristine test set: they were inspected during v2/v3/v4 development. They were not used for training, early stopping, calibration or model selection here.",
+  "dev_holdout": {
+    "accuracy": 0.86,
+    "macro_f1": 0.8579,
+    "mean_signer_accuracy": 0.86,
+    "worst_signer_accuracy": 0.86,
+    "mean_confidence": 0.8665,
+    "mean_confidence_when_wrong": 0.61,
+    "ece": 0.0825,
+    "per_class": {
+      "0": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.8235,
+        "support": 10
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "2": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8889,
+        "support": 10
+      },
+      "3": {
+        "precision": 0.6667,
+        "recall": 0.4,
+        "f1": 0.5,
+        "support": 10
+      },
+      "4": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "5": {
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9474,
+        "support": 10
+      },
+      "6": {
+        "precision": 0.5333,
+        "recall": 0.8,
+        "f1": 0.64,
+        "support": 10
+      },
+      "7": {
+        "precision": 0.8333,
+        "recall": 1.0,
+        "f1": 0.9091,
+        "support": 10
+      },
+      "8": {
+        "precision": 0.7692,
+        "recall": 1.0,
+        "f1": 0.8696,
+        "support": 10
+      },
+      "9": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      }
+    },
+    "per_signer": {
+      "11": 0.86,
+      "12": 0.86
+    },
+    "n": 100
+  },
+  "diagnostic": {
+    "accuracy": 0.6733,
+    "macro_f1": 0.6991,
+    "mean_signer_accuracy": 0.6733,
+    "worst_signer_accuracy": 0.38,
+    "mean_confidence": 0.8225,
+    "mean_confidence_when_wrong": 0.7626,
+    "ece": 0.1993,
+    "per_class": {
+      "0": {
+        "precision": 1.0,
+        "recall": 0.5333,
+        "f1": 0.6957,
+        "support": 15
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8889,
+        "support": 15
+      },
+      "2": {
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8,
+        "support": 15
+      },
+      "3": {
+        "precision": 0.2973,
+        "recall": 0.7333,
+        "f1": 0.4231,
+        "support": 15
+      },
+      "4": {
+        "precision": 1.0,
+        "recall": 0.5333,
+        "f1": 0.6957,
+        "support": 15
+      },
+      "5": {
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8,
+        "support": 15
+      },
+      "6": {
+        "precision": 0.4,
+        "recall": 0.4,
+        "f1": 0.4,
+        "support": 15
+      },
+      "7": {
+        "precision": 0.9167,
+        "recall": 0.7333,
+        "f1": 0.8148,
+        "support": 15
+      },
+      "8": {
+        "precision": 0.5769,
+        "recall": 1.0,
+        "f1": 0.7317,
+        "support": 15
+      },
+      "9": {
+        "precision": 0.8333,
+        "recall": 0.6667,
+        "f1": 0.7407,
+        "support": 15
+      }
+    },
+    "per_signer": {
+      "13": 0.84,
+      "14": 0.38,
+      "15": 0.8
+    },
+    "n": 150
+  }
+}

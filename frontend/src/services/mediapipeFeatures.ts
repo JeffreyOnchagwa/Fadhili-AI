@@ -1,31 +1,46 @@
 /**
- * Fadhili AI
- * MediaPipe feature extraction for the KSL recognition model.
+ * Fadhili AI — MediaPipe landmark capture.
  *
- * Model input:
- *   30 frames × 150 features
+ * This file used to normalize landmarks in the browser and send
+ * finished feature vectors to the API. It no longer does, deliberately.
  *
- * Per-frame feature layout:
- *   Pose:       6 landmarks × 4 values = 24
- *   Left hand: 21 landmarks × 3 values = 63
- *   Right hand:21 landmarks × 3 values = 63
+ * Why the change
+ * --------------
+ * Normalization existed in two places: here in TypeScript, and in the
+ * Python training pipeline. The two were meant to match. They did — so
+ * faithfully that when the Python side was found to divide every hand
+ * coordinate by the *projected* wrist-to-middle-MCP distance (a value
+ * that collapses under foreshortening and blew the features out of the
+ * training distribution), the browser was reproducing exactly the same
+ * bug, independently, with no way to notice.
  *
- * Total:
- *   24 + 63 + 63 = 150
+ * Two implementations of a preprocessing pipeline will drift, and when
+ * they drift the model is silently fed something it was never trained
+ * on. So the browser now captures RAW MediaPipe output and the server
+ * builds features with the same module training uses. Parity is not a
+ * matter of discipline any more; there is one implementation.
+ *
+ * Wire format — 150 raw values per frame:
+ *   [0:24]    6 pose landmarks (MediaPipe 11..16) as x, y, z, visibility
+ *   [24:87]   left hand,  21 landmarks as x, y, z
+ *   [87:150]  right hand, 21 landmarks as x, y, z
+ *
+ * An absent hand is all zeros, matching MediaPipe's own encoding, which
+ * is how the server detects a missing hand rather than one resting at
+ * the origin.
  */
 
-export const SEQUENCE_LENGTH = 30;
-export const FEATURES_PER_FRAME = 150;
+/** Frames sent per request. ~4 s of signing at the achievable rate. */
+export const WINDOW_FRAMES = 48;
+
+/** How much wall-clock time the buffer spans before being resampled. */
+export const WINDOW_MS = 4000;
+
+export const VALUES_PER_FRAME = 150;
 
 /**
- * Pose landmarks used by the Python training pipeline:
- *
- * 11 = left shoulder
- * 12 = right shoulder
- * 13 = left elbow
- * 14 = right elbow
- * 15 = left wrist
- * 16 = right wrist
+ * Pose landmarks the model uses: shoulders, elbows and wrists.
+ * Must stay in this order — it is the order the server unpacks.
  */
 const POSE_INDICES = [11, 12, 13, 14, 15, 16];
 
@@ -42,236 +57,93 @@ export type MediaPipeResults = {
   rightHandLandmarks?: Landmark[] | null;
 };
 
-/**
- * Creates a zero-filled feature vector.
- */
-function zeros(length: number): number[] {
-  return new Array<number>(length).fill(0);
+function finite(value: number | undefined): number {
+  return typeof value === "number" && Number.isFinite(value) ? value : 0;
 }
 
 /**
- * Normalizes one hand.
- *
- * This mirrors the Python training preprocessing:
- *
- * 1. Landmark 0 (wrist) is the origin.
- * 2. Wrist -> middle-finger MCP (landmark 9) is the scale.
- * 3. Every landmark is represented relative to the wrist.
- *
- * Output:
- *   21 landmarks × XYZ = 63 features
+ * Extracts one frame of raw landmarks. Returns null when no pose was
+ * detected at all, since a frame with no person carries nothing.
  */
-function normalizeHand(
-  landmarks?: Landmark[] | null
-): number[] {
-  if (!landmarks || landmarks.length < 21) {
-    return zeros(63);
-  }
-
-  const wrist = landmarks[0];
-  const middleFingerMcp = landmarks[9];
-
-  if (!wrist || !middleFingerMcp) {
-    return zeros(63);
-  }
-
-  const dx = middleFingerMcp.x - wrist.x;
-  const dy = middleFingerMcp.y - wrist.y;
-  const dz = middleFingerMcp.z - wrist.z;
-
-  const distance = Math.sqrt(
-    dx * dx +
-    dy * dy +
-    dz * dz
-  );
-
-  const scale =
-    Number.isFinite(distance) && distance > 1e-6
-      ? distance
-      : 1;
-
-  const features: number[] = [];
-
-  for (let i = 0; i < 21; i++) {
-    const landmark = landmarks[i];
-
-    if (!landmark) {
-      features.push(0, 0, 0);
-      continue;
-    }
-
-    const x = (landmark.x - wrist.x) / scale;
-    const y = (landmark.y - wrist.y) / scale;
-    const z = (landmark.z - wrist.z) / scale;
-
-    features.push(
-      Number.isFinite(x) ? x : 0,
-      Number.isFinite(y) ? y : 0,
-      Number.isFinite(z) ? z : 0
-    );
-  }
-
-  if (features.length !== 63) {
-    throw new Error(
-      `Hand feature extraction failed: expected 63 features, got ${features.length}`
-    );
-  }
-
-  return features;
-}
-
-/**
- * Normalizes the upper-body pose.
- *
- * This mirrors the Python training preprocessing:
- *
- * 1. Midpoint between shoulders becomes the origin.
- * 2. Shoulder-to-shoulder distance becomes the scale.
- * 3. Six upper-body landmarks are retained.
- * 4. Each contributes X, Y, Z and visibility.
- *
- * Output:
- *   6 landmarks × 4 = 24 features
- */
-function normalizePose(
-  landmarks?: Landmark[] | null
-): number[] {
-  if (!landmarks || landmarks.length <= 16) {
-    return zeros(24);
-  }
-
-  const leftShoulder = landmarks[11];
-  const rightShoulder = landmarks[12];
-
-  if (!leftShoulder || !rightShoulder) {
-    return zeros(24);
-  }
-
-  const centerX =
-    (leftShoulder.x + rightShoulder.x) / 2;
-
-  const centerY =
-    (leftShoulder.y + rightShoulder.y) / 2;
-
-  const centerZ =
-    (leftShoulder.z + rightShoulder.z) / 2;
-
-  const dx =
-    leftShoulder.x - rightShoulder.x;
-
-  const dy =
-    leftShoulder.y - rightShoulder.y;
-
-  const dz =
-    leftShoulder.z - rightShoulder.z;
-
-  const shoulderDistance = Math.sqrt(
-    dx * dx +
-    dy * dy +
-    dz * dz
-  );
-
-  const scale =
-    Number.isFinite(shoulderDistance) &&
-    shoulderDistance > 1e-6
-      ? shoulderDistance
-      : 1;
-
-  const features: number[] = [];
-
-  for (const index of POSE_INDICES) {
-    const landmark = landmarks[index];
-
-    if (!landmark) {
-      features.push(0, 0, 0, 0);
-      continue;
-    }
-
-    const x =
-      (landmark.x - centerX) / scale;
-
-    const y =
-      (landmark.y - centerY) / scale;
-
-    const z =
-      (landmark.z - centerZ) / scale;
-
-    const visibility =
-      landmark.visibility ?? 0;
-
-    features.push(
-      Number.isFinite(x) ? x : 0,
-      Number.isFinite(y) ? y : 0,
-      Number.isFinite(z) ? z : 0,
-      Number.isFinite(visibility)
-        ? visibility
-        : 0
-    );
-  }
-
-  if (features.length !== 24) {
-    throw new Error(
-      `Pose feature extraction failed: expected 24 features, got ${features.length}`
-    );
-  }
-
-  return features;
-}
-
-/**
- * Extracts the complete 150-feature vector from one
- * MediaPipe Holistic result.
- *
- * Feature order MUST remain:
- *
- *   pose
- *   left hand
- *   right hand
- *
- * because this is the order used during model training.
- */
-export function extractMediaPipeFeatures(
+export function extractRawLandmarks(
   results: MediaPipeResults
-): number[] {
-  const poseFeatures =
-    normalizePose(results.poseLandmarks);
+): number[] | null {
+  const pose = results.poseLandmarks;
+  if (!pose || pose.length <= 16) return null;
 
-  const leftHandFeatures =
-    normalizeHand(results.leftHandLandmarks);
+  const frame = new Array<number>(VALUES_PER_FRAME).fill(0);
 
-  const rightHandFeatures =
-    normalizeHand(results.rightHandLandmarks);
+  let offset = 0;
+  for (const index of POSE_INDICES) {
+    const landmark = pose[index];
+    frame[offset++] = finite(landmark?.x);
+    frame[offset++] = finite(landmark?.y);
+    frame[offset++] = finite(landmark?.z);
+    frame[offset++] = finite(landmark?.visibility);
+  }
 
-  const features = [
-    ...poseFeatures,
-    ...leftHandFeatures,
-    ...rightHandFeatures,
+  // Hands stay at zero when MediaPipe reports none.
+  const hands: [Landmark[] | null | undefined, number][] = [
+    [results.leftHandLandmarks, 24],
+    [results.rightHandLandmarks, 87],
   ];
 
-  if (features.length !== FEATURES_PER_FRAME) {
-    throw new Error(
-      `MediaPipe feature extraction failed: expected ${FEATURES_PER_FRAME} features, got ${features.length}`
-    );
-  }
-
-  for (let i = 0; i < features.length; i++) {
-    if (!Number.isFinite(features[i])) {
-      features[i] = 0;
+  for (const [landmarks, base] of hands) {
+    if (!landmarks || landmarks.length < 21) continue;
+    for (let i = 0; i < 21; i++) {
+      const landmark = landmarks[i];
+      frame[base + i * 3] = finite(landmark?.x);
+      frame[base + i * 3 + 1] = finite(landmark?.y);
+      frame[base + i * 3 + 2] = finite(landmark?.z);
     }
   }
 
-  return features;
+  return frame;
 }
 
 /**
- * Backwards-compatible export.
+ * Resamples a captured buffer to exactly WINDOW_FRAMES rows.
  *
- * useKSLRecognition.ts already imports:
- *
- *   extractFeatures
- *
- * so we preserve that API instead of forcing changes
- * throughout the frontend.
+ * The browser cannot hit a fixed frame rate — MediaPipe runs at
+ * whatever the device manages — so the buffer is resampled by index to
+ * a fixed length before being sent. Without this the server would
+ * receive a different number of frames on every device and, worse, a
+ * window covering a different amount of real time.
  */
-export const extractFeatures =
-  extractMediaPipeFeatures;
+export function resampleWindow(
+  frames: number[][],
+  target = WINDOW_FRAMES
+): number[][] {
+  if (frames.length === 0) return [];
+  if (frames.length === target) return frames;
+
+  const out: number[][] = [];
+  const last = frames.length - 1;
+
+  for (let i = 0; i < target; i++) {
+    const position = (i / (target - 1)) * last;
+    const low = Math.floor(position);
+    const high = Math.min(low + 1, last);
+    const weight = position - low;
+
+    if (weight === 0) {
+      out.push(frames[low]);
+      continue;
+    }
+
+    const a = frames[low];
+    const b = frames[high];
+    const blended = new Array<number>(VALUES_PER_FRAME);
+    for (let v = 0; v < VALUES_PER_FRAME; v++) {
+      blended[v] = a[v] * (1 - weight) + b[v] * weight;
+    }
+    out.push(blended);
+  }
+
+  return out;
+}
+
+/** Rounds values before transport. 4 dp is ~0.2px on a 1920px frame. */
+export function roundForTransport(frames: number[][]): number[][] {
+  return frames.map((frame) => frame.map((v) => Math.round(v * 1e4) / 1e4));
+}

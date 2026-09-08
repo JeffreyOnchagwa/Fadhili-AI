@@ -29,7 +29,26 @@ export interface HealthResponse {
   status: string;
   model_loaded: boolean;
   model_status: string;
+  /** "v5" (champion) or "v3" (rollback). */
+  model_version?: string;
   supported_languages: string[];
+}
+
+export interface KSLPredictionV2Response {
+  language: string;
+  model_version: string;
+  prediction: string | null;
+  confidence: number;
+  experimental: boolean;
+  accepted: boolean;
+  /**
+   * accepted | below_threshold | no_sign_detected | no_person_detected
+   * | insufficient_frames — lets the UI explain itself instead of
+   * showing an unexplained blank.
+   */
+  reason: string;
+  motion_energy: number;
+  top_candidates: KSLPredictionCandidate[];
 }
 
 export interface KSLClassesResponse {
@@ -53,6 +72,63 @@ export interface KSLPredictionResponse {
 
 export interface KSLPredictionRequest {
   frames: number[][];
+}
+
+function isKSLPredictionV2Response(
+  value: unknown
+): value is KSLPredictionV2Response {
+  if (typeof value !== "object" || value === null) return false;
+  const v = value as Record<string, unknown>;
+  return (
+    typeof v.model_version === "string" &&
+    (v.prediction === null || typeof v.prediction === "string") &&
+    typeof v.confidence === "number" &&
+    typeof v.accepted === "boolean" &&
+    typeof v.reason === "string" &&
+    typeof v.motion_energy === "number" &&
+    Array.isArray(v.top_candidates)
+  );
+}
+
+/**
+ * Sends RAW MediaPipe landmarks to the v5 champion.
+ *
+ * The server builds features with the same code used for training, so
+ * preprocessing cannot drift between browser and model. `width` and
+ * `height` are the video's pixel dimensions and are required for
+ * aspect correction.
+ */
+export async function predictKSLv2(
+  frames: number[][],
+  width: number,
+  height: number
+): Promise<ApiResult<KSLPredictionV2Response>> {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/v2/ksl/predict`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ frames, width, height }),
+    });
+    if (!response.ok) {
+      return {
+        ok: false,
+        error: await extractErrorDetail(
+          response,
+          `Backend returned status ${response.status}`
+        ),
+      };
+    }
+    const data = (await response.json()) as unknown;
+    if (!isKSLPredictionV2Response(data)) {
+      return {
+        ok: false,
+        error: "Backend returned an unexpected response shape.",
+      };
+    }
+    return { ok: true, data };
+  } catch {
+    return { ok: false, error: "Couldn't reach the backend. Is it running?" };
+  }
 }
 
 function isHealthResponse(value: unknown): value is HealthResponse {

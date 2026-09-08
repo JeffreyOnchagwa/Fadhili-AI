@@ -175,10 +175,10 @@ export default function Interpreter() {
     if (kslRecognition.isWarmingUp) {
       return {
         statusKind: "loading",
-        statusLabel: `Preparing recognition: ${kslRecognition.framesCollected}/30`,
+        statusLabel: "Starting up",
         detected: "—",
         confidenceText: "—",
-        translation: "Collecting frames…",
+        translation: "Finding you in the camera…",
         candidates: [],
       };
     }
@@ -204,6 +204,31 @@ export default function Interpreter() {
         detected: "—",
         confidenceText: "—",
         translation: "Hold a sign steady in view of the camera.",
+        candidates: [],
+      };
+    }
+
+    // The server's motion gate decided nobody is signing. Say that
+    // plainly instead of leaving a stale word on screen.
+    if (kslRecognition.phase === "no_sign") {
+      return {
+        statusKind: "idle",
+        statusLabel: "No sign detected",
+        detected: "—",
+        confidenceText: "—",
+        translation: "Start signing and Fadhili will read it.",
+        candidates: [],
+      };
+    }
+
+    if (prediction.reason === "no_person_detected") {
+      return {
+        statusKind: "idle",
+        statusLabel: "Nobody in view",
+        detected: "—",
+        confidenceText: "—",
+        translation:
+          "Move so your head, shoulders and hands are all in frame.",
         candidates: [],
       };
     }

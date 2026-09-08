@@ -1,0 +1,520 @@
+{
+  "protocol": "dev_groupcv",
+  "model": "tcn",
+  "config": {
+    "sequence_length": 32,
+    "aspect_correct": true,
+    "robust_hand_scale": true,
+    "interpolate_gaps": true,
+    "max_gap": 5,
+    "include_masks": true,
+    "include_wrist_position": true,
+    "include_scale_ratio": true,
+    "include_velocity": true,
+    "clip_value": 5.0,
+    "trim_to_motion": true,
+    "motion_energy_keep": 0.9,
+    "motion_pad_frames": 4
+  },
+  "classes": [
+    "Agreement",
+    "Friend",
+    "Gift",
+    "Market",
+    "Monday",
+    "Picture",
+    "Proud",
+    "Teach",
+    "Twin",
+    "Ugali"
+  ],
+  "folds": [
+    {
+      "accuracy": 0.9495,
+      "macro_f1": 0.9437,
+      "mean_signer_accuracy": 0.95,
+      "worst_signer_accuracy": 0.9,
+      "mean_confidence": 0.8872,
+      "mean_confidence_when_wrong": 0.6932,
+      "ece": 0.1095,
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "3": {
+          "precision": 0.6923,
+          "recall": 1.0,
+          "f1": 0.8182,
+          "support": 9
+        },
+        "4": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "5": {
+          "precision": 0.9091,
+          "recall": 1.0,
+          "f1": 0.9524,
+          "support": 10
+        },
+        "6": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "support": 10
+        },
+        "7": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "9": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "per_signer": {
+        "1": 0.9,
+        "2": 1.0
+      },
+      "n": 99,
+      "fold": "fold_1_2",
+      "best_epoch": 3,
+      "train_n": 493,
+      "seconds": 93.6
+    },
+    {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "mean_signer_accuracy": 1.0,
+      "worst_signer_accuracy": 1.0,
+      "mean_confidence": 0.973,
+      "mean_confidence_when_wrong": null,
+      "ece": 0.027,
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "3": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "4": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "5": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "6": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "7": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "9": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "per_signer": {
+        "3": 1.0,
+        "4": 1.0
+      },
+      "n": 100,
+      "fold": "fold_3_4",
+      "best_epoch": 61,
+      "train_n": 492,
+      "seconds": 181.6
+    },
+    {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "mean_signer_accuracy": 1.0,
+      "worst_signer_accuracy": 1.0,
+      "mean_confidence": 0.9676,
+      "mean_confidence_when_wrong": null,
+      "ece": 0.0324,
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "3": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "4": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "5": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "6": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "7": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "9": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "per_signer": {
+        "5": 1.0,
+        "6": 1.0
+      },
+      "n": 100,
+      "fold": "fold_5_6",
+      "best_epoch": 53,
+      "train_n": 492,
+      "seconds": 157.8
+    },
+    {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "mean_signer_accuracy": 1.0,
+      "worst_signer_accuracy": 1.0,
+      "mean_confidence": 0.9698,
+      "mean_confidence_when_wrong": null,
+      "ece": 0.0302,
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "3": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "4": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "5": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "6": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "7": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5
+        },
+        "8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "9": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "per_signer": {
+        "7": 1.0,
+        "8": 1.0
+      },
+      "n": 95,
+      "fold": "fold_7_8",
+      "best_epoch": 78,
+      "train_n": 497,
+      "seconds": 189.6
+    },
+    {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "mean_signer_accuracy": 1.0,
+      "worst_signer_accuracy": 1.0,
+      "mean_confidence": 0.9778,
+      "mean_confidence_when_wrong": null,
+      "ece": 0.0222,
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "2": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "3": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "4": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "5": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "6": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "7": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "8": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "9": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "per_signer": {
+        "9": 1.0,
+        "10": 1.0
+      },
+      "n": 98,
+      "fold": "fold_9_10",
+      "best_epoch": 10,
+      "train_n": 494,
+      "seconds": 58.4
+    },
+    {
+      "accuracy": 0.79,
+      "macro_f1": 0.7991,
+      "mean_signer_accuracy": 0.79,
+      "worst_signer_accuracy": 0.72,
+      "mean_confidence": 0.8284,
+      "mean_confidence_when_wrong": 0.5308,
+      "ece": 0.1098,
+      "per_class": {
+        "0": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8,
+          "support": 10
+        },
+        "1": {
+          "precision": 0.9091,
+          "recall": 1.0,
+          "f1": 0.9524,
+          "support": 10
+        },
+        "2": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "support": 10
+        },
+        "3": {
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1": 0.8235,
+          "support": 10
+        },
+        "4": {
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1": 0.8235,
+          "support": 10
+        },
+        "5": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8889,
+          "support": 10
+        },
+        "6": {
+          "precision": 0.875,
+          "recall": 0.7,
+          "f1": 0.7778,
+          "support": 10
+        },
+        "7": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "support": 10
+        },
+        "8": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 10
+        },
+        "9": {
+          "precision": 0.4545,
+          "recall": 1.0,
+          "f1": 0.625,
+          "support": 10
+        }
+      },
+      "per_signer": {
+        "11": 0.72,
+        "12": 0.86
+      },
+      "n": 100,
+      "fold": "fold_11_12",
+      "best_epoch": 6,
+      "train_n": 492,
+      "seconds": 54.3
+    }
+  ],
+  "summary": {
+    "mean_accuracy": 0.9566,
+    "std_accuracy": 0.0767,
+    "min_fold_accuracy": 0.79,
+    "mean_macro_f1": 0.9571,
+    "mean_ece": 0.0552
+  }
+}

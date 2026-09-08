@@ -46,9 +46,43 @@ class Settings:
         )
     )
 
-    # Because the current model is substantially overconfident on
-    # unfamiliar signers, this threshold is only a basic rejection
-    # mechanism. It must not be interpreted as calibrated probability.
+    # -----------------------------------------------------------------
+    # KSL V5 CHAMPION
+    # -----------------------------------------------------------------
+    #
+    # The v5 model takes RAW landmarks and builds features server-side
+    # using app.services.ksl_features, so the browser and the training
+    # pipeline can never drift apart. V3 above is retained as the
+    # rollback model and is still served on the legacy endpoint.
+
+    KSL_V5_MODEL_PATH: Path = Path(
+        os.getenv(
+            "KSL_V5_MODEL_PATH",
+            str(
+                BACKEND_ROOT
+                / "training"
+                / "models"
+                / "fadhili_ksl_v5_champion.keras"
+            ),
+        )
+    )
+
+    KSL_V5_METADATA_PATH: Path = Path(
+        os.getenv(
+            "KSL_V5_METADATA_PATH",
+            str(
+                BACKEND_ROOT
+                / "training"
+                / "data"
+                / "metadata"
+                / "fadhili_v5_champion.json"
+            ),
+        )
+    )
+
+    # Applied to temperature-scaled confidence. Calibration reduces but
+    # does not eliminate overconfidence, so this threshold is a coarse
+    # guard and must not be presented to users as a probability.
     KSL_CONFIDENCE_THRESHOLD: float = float(
         os.getenv(
             "KSL_CONFIDENCE_THRESHOLD",
