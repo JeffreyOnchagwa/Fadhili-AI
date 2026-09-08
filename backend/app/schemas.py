@@ -9,14 +9,23 @@ from app.config import settings
 
 class PredictRequest(BaseModel):
     """
-    A sequence of exactly `SEQUENCE_LENGTH` (30) frames, each a list of
-    exactly `FEATURE_LENGTH` (1662) MediaPipe Holistic features, in the
-    fixed order: pose, face, left hand, right hand.
+    A sequence of exactly `SEQUENCE_LENGTH` frames, each a list of
+    exactly `FEATURE_LENGTH` normalized MediaPipe landmark values.
+
+    For the current model that is 30 frames x 150 values, ordered:
+    normalized upper-body pose (24), left hand (63), right hand (63).
+    Face landmarks are deliberately not used.
+
+    The exact lengths are read from settings so that promoting a model
+    with a different input shape cannot silently disagree with the
+    validator below.
     """
 
     frames: List[List[float]] = Field(
         ...,
-        description="Exactly 30 frames, each a list of exactly 1662 floats.",
+        description=(
+            "Exactly SEQUENCE_LENGTH frames, each of FEATURE_LENGTH floats."
+        ),
     )
 
     @field_validator("frames")

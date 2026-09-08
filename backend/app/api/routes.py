@@ -32,7 +32,7 @@ def health() -> HealthResponse:
 
 @router.get("/api/v1/ksl/classes", response_model=ClassesResponse, tags=["KSL"])
 def get_ksl_classes() -> ClassesResponse:
-    """Returns the 30 user-facing KSL classes this model recognizes."""
+    """Returns the user-facing KSL vocabulary this model recognizes."""
     return ClassesResponse(language="KSL", classes=DISPLAY_CLASS_NAMES)
 
 

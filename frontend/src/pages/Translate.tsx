@@ -1,10 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { Keyboard, Mic, Play, Pause, RotateCcw, Gauge } from "lucide-react";
-import { useSignLanguage } from "../context/LanguageContext";
+import { Keyboard, Mic } from "lucide-react";
 import { Button } from "../components/ui/Button";
 import { Card } from "../components/ui/Card";
-import { EmptyState } from "../components/ui/EmptyState";
-import { SIGN_LANGUAGES } from "../types";
+import { TextToSignOutput } from "../components/translate/TextToSignOutput";
 
 type SpeechRecognitionCtor = new () => SpeechRecognition;
 
@@ -17,7 +15,6 @@ function getSpeechRecognitionCtor(): SpeechRecognitionCtor | null {
 }
 
 export default function Translate() {
-  const { language, setLanguage } = useSignLanguage();
   const [mode, setMode] = useState<"type" | "mic">("type");
   const [text, setText] = useState("");
   const [listening, setListening] = useState(false);
@@ -60,16 +57,14 @@ export default function Translate() {
     return () => recognitionRef.current?.stop();
   }, []);
 
-  const hasContent = text.trim().length > 0;
-
   return (
     <div className="mx-auto max-w-6xl px-5 py-12">
       <header className="max-w-2xl">
         <h1 className="text-3xl font-medium sm:text-4xl">Translate</h1>
         <p className="mt-3 text-ink-soft">
-          Type or speak, and Fadhili AI will prepare it for sign output. Sign
-          generation isn't connected yet, so the player below will show an
-          honest "not connected" state.
+          Type or speak, and Fadhili maps your words onto the Kenyan Sign
+          Language signs it holds verified recordings for. Words outside that
+          vocabulary are named rather than guessed at.
         </p>
       </header>
 
@@ -129,49 +124,11 @@ export default function Translate() {
             </div>
           )}
 
-          <div className="flex items-center gap-3 border-t border-ink/10 pt-4">
-            <label htmlFor="output-language" className="text-sm font-semibold text-ink-soft">
-              Output language
-            </label>
-            <select
-              id="output-language"
-              value={language}
-              onChange={(event) => setLanguage(event.target.value as typeof language)}
-              className="min-h-[44px] rounded-full border border-ink/15 bg-white px-4 text-sm font-semibold"
-            >
-              {SIGN_LANGUAGES.map((lang) => (
-                <option key={lang.code} value={lang.code}>
-                  {lang.flag} {lang.code}
-                </option>
-              ))}
-            </select>
-          </div>
         </Card>
 
         <Card className="flex flex-col gap-5">
-          <h2 className="text-lg font-medium">Sign output</h2>
-          <EmptyState
-            title="Sign generation model not connected"
-            description={
-              hasContent
-                ? "Your text is ready to send once the sign-generation backend is connected."
-                : "Type or speak something to see it prepared for sign output."
-            }
-          />
-          <div className="flex flex-wrap gap-2">
-            <Button variant="secondary" icon={<Play size={16} />} disabled>
-              Play
-            </Button>
-            <Button variant="secondary" icon={<Pause size={16} />} disabled>
-              Pause
-            </Button>
-            <Button variant="secondary" icon={<RotateCcw size={16} />} disabled>
-              Repeat
-            </Button>
-            <Button variant="secondary" icon={<Gauge size={16} />} disabled>
-              Slow Down
-            </Button>
-          </div>
+          <h2 className="text-lg font-medium">Kenyan Sign Language output</h2>
+          <TextToSignOutput text={text} />
         </Card>
       </div>
     </div>

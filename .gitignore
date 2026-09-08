@@ -36,6 +36,15 @@ backend/training/models/
 backend/training/checkpoints/
 backend/training/logs/
 
+# Raw landmark cache. Regenerated from the videos by
+# scripts/cache_raw_landmarks.py — ~26 MB of derived .npz.
+#
+# The small v3/v4 feature caches under data/features* stay tracked on
+# purpose: they are the exact inputs that produced the V3 fallback
+# model, so keeping them makes that model reproducible.
+backend/training/data/raw_landmarks/
+backend/training/data/metadata/raw_landmark_cache_index.w*.json
+
 # ML training artifacts
 *.keras
 *.ckpt

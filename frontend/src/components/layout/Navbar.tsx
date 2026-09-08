@@ -2,7 +2,6 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Logo } from "../common/Logo";
-import { LanguageSelector } from "./LanguageSelector";
 
 const LINKS = [
   { to: "/", label: "Home" },
@@ -42,10 +41,6 @@ export function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
-          <LanguageSelector />
-        </div>
-
         <button
           type="button"
           className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-full border border-ink/15 lg:hidden"
@@ -80,9 +75,6 @@ export function Navbar() {
                 {link.label}
               </NavLink>
             ))}
-          </div>
-          <div className="mt-4">
-            <LanguageSelector />
           </div>
         </nav>
       )}

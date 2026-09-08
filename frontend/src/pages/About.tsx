@@ -48,11 +48,11 @@ export default function About() {
         <Card className="bg-ink text-paper">
           <h2 className="text-xl font-medium">Why Kenyan Sign Language</h2>
           <p className="mt-2 leading-relaxed text-paper/80">
-            Kenyan Sign Language is used by a large Deaf community that is
-            underserved by mainstream assistive technology, most of which is
-            built around ASL. Fadhili AI puts KSL first — as the default
-            language and the first target for the recognition and generation
-            models — while still building toward ASL and BSL support.
+            Kenyan Sign Language is used by a Deaf community that mainstream
+            assistive technology largely passes over, since most of it is
+            built around American Sign Language. Fadhili works on Kenyan Sign
+            Language only. Doing one signed language properly is harder and
+            more useful than claiming several.
           </p>
         </Card>
 

@@ -36,11 +36,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# A full 30x1662 request is well under a megabyte as JSON, so anything
-# far larger is rejected before the body is parsed. This is a coarse,
-# best-effort guard (it relies on a Content-Length header, so it won't
-# catch chunked-encoded bodies) — the strict 30x1662 shape validation
-# in PredictRequest is the real correctness check.
+# A full prediction request is well under a megabyte as JSON, so
+# anything far larger is rejected before the body is parsed. This is a
+# coarse, best-effort guard (it relies on a Content-Length header, so it
+# won't catch chunked-encoded bodies) — the strict shape validation in
+# PredictRequest is the real correctness check.
 MAX_CONTENT_LENGTH_BYTES = 2_000_000  # 2 MB
 
 

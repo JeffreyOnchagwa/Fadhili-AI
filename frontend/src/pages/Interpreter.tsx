@@ -11,7 +11,6 @@ import {
 } from "lucide-react";
 import { useCamera } from "../hooks/useCamera";
 import { useKSLRecognition } from "../hooks/useKSLRecognition";
-import { useSignLanguage } from "../context/LanguageContext";
 import { Button } from "../components/ui/Button";
 import { Card } from "../components/ui/Card";
 import { StatusBadge } from "../components/ui/StatusBadge";
@@ -33,8 +32,6 @@ interface RecognitionPanelData {
 const SPEECH_COOLDOWN_MS = 2500;
 
 export default function Interpreter() {
-  const { language } = useSignLanguage();
-
   const {
     videoRef,
     permission,
@@ -48,6 +45,7 @@ export default function Interpreter() {
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
   const [uploadUrl, setUploadUrl] = useState<string | null>(null);
   const [backendWarning, setBackendWarning] = useState<string | null>(null);
+  const [speechEnabled, setSpeechEnabled] = useState(false);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -55,7 +53,6 @@ export default function Interpreter() {
 
   const kslRecognition = useKSLRecognition(
     videoRef,
-    language,
     isCameraMode && isActive
   );
 
@@ -93,43 +90,36 @@ export default function Interpreter() {
     };
   }, []);
 
-  // Automatically speak newly accepted predictions while avoiding
-  // repeatedly speaking the same held sign.
+  // Speak a sign only once it has settled across several inferences,
+  // and only when speech is switched on. Keying off `sequence` (which
+  // increments only when the settled sign CHANGES) means holding one
+  // sign speaks it once rather than once per inference cycle.
   useEffect(() => {
-    if (!isCameraMode || !kslRecognition.isSupportedLanguage) return;
+    if (!isCameraMode || !speechEnabled) return;
 
-    const prediction = kslRecognition.lastPrediction;
+    const settled = kslRecognition.stableSign;
+    if (!settled) return;
 
-    if (
-      !prediction ||
-      !prediction.accepted ||
-      !prediction.prediction
-    ) {
-      return;
-    }
+    const spokenKey = `${settled.sequence}:${settled.label}`;
+    if (spokenKey === lastSpokenRef.current) return;
 
-    const label = prediction.prediction;
     const now = performance.now();
+    if (now - lastSpeakTimeRef.current < SPEECH_COOLDOWN_MS) return;
 
-    if (label === lastSpokenRef.current) return;
-
-    if (
-      now - lastSpeakTimeRef.current <
-      SPEECH_COOLDOWN_MS
-    ) {
-      return;
-    }
-
-    lastSpokenRef.current = label;
+    lastSpokenRef.current = spokenKey;
     lastSpeakTimeRef.current = now;
 
-    const utterance = new SpeechSynthesisUtterance(label);
+    const utterance = new SpeechSynthesisUtterance(settled.label);
     window.speechSynthesis.speak(utterance);
-  }, [
-    isCameraMode,
-    kslRecognition.isSupportedLanguage,
-    kslRecognition.lastPrediction,
-  ]);
+  }, [isCameraMode, speechEnabled, kslRecognition.stableSign]);
+
+  // Stop any queued speech when speech is turned off or the camera
+  // stops, so a toggle takes effect immediately.
+  useEffect(() => {
+    if (!speechEnabled || !isCameraMode) {
+      window.speechSynthesis.cancel();
+    }
+  }, [speechEnabled, isCameraMode]);
 
   const handleFileChange = (
     event: ChangeEvent<HTMLInputElement>
@@ -170,19 +160,6 @@ export default function Interpreter() {
   };
 
   function buildCameraPanel(): RecognitionPanelData {
-    if (!kslRecognition.isSupportedLanguage) {
-      return {
-        statusKind: "unavailable",
-        statusLabel:
-          kslRecognition.comingSoonMessage ?? "Coming soon",
-        detected: "—",
-        confidenceText: "—",
-        translation:
-          kslRecognition.comingSoonMessage ?? "Coming soon",
-        candidates: [],
-      };
-    }
-
     if (!isActive) {
       return {
         statusKind: "idle",
@@ -218,54 +195,60 @@ export default function Interpreter() {
     }
 
     const prediction = kslRecognition.lastPrediction;
+    const settled = kslRecognition.stableSign;
 
     if (!prediction) {
       return {
         statusKind: "loading",
-        statusLabel: kslRecognition.isPredicting
-          ? "Recognizing…"
-          : "Ready",
+        statusLabel: kslRecognition.isPredicting ? "Reading…" : "Ready",
         detected: "—",
         confidenceText: "—",
-        translation:
-          "Hold a sign steady in view of the camera.",
+        translation: "Hold a sign steady in view of the camera.",
         candidates: [],
       };
     }
 
-    if (!prediction.accepted) {
+    // A sign is only presented once it has held across several
+    // readings. Until then the panel says it is still watching rather
+    // than flashing whichever label the latest inference produced.
+    if (settled && kslRecognition.phase === "settled") {
+      return {
+        statusKind: "success",
+        statusLabel: `Held across ${settled.agreement} of 5 readings`,
+        detected: settled.label,
+        confidenceText: `${Math.round(settled.meanConfidence * 100)}%`,
+        translation: settled.label,
+        candidates: prediction.top_candidates,
+      };
+    }
+
+    if (kslRecognition.phase === "uncertain") {
       return {
         statusKind: "idle",
-        statusLabel: "No confident recognition",
-        detected: "No confident recognition",
-        confidenceText: `${Math.round(
-          prediction.confidence * 100
-        )}% (below threshold)`,
-        translation: "No confident recognition",
+        statusLabel: "Reading not settled",
+        detected: "—",
+        confidenceText: "—",
+        translation:
+          "The reading is still changing. Hold the sign steady.",
         candidates: prediction.top_candidates,
       };
     }
 
     return {
-      statusKind: "success",
-      statusLabel: "Experimental KSL recognition",
-      detected: prediction.prediction ?? "—",
-      confidenceText: `${Math.round(
-        prediction.confidence * 100
-      )}%`,
-      translation: prediction.prediction ?? "—",
+      statusKind: "idle",
+      statusLabel: "No confident recognition",
+      detected: "—",
+      confidenceText: `${Math.round(prediction.confidence * 100)}% (below threshold)`,
+      translation: "No confident recognition",
       candidates: prediction.top_candidates,
     };
   }
 
-  const panel = isCameraMode
-    ? buildCameraPanel()
-    : uploadPanel;
+  const panel = isCameraMode ? buildCameraPanel() : uploadPanel;
 
   const speakableText =
-    isCameraMode &&
-    kslRecognition.lastPrediction?.accepted
-      ? kslRecognition.lastPrediction.prediction
+    isCameraMode && kslRecognition.phase === "settled"
+      ? kslRecognition.stableSign?.label ?? null
       : null;
 
   const handleSpeak = () => {
@@ -298,10 +281,10 @@ export default function Interpreter() {
         </h1>
 
         <p className="mt-3 text-ink-soft">
-          Use your camera to interpret {language} sign
-          language. KSL recognition runs live and is
-          experimental — ASL and BSL recognition are coming
-          soon.
+          Use your camera to read Kenyan Sign Language. Recognition runs
+          live on your device and is experimental: it covers a small
+          vocabulary and can be confidently wrong, particularly for people
+          and settings unlike those it was trained on.
         </p>
       </header>
 
@@ -499,15 +482,14 @@ export default function Interpreter() {
             />
           </div>
 
-          {isCameraMode &&
-            kslRecognition.isSupportedLanguage && (
-              <p className="text-xs text-ink-soft">
-                Experimental KSL recognition — recognition
-                may be inaccurate for unfamiliar signers.
-                Model confidence is not a measure of
-                accuracy.
-              </p>
-            )}
+          {isCameraMode && (
+            <p className="text-xs text-ink-soft">
+              Experimental KSL recognition. The percentage shown is the
+              model&rsquo;s own confidence, which is not calibrated and
+              is not a measure of accuracy — it stays high even when the
+              reading is wrong.
+            </p>
+          )}
 
           <dl className="grid grid-cols-2 gap-4 text-sm">
             <div>
@@ -566,6 +548,38 @@ export default function Interpreter() {
                   </li>
                 ))}
               </ul>
+            </div>
+          )}
+
+          {isCameraMode && (
+            <div className="flex items-center justify-between gap-4 rounded-lg border border-ink/10 bg-ink/[0.02] p-3">
+              <label
+                htmlFor="speak-automatically"
+                className="text-sm font-semibold text-ink"
+              >
+                Speak signs aloud
+                <span className="block text-xs font-normal text-ink-soft">
+                  Reads each sign once it settles.
+                </span>
+              </label>
+              <button
+                id="speak-automatically"
+                type="button"
+                role="switch"
+                aria-checked={speechEnabled}
+                onClick={() => setSpeechEnabled((on) => !on)}
+                className={`relative inline-flex h-7 w-12 shrink-0 items-center rounded-full border transition-colors ${
+                  speechEnabled
+                    ? "border-teal-700 bg-teal-600"
+                    : "border-ink/25 bg-ink/10"
+                }`}
+              >
+                <span
+                  className={`inline-block h-5 w-5 transform rounded-full bg-white shadow transition-transform ${
+                    speechEnabled ? "translate-x-6" : "translate-x-1"
+                  }`}
+                />
+              </button>
             </div>
           )}
 

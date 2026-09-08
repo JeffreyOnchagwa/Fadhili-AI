@@ -1,19 +1,14 @@
 /**
- * Sign languages Fadhili AI supports. KSL is the primary focus and
- * the default language everywhere in the app; ASL and BSL are
- * secondary, additional languages.
+ * Fadhili AI is a Kenyan Sign Language platform. KSL is the only
+ * language the product supports, and the only one it claims to.
+ *
+ * An earlier concept advertised ASL and BSL alongside KSL. Nothing was
+ * ever trained, verified or licensed for either, so advertising them
+ * misrepresented the product. They have been removed rather than left
+ * as "coming soon" labels on functionality that does not exist.
  */
-export type SupportedSignLanguage = "KSL" | "ASL" | "BSL";
-
-export const SIGN_LANGUAGES: {
-  code: SupportedSignLanguage;
-  label: string;
-  flag: string;
-}[] = [
-  { code: "KSL", label: "Kenyan Sign Language", flag: "🇰🇪" },
-  { code: "ASL", label: "American Sign Language", flag: "🇺🇸" },
-  { code: "BSL", label: "British Sign Language", flag: "🇬🇧" },
-];
+export const SIGN_LANGUAGE_CODE = "KSL" as const;
+export const SIGN_LANGUAGE_LABEL = "Kenyan Sign Language" as const;
 
 /**
  * Status of a recognition or generation request. "unavailable" is the
@@ -45,7 +40,6 @@ export type LessonLevel = "Beginner" | "Intermediate" | "Advanced";
 
 export interface Lesson {
   id: string;
-  language: SupportedSignLanguage;
   level: LessonLevel;
   category: string;
   title: string;
@@ -60,7 +54,6 @@ export interface SignDictionaryEntry {
   id: string;
   word: string;
   meaning: string;
-  language: SupportedSignLanguage;
   videoUrl: string | null;
   difficulty: LessonLevel;
   usageExample: string | null;

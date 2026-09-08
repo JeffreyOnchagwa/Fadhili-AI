@@ -1,66 +1,98 @@
-import type { Lesson, LessonLevel, SupportedSignLanguage } from "../types";
-
-interface LessonBlueprint {
-  category: string;
-  title: string;
-  description: string;
-  itemCount: number;
-}
-
-const BEGINNER: LessonBlueprint[] = [
-  { category: "Alphabet", title: "The alphabet", description: "Fingerspelling every letter, one at a time.", itemCount: 26 },
-  { category: "Numbers", title: "Numbers 0–20", description: "Counting and basic quantities.", itemCount: 20 },
-  { category: "Greetings", title: "Greetings", description: "Hello, goodbye, and everyday courtesies.", itemCount: 10 },
-  { category: "Introductions", title: "Introducing yourself", description: "Names, pronouns, and asking who someone is.", itemCount: 12 },
-  { category: "Family", title: "Family", description: "Signs for family members and relationships.", itemCount: 14 },
-  { category: "Everyday phrases", title: "Everyday phrases", description: "Short phrases for daily situations.", itemCount: 18 },
-];
-
-const INTERMEDIATE: LessonBlueprint[] = [
-  { category: "Conversations", title: "Holding a conversation", description: "Turn-taking and follow-up questions.", itemCount: 16 },
-  { category: "School", title: "At school", description: "Classroom vocabulary and routines.", itemCount: 15 },
-  { category: "Travel", title: "Getting around", description: "Directions, transport, and travel needs.", itemCount: 17 },
-  { category: "Healthcare", title: "At the clinic", description: "Describing symptoms and understanding care.", itemCount: 15 },
-  { category: "Work", title: "At work", description: "Workplace vocabulary and small talk.", itemCount: 14 },
-  { category: "Directions", title: "Directions & places", description: "Asking for and giving directions.", itemCount: 12 },
-];
-
-const ADVANCED: LessonBlueprint[] = [
-  { category: "Grammar", title: "Sign grammar", description: "Sentence structure specific to signed languages.", itemCount: 12 },
-  { category: "Complex sentences", title: "Complex sentences", description: "Combining ideas fluently.", itemCount: 10 },
-  { category: "Interpretation", title: "Interpreting basics", description: "Foundations for interpreting between signed and spoken language.", itemCount: 9 },
-  { category: "Facial expressions", title: "Facial expressions", description: "How expression changes meaning.", itemCount: 10 },
-  { category: "Non-manual markers", title: "Non-manual markers", description: "Grammar carried by the face and body, not the hands.", itemCount: 8 },
-  { category: "Conversational fluency", title: "Conversational fluency", description: "Natural pacing in real conversation.", itemCount: 11 },
-];
-
-const LEVELS: { level: LessonLevel; blueprints: LessonBlueprint[] }[] = [
-  { level: "Beginner", blueprints: BEGINNER },
-  { level: "Intermediate", blueprints: INTERMEDIATE },
-  { level: "Advanced", blueprints: ADVANCED },
-];
+import type { Lesson, LessonLevel } from "../types";
+import { KSL_VOCABULARY } from "./kslVocabulary";
+import type { KSLVocabularyEntry } from "./kslVocabulary";
 
 /**
- * Builds the lesson catalog for a given sign language. Beginner
- * lessons are unlocked by default; later levels are shown as locked
- * until progress data exists, so the UI never implies content is
- * available that hasn't been built and verified yet.
+ * The Learn catalogue, built from vocabulary Fadhili actually holds.
+ *
+ * What changed and why
+ * --------------------
+ * This module previously exported a hardcoded blueprint of 18 lessons
+ * ("The alphabet — 26 items", "Numbers 0-20 — 20 items", and so on).
+ * None of that content existed. The item counts were advertised
+ * numbers with nothing behind them, every card rendered a "Start
+ * lesson" button that had no handler, and the non-beginner levels were
+ * permanently locked with no way to unlock them.
+ *
+ * Advertising 18 lessons and ~230 items while holding zero is exactly
+ * the kind of fabricated metric this project must not ship, so the
+ * blueprint is gone. Lessons are now derived from the verified
+ * vocabulary, which means the counts are true by construction: a lesson
+ * lists the signs it contains, and if we hold no signs for a topic
+ * there is no lesson for it.
+ *
+ * Difficulty is assigned by a stated, inspectable rule rather than
+ * asserted per word, because the dataset carries no difficulty grading
+ * and inventing one per sign would be a linguistic claim we cannot
+ * support.
  */
-export function getLessonsForLanguage(language: SupportedSignLanguage): Lesson[] {
-  const lessons: Lesson[] = [];
-  LEVELS.forEach(({ level, blueprints }) => {
-    blueprints.forEach((bp, index) => {
-      lessons.push({
-        id: `${language}-${level}-${index}`.toLowerCase(),
-        language,
-        level,
-        category: bp.category,
-        title: bp.title,
-        description: bp.description,
-        itemCount: bp.itemCount,
-        locked: level !== "Beginner",
-      });
+
+export interface VocabularyLesson extends Lesson {
+  entries: KSLVocabularyEntry[];
+}
+
+/**
+ * Difficulty heuristic, stated openly.
+ *
+ * The eKitabu dataset grades nothing, so this orders signs by a proxy
+ * we can defend — how common the English word is in everyday use —
+ * and nothing more. It is a way to sequence practice, not a claim
+ * about how hard any sign is to produce.
+ */
+const LEVEL_BY_CATEGORY: Record<string, LessonLevel> = {
+  Everyday: "Beginner",
+  People: "Beginner",
+  Food: "Beginner",
+  Time: "Intermediate",
+  Places: "Intermediate",
+  Things: "Intermediate",
+  Nature: "Advanced",
+};
+
+const LESSON_DESCRIPTIONS: Record<string, string> = {
+  Everyday: "Signs that come up in ordinary conversation.",
+  People: "Signs for people and relationships.",
+  Food: "Food and things you eat.",
+  Time: "Days and points in time.",
+  Places: "Places you go.",
+  Things: "Everyday objects and descriptions.",
+  Nature: "Animals and the natural world.",
+};
+
+/**
+ * Builds the lesson catalogue. Every lesson contains real entries, and
+ * `itemCount` is the length of that list rather than an aspiration.
+ */
+export function getLessons(): VocabularyLesson[] {
+  const byCategory = new Map<string, KSLVocabularyEntry[]>();
+
+  for (const entry of KSL_VOCABULARY) {
+    const bucket = byCategory.get(entry.category) ?? [];
+    bucket.push(entry);
+    byCategory.set(entry.category, bucket);
+  }
+
+  const lessons: VocabularyLesson[] = [];
+
+  for (const [category, entries] of byCategory) {
+    const level = LEVEL_BY_CATEGORY[category] ?? "Intermediate";
+    lessons.push({
+      id: `ksl-${category.toLowerCase()}`,
+      level,
+      category,
+      title: category,
+      description: LESSON_DESCRIPTIONS[category] ?? "",
+      itemCount: entries.length,
+      // Nothing is locked. There is no paywall and no progression gate,
+      // so a lock icon would be decorative dishonesty.
+      locked: false,
+      entries: entries.slice().sort((a, b) => a.gloss.localeCompare(b.gloss)),
     });
-  });
-  return lessons;
+  }
+
+  return lessons.sort((a, b) => a.title.localeCompare(b.title));
+}
+
+export function getLessonById(id: string): VocabularyLesson | undefined {
+  return getLessons().find((lesson) => lesson.id === id);
 }
