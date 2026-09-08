@@ -50,17 +50,25 @@ problem.
 
 | Metric | v3 | v5 |
 |---|---|---|
-| Accuracy, signers 13–15 | 0.533 | **0.700** |
-| Accuracy, all wild signers 11–15 | — | **0.776** |
-| Macro F1 | — | 0.786 |
-| Expected calibration error | ~0.40 | **0.102** |
-| Confidence when wrong | 0.92 | 0.76 |
-| Worst signer | 0.16 (s14) | 0.42 (s14) |
+| Accuracy, signers 13–15 (diagnostic, evaluated once) | 0.533 | **0.673** |
+| Macro F1 | — | 0.699 |
+| Expected calibration error | ~0.40 | **0.199** |
+| Worst signer | 0.16 (s14) | 0.38 (s14) |
+| Fitted temperature | — | 0.894 |
 
 Signers 13–15 are a **held-out diagnostic set, not a pristine test
 set** — they were inspected repeatedly during v2/v3/v4 development, so
 treating them as unbiased would overstate what we know. Architecture
-selection uses signer-grouped CV over signers 01–12 only.
+selection uses signer-grouped CV over signers 01–12 only, and early
+stopping uses signers 11–12, never 13–15.
+
+An earlier pass through this harness read 0.700/0.776 here. Those
+numbers were wrong: `EarlyStopping(restore_best_weights=True)` was
+being fed the evaluation fold as `validation_data`, leaking it into
+model selection. Caught and fixed before anything was shipped —
+`docs/MODEL.md` has the full account. The 0.673 above is the
+corrected, leak-free figure, reproduced identically across two
+independent training runs.
 
 ### What actually fixed it
 
@@ -91,6 +99,16 @@ The dataset has 30 class directories but only **15 carry a real glossed
 label**. The other 15 are opaque identifiers (`No_9`, `No_268`, …) whose
 meanings are undocumented. They are never shown as vocabulary and never
 guessed at.
+
+All 15 named signs (Agreement, Apple, Colour, Friend, Gift, Market,
+Monday, Picture, Proud, Sweater, Teach, Tomatoes, Tortoise, Twin,
+Ugali) have real recorded video and appear in Learn and the Dictionary.
+Only 10 of those 15 are recognised live from a camera — a 15-class
+recognition model was trained and evaluated and measurably regressed
+(see `docs/MODEL.md`), so it wasn't shipped. The app never claims
+recognition support beyond what the deployed model actually has: the
+Dictionary and Learn pages query the live model's vocabulary and only
+badge a sign "recognised on camera" when it's genuinely in that list.
 
 CC0 waives copyright but **not** the filmed signers' likeness or
 data-protection rights, and the dataset carries no consent
